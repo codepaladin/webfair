@@ -12,12 +12,12 @@
   display:grid;
   height:100vh;
   grid-template-columns:1fr;
+  position:relative;
 }
 
 
 nav {
   background: $bodyLight;
-
 }
 
 
