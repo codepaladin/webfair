@@ -262,6 +262,12 @@ h2 {
   font-size: 1.6em;
   width: 580px; }
 
+.eventDate {
+  font-family: "Cinzel", serif;
+  color: #FFDD40;
+  font-size: 1.25em;
+  margin-top: 30px; }
+
 h2::first-letter {
   font-family: "Cinzel Decorative", cursive; }
 
