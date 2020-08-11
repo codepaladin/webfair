@@ -4,3 +4,71 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "nav";
+@import "main";
+@import "variables";
+
+.container {
+  display:grid;
+  height:100vh;
+  grid-template-columns:1fr;
+}
+
+
+nav {
+  background: $bodyLight;
+
+}
+
+
+main {
+  position:relative;
+   background: $bodyMed;
+   height:400px;
+   display:flex;
+   align-items:center;
+   text-align:center;
+   justify-content:center;
+   flex-wrap: nowrap;
+   flex-direction:column;
+  
+}
+
+
+#speakers {
+
+  display:grid;
+   background: $bodyDark;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.speak {
+ 
+  background:#000;
+  border: 2px solid #e7e7e7;
+  border-radius:4px;
+  padding:.5rem;
+  grid-row:auto/span 2;
+}
+
+.speaker {
+  background:#000;
+  border: 2px solid #e7e7e7;
+  border-radius:4px;
+  padding:.5rem;
+}
+
+#about {
+  background: #18ffff;
+}
+
+
+#sponsors {
+  background: #a7ffeb;
+}
+
+footer {
+  background: #18ffff;
+}

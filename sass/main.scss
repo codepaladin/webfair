@@ -1,0 +1,80 @@
+@import "variables";
+
+/*question is this the way to do this?*/
+.coaster{
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  height:200px;
+}
+
+.wheel{
+  position:absolute;
+  bottom:0px;
+  right:100px;
+  height:300px;
+
+}
+
+.hero{
+	 position:absolute;
+	 z-index:2;
+}
+
+h1{
+	color:$white;
+	font-family:$logoFont;
+	font-size:8em;
+}
+
+h2{
+	color:$lightGrey;
+	font-family:$titleFont;
+	font-size:2em;
+	width:580px;
+}
+
+h2::first-letter { 
+  font-family:$titleFontDecorative;
+}
+
+.actions{
+ align-items: center;
+  justify-content: center;
+	margin-top:35px;
+	display:flex;
+	height:50px;
+}
+
+.register{
+	background:$green;
+	color:$white;
+	height:50px;
+	border-radius: 10px;
+	text-align:center;
+	width:180px;
+	vertical-align: middle;
+	margin-right:15px;
+	line-height: 50px; /* question: best way to do this*/
+}
+
+.vote {
+	margin-left:15px;
+	background:$darkButton;
+	color:$white;
+	height:50px;
+	border-radius: 10px;
+	text-align:center;
+	width:180px;
+	vertical-align: middle;
+	line-height: 50px; 
+}
+
+.register:hover {
+	background-color: $greenHover;
+ }
+
+
+.vote:hover { 
+  background-color: $greyHover;
+}
