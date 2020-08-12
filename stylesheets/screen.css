@@ -316,7 +316,7 @@ h2::first-letter {
   display: grid;
   padding: 30px;
   background: #131417;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto; }
 
 .speakContainer {
@@ -329,12 +329,11 @@ h2::first-letter {
   padding: 1rem;
   border-radius: 15px; }
 
-.speaker {
+.speeches {
   grid-column-start: 1;
   grid-column-end: 3;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
   justify-content: center; }
 
 .speak .title {
@@ -343,21 +342,21 @@ h2::first-letter {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 700;
-  font-size: 1.2em; }
+  font-size: 20px; }
 
 .speak p {
   font-family: "Open Sans", sans-serif;
   color: #C7C9D3;
   padding-bottom: 15px;
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 14px;
   font-weight: 300; }
 
 .speakActions {
   padding-top: 20px;
   display: flex;
   font-family: "Open Sans", sans-serif;
-  font-size: .8em;
+  font-size: 14px;
   font-weight: 700;
   justify-content: center;
   padding-bottom: 25px; }
@@ -390,10 +389,8 @@ h2::first-letter {
   justify-content: center; }
 
 .speech {
-  position: relative;
   border-radius: 15px;
   border-radius: 15px;
-  height: 210px;
   z-index: 0; }
 
 .apply:hover {
@@ -403,24 +400,26 @@ h2::first-letter {
   background-color: #5A6074; }
 
 .portrait {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
   left: 0px;
+  top: 15px;
   z-index: 3;
   width: 35px;
   height: 35px;
   background: #FFFFFF; }
 
 .portrait img {
-  width: 35px;
-  height: 35px; }
+  width: 50px;
+  height: 50px; }
 
 .speakerInfo {
-  padding-left: 35px;
+  position: relative;
+  left: 70px;
+  bottom: 19px;
   align-self: flex-end;
-  padding-bottom: 10px;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: .9em; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  z-index: 3; }
 
 .speakerName {
   font-weight: 700;
@@ -450,7 +449,7 @@ h2::first-letter {
   justify-content: center;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
-  font-size: .8em; }
+  font-size: 14px; }
 
 .moreButton:hover {
   background-color: #FFFFFF;
@@ -458,39 +457,38 @@ h2::first-letter {
 
 .speechContainer {
   display: flex;
-  position: absolute;
+  position: relative;
   background: #2C2F39;
-  height: 150px;
+  height: 350px;
   border-radius: 15px;
-  z-index: 2;
+  z-index: 1;
   width: 95%;
   font-family: "Cinzel", serif;
   align-items: center;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700; }
 
 .speechContainer p {
   color: #C7C9D3;
-  padding-left: 15px;
+  padding-left: 5px;
   padding-right: 15px;
   line-height: 1.6; }
 
 .speakerContainer {
+  position: relative;
   display: flex;
   flex-direction: row;
-  position: absolute;
-  width: -webkit-calc(100% - 10px);
-  width: -moz-calc(100% - 10x);
-  width: calc(100% - 10px);
-  z-index: 1;
+  bottom: 150px;
+  z-index: 0;
   background: #1E1F26;
-  height: 160px;
+  height: 200px;
   border-radius: 15px;
-  bottom: 0px;
-  left: 10px; }
+  margin-bottom: -100px; }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .speaker {
+  .speeches {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-template-columns: repeat(3, 1fr); }
@@ -501,7 +499,7 @@ h2::first-letter {
   .speakContainer {
     display: none; } }
 @media all and (min-width: 1024px) {
-  .speaker {
+  .speeches {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-template-columns: repeat(3, 1fr); }
@@ -559,10 +557,17 @@ h2::first-letter {
 .sponsors {
   margin-top: 35px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px;
   justify-items: center; }
 
+.sponsors img {
+  height: 52px;
+  width: 272px; }
+
+@media all and (min-width: 1024px) {
+  .sponsors {
+    grid-template-columns: repeat(3, 1fr); } }
 .aboutActions {
   margin-top: 25px;
   display: flex;

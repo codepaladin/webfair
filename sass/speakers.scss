@@ -4,7 +4,7 @@
   display:grid;
   padding:30px;
   background: $bodyDark;
-  grid-template-columns:repeat(2, 1fr);
+  grid-template-columns:repeat(1, 1fr);
   grid-template-rows: auto;
 
 }
@@ -24,12 +24,12 @@
 }
 
 
-.speaker{
+.speeches{
 	grid-column-start:1;
 	grid-column-end:3;
 	display:grid;
-	grid-template-columns:repeat(2, 1fr);
-	grid-gap: 1rem;
+	grid-template-columns:repeat(1, 1fr);
+	
 	justify-content:center;
 	
 }
@@ -40,7 +40,7 @@
 	padding-top:15px;
 	padding-bottom:15px;
 	font-weight:700;
-	font-size:1.2em;
+	font-size:20px;
 }
 
 .speak p{
@@ -48,7 +48,7 @@
 	color:$lightGrey;
 	padding-bottom:15px;
 	line-height:1.5;
-	font-size:.9em;
+	font-size:14px;
 	font-weight:300;
 }
 
@@ -56,7 +56,7 @@
 	padding-top:20px;
 	display:flex;
 	font-family:$textFont;
-	font-size:.8em;
+	font-size:14px;
 	font-weight:700;
   	justify-content: center;
   	padding-bottom:25px;	
@@ -94,10 +94,9 @@
 }
 
 .speech {
-  position:relative;
+
   border-radius:15px;
   border-radius:15px;
-  height:210px;
   z-index:0;
 }
 
@@ -111,9 +110,9 @@
 }
 
 .portrait{
-	position:absolute;
-	bottom:10px;
+	position:relative;
 	left:0px;
+	top:15px;
 	z-index:3;
 	width:35px;
 	height:35px;
@@ -121,16 +120,18 @@
 }
 
 .portrait img{
-	width:35px;
-	height:35px;
+	width:50px;
+	height:50px;
 }
 
 .speakerInfo{
-	padding-left:35px;
+	position:relative;
+	left:70px;
+	bottom:19px;
 	align-self:flex-end;
-	padding-bottom:10px;
-	font-family:$textFontCondensed;
-	font-size:.9em;
+	font-family:$textFont;
+	font-size:20px;
+	z-index:3;
 }
 
 .speakerName{
@@ -164,7 +165,7 @@
   	justify-content: center;
   	color:$white;
   	font-family: $textFont;
-  	font-size:.8em;
+  	font-size:14px;
 }
 
 .moreButton:hover{ 
@@ -174,45 +175,45 @@
 
 .speechContainer {
 	display:flex;
-	position:absolute;
+	position:relative;
 	background:$bodyLight;
-	height:150px;
+	height:350px;
 	border-radius:15px;
-	z-index:2;
+	z-index:1;
 	width:95%;
 	font-family:$titleFont;
 	align-items: center;
   	justify-content: center;
   	text-align: center;
+  	font-size:28px;
+  	font-weight:700;
 }
 
 .speechContainer p {
 	color:$lightGrey;
-	padding-left:15px;
+	padding-left:5px;
 	padding-right:15px;
 	line-height:1.6;
 }
 
 .speakerContainer {
+	position:relative;
 	display: flex;
 	flex-direction:row;
-	position:absolute;
-	width: -webkit-calc(100% - 10px);
-    width:    -moz-calc(100% - 10x);
-    width:         calc(100% - 10px);
-	z-index:1;
+	bottom:150px;
+	z-index:0;
 	background:$bodyMed;
-	height:160px;
+	height:200px;
 	border-radius:15px;
-	bottom:0px;
-	left:10px;
+	margin-bottom:-100px;
+
 }
 
 
 
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-	.speaker{
+	.speeches{
 		grid-column-start:1;
 		grid-column-end:4;
 		grid-template-columns:repeat(3, 1fr);
@@ -231,7 +232,7 @@
 
 
 @media all and (min-width: 1024px) {
-	.speaker{
+	.speeches{
 		grid-column-start:2;
 		grid-column-end:5;
 		grid-template-columns:repeat(3, 1fr);

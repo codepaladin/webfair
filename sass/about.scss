@@ -54,9 +54,21 @@
 .sponsors{
 	margin-top:35px;
 	display:grid;
-	grid-template-columns:repeat(2, 1fr);
+	grid-template-columns:repeat(1, 1fr);
 	grid-gap:50px;
 	justify-items: center;
+}
+
+.sponsors img{
+	height:52px;
+	width:272px;
+
+}
+
+@media all and (min-width: 1024px) {
+	.sponsors{
+		grid-template-columns:repeat(3, 1fr);
+	}
 }
 
 .sponsor{
