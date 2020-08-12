@@ -11,10 +11,11 @@
 
 .aboutContainer{
 	background:$bodyMed;
-	width:100%;
+	width:90%;
 	display:flex;
-
+border-radius:15px;
   	flex-direction:column;
+  	padding-bottom:50px;
 }
 
 .aboutContainer p{
@@ -37,12 +38,27 @@
 }
 
 .sponsorContainer{
-	
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+  	background:$bodyDark;
+  	text-align:center;
+  	flex-direction:column;
 }
 
 .sponsorContainer .title{
-	margin-top:20px;
+
+	font-family:$titleFont;
+	color:$white;
+	padding-top:85px;
 	
+	font-weight:700;
+	font-size:40px;
+}
+
+#sponsors {
+  background: #a7ffeb;
+
 }
 
 .sponsors{

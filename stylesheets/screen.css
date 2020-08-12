@@ -472,9 +472,11 @@ h2::first-letter {
 
 .aboutContainer {
   background: #1E1F26;
-  width: 100%;
+  width: 90%;
   display: flex;
-  flex-direction: column; }
+  border-radius: 15px;
+  flex-direction: column;
+  padding-bottom: 50px; }
 
 .aboutContainer p {
   padding: 30px;
@@ -492,8 +494,23 @@ h2::first-letter {
   font-weight: 700;
   font-size: 40px; }
 
+.sponsorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #131417;
+  text-align: center;
+  flex-direction: column; }
+
 .sponsorContainer .title {
-  margin-top: 20px; }
+  font-family: "Cinzel", serif;
+  color: #FFFFFF;
+  padding-top: 85px;
+  font-weight: 700;
+  font-size: 40px; }
+
+#sponsors {
+  background: #a7ffeb; }
 
 .sponsors {
   margin-top: 100px;
@@ -557,9 +574,6 @@ a {
 /* mouse over link */
 a:hover {
   color: white; }
-
-#sponsors {
-  background: #a7ffeb; }
 
 footer {
   background: #18ffff; }
