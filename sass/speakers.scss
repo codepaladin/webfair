@@ -12,14 +12,27 @@
   grid-gap: 1rem;
 }
 
+
+.speakContainer{
+
+}
+
 .speak {
   background:$bodyLight;
   border-radius:4px;
   padding:.5rem;
   border-radius:15px;
-  grid-row:auto/span 2;
   padding-left:15px;
   padding-right:15px;
+}
+
+
+.speaker{
+	grid-column-start:2;
+	grid-column-end:5;
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 1rem;
 }
 
 .speak .title{
@@ -41,13 +54,13 @@
 }
 
 .speakActions{
+	padding-top:20px;
 	display:flex;
 	font-family:$textFont;
-	font-size:.9em;
+	font-size:.8em;
 	font-weight:700;
-	align-items: center;
   	justify-content: center;
-  	
+  	padding-bottom:25px;	
 }
 
 .apply{
@@ -57,15 +70,19 @@
 	height:30px;
 	border-radius: 5px;
 	margin-right:5px;
+	align-items: center;
+  	justify-content: center;
 }
 
 .voteLite{
 	display:flex;
-	background:$lightGrey;
+	background:$greyButton;
 	width:100px;
 	height:30px;
 	border-radius: 5px;
 	margin-left:5px;
+	align-items: center;
+  	justify-content: center;
 }
 
 .speech {
@@ -74,6 +91,15 @@
   border-radius:15px;
   height:210px;
   z-index:0;
+}
+
+.apply:hover {
+	background-color: $greenHover;
+ }
+
+
+.voteLite:hover{ 
+  background-color: $greyHover;
 }
 
 .portrait{
@@ -102,7 +128,35 @@
 
 .speakerCompany{
 	color:$blue;
-	
+}
+
+.moreSpeakers {
+	padding-top:50px;
+	display:flex;
+	grid-column-start:1;
+	grid-column-end:5;
+	height:50px;
+	align-items: center;
+  	justify-content: center;
+}
+
+.moreButton{
+	display:flex;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	background:bodyDark;
+	border:1px solid $white;
+	align-items: center;
+  	justify-content: center;
+  	color:$white;
+  	font-family: $textFont;
+  	font-size:.8em;
+}
+
+.moreButton:hover{ 
+  background-color: $white;
+  color:$bodyDark;
 }
 
 .speechContainer {
@@ -137,4 +191,20 @@
 	border-radius:15px;
 	bottom:0px;
 	left:10px;
+}
+
+
+@media all and (max-width: 700px) {
+	.speaker{
+		grid-column-start:2;
+		grid-column-end:5;
+		display:grid;
+		grid-template-columns:repeat(2, 1fr);
+		grid-gap: 1rem;
+	}
+
+	#speakers {
+	  grid-template-columns:repeat(3, 1fr);
+
+	}
 }

@@ -324,9 +324,15 @@ h2::first-letter {
   border-radius: 4px;
   padding: .5rem;
   border-radius: 15px;
-  grid-row: auto/span 2;
   padding-left: 15px;
   padding-right: 15px; }
+
+.speaker {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem; }
 
 .speak .title {
   font-family: "Cinzel", serif;
@@ -345,12 +351,13 @@ h2::first-letter {
   font-weight: 300; }
 
 .speakActions {
+  padding-top: 20px;
   display: flex;
   font-family: "Open Sans", sans-serif;
-  font-size: .9em;
+  font-size: .8em;
   font-weight: 700;
-  align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 25px; }
 
 .apply {
   display: flex;
@@ -358,15 +365,19 @@ h2::first-letter {
   width: 100px;
   height: 30px;
   border-radius: 5px;
-  margin-right: 5px; }
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center; }
 
 .voteLite {
   display: flex;
-  background: #C7C9D3;
+  background: #414452;
   width: 100px;
   height: 30px;
   border-radius: 5px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center; }
 
 .speech {
   position: relative;
@@ -374,6 +385,12 @@ h2::first-letter {
   border-radius: 15px;
   height: 210px;
   z-index: 0; }
+
+.apply:hover {
+  background-color: #2FB45A; }
+
+.voteLite:hover {
+  background-color: #5A6074; }
 
 .portrait {
   position: absolute;
@@ -398,6 +415,32 @@ h2::first-letter {
 
 .speakerCompany {
   color: #0FBEFF; }
+
+.moreSpeakers {
+  padding-top: 50px;
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 50px;
+  align-items: center;
+  justify-content: center; }
+
+.moreButton {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background: bodyDark;
+  border: 1px solid #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: .8em; }
+
+.moreButton:hover {
+  background-color: #FFFFFF;
+  color: #131417; }
 
 .speechContainer {
   display: flex;
@@ -430,6 +473,16 @@ h2::first-letter {
   bottom: 0px;
   left: 10px; }
 
+@media all and (max-width: 700px) {
+  .speaker {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem; }
+
+  #speakers {
+    grid-template-columns: repeat(3, 1fr); } }
 .container {
   display: grid;
   height: 100vh;
