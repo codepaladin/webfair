@@ -6,13 +6,13 @@
 @import "compass/reset";
 @import "nav";
 @import "main";
+@import "speakers";
 @import "variables";
 
 .container {
   display:grid;
   height:100vh;
   grid-template-columns:1fr;
-  position:relative;
 }
 
 
@@ -22,7 +22,7 @@ nav {
 
 
 main {
-  position:relative;
+   position:relative;
    background: $bodyMed;
    height:400px;
    display:flex;
@@ -32,32 +32,6 @@ main {
    flex-wrap: nowrap;
    flex-direction:column;
   
-}
-
-
-#speakers {
-
-  display:grid;
-   background: $bodyDark;
-  grid-template-columns:repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1rem;
-}
-
-.speak {
- 
-  background:#000;
-  border: 2px solid #e7e7e7;
-  border-radius:4px;
-  padding:.5rem;
-  grid-row:auto/span 2;
-}
-
-.speaker {
-  background:#000;
-  border: 2px solid #e7e7e7;
-  border-radius:4px;
-  padding:.5rem;
 }
 
 #about {

@@ -1,0 +1,79 @@
+@import "variables";
+
+#speakers {
+  display:grid;
+  padding-top:30px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  background: $bodyDark;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+
+.speak {
+  background:$bodyLight;
+  border: 2px solid #e7e7e7;
+  border-radius:4px;
+  padding:.5rem;
+  border-radius:15px;
+  grid-row:auto/span 2;
+}
+
+.speech {
+  position:relative;
+  border-radius:15px;
+  border: 2px solid #e7e7e7;
+  border-radius:15px;
+  height:200px;
+  z-index:0;
+}
+
+.portrait{
+	position:absolute;
+	bottom:5px;
+	left:0px;
+	z-index:3;
+	width:35px;
+	height:35px;
+	background:$white;
+}
+
+.speakerInfo{
+	padding-left:30px;
+	align-self:flex-end;
+	padding-bottom:5px;
+}
+
+.speakerName{
+	color:$white;
+}
+
+.speakerCompany{
+	color:$white;
+	
+}
+
+.speechContainer {
+	display:flex;
+	position:absolute;
+	background:$bodyLight;
+	height:150px;
+	border-radius:15px;
+	z-index:2;
+	width:95%;
+}
+
+.speakerContainer {
+	display: flex;
+	flex-direction:row;
+	position:absolute;
+	width:95%;
+	z-index:1;
+	background:$bodyMed;
+	height:150px;
+	border-radius:15px;
+	bottom:0px;
+	left:10px;
+}
