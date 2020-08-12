@@ -196,12 +196,11 @@
 
 
 
-@media screen and (min-width : 700px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.speaker{
 		grid-column-start:1;
 		grid-column-end:4;
 		grid-template-columns:repeat(3, 1fr);
-		background:$green;
 	}
 
 	#speakers {
@@ -221,7 +220,6 @@
 		grid-column-start:2;
 		grid-column-end:5;
 		grid-template-columns:repeat(3, 1fr);
-		background:$blue;
 	}
 
 	#speakers {
