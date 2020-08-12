@@ -89,6 +89,9 @@ nav a:hover {
   align-items: center;
   justify-content: center; }
 
+.menu {
+  height: 10vh; }
+
 .menu,
 .submenu {
   list-style-type: none; }
