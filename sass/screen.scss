@@ -10,6 +10,12 @@
 @import "about";
 @import "variables";
 
+body{
+
+    background:$bodyDark;
+ 
+}
+
 .container {
   display:grid;
   height:100vh;
@@ -39,5 +45,5 @@ a:hover {
 
 
 footer {
-  background: #18ffff;
+  background: #000;
 }

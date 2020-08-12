@@ -263,7 +263,6 @@ h2::first-letter {
 #speakers {
   display: grid;
   padding: 30px;
-  background: #131417;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto; }
 
@@ -561,6 +560,9 @@ h2::first-letter {
 .aboutActions a:hover {
   color: #FFFFFF; }
 
+body {
+  background: #131417; }
+
 .container {
   display: grid;
   height: 100vh;
@@ -578,4 +580,4 @@ a:hover {
   color: white; }
 
 footer {
-  background: #18ffff; }
+  background: #000; }
