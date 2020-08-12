@@ -6,7 +6,7 @@
   background: $bodyDark;
   grid-template-columns:repeat(1, 1fr);
   grid-template-rows: auto;
-  
+
 }
 
 
@@ -120,12 +120,13 @@
 }
 
 .speakerTitle{
+	font-family:$titleFont;
 	color:$white;
-	font-family:$textFont;
-	font-weight:700;
-	font-size:30px;
+	padding-top:45px;
 	padding-bottom:45px;
-	padding-top:10px;
+	font-weight:700;
+	font-size:40px;
+	text-align:center;
 }
 
 .speakerInfo{
@@ -224,6 +225,9 @@
 
 	#speakers {
 	  grid-template-columns:repeat(3, 1fr);
+	 
+
+  	text-align:center;
 
 	}
 
