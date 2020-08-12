@@ -14,25 +14,71 @@
 
 .speak {
   background:$bodyLight;
-  border: 2px solid #e7e7e7;
   border-radius:4px;
   padding:.5rem;
   border-radius:15px;
   grid-row:auto/span 2;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.speak .title{
+	font-family:$titleFont;
+	color:$white;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-weight:700;
+	font-size:1.2em;
+}
+
+.speak p{
+	font-family:$textFont;
+	color:$lightGrey;
+	padding-bottom:15px;
+	line-height:1.5;
+	font-size:.9em;
+	font-weight:300;
+}
+
+.speakActions{
+	display:flex;
+	font-family:$textFont;
+	font-size:.9em;
+	font-weight:700;
+	align-items: center;
+  	justify-content: center;
+  	
+}
+
+.apply{
+	display:flex;
+	background:$green;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	margin-right:5px;
+}
+
+.voteLite{
+	display:flex;
+	background:$lightGrey;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	margin-left:5px;
 }
 
 .speech {
   position:relative;
   border-radius:15px;
-  border: 2px solid #e7e7e7;
   border-radius:15px;
-  height:200px;
+  height:210px;
   z-index:0;
 }
 
 .portrait{
 	position:absolute;
-	bottom:5px;
+	bottom:10px;
 	left:0px;
 	z-index:3;
 	width:35px;
@@ -41,17 +87,21 @@
 }
 
 .speakerInfo{
-	padding-left:30px;
+	padding-left:35px;
 	align-self:flex-end;
-	padding-bottom:5px;
+	padding-bottom:10px;
+	font-family:$textFontCondensed;
+	font-size:.9em;
 }
 
 .speakerName{
+	font-weight:700;
 	color:$white;
+	padding-bottom:3px;
 }
 
 .speakerCompany{
-	color:$white;
+	color:$blue;
 	
 }
 
@@ -63,6 +113,17 @@
 	border-radius:15px;
 	z-index:2;
 	width:95%;
+	font-family:$titleFont;
+	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+}
+
+.speechContainer p {
+	color:$lightGrey;
+	padding-left:15px;
+	padding-right:15px;
+	line-height:1.6;
 }
 
 .speakerContainer {
@@ -72,7 +133,7 @@
 	width:95%;
 	z-index:1;
 	background:$bodyMed;
-	height:150px;
+	height:160px;
 	border-radius:15px;
 	bottom:0px;
 	left:10px;

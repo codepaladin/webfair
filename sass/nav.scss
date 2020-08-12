@@ -18,17 +18,17 @@ nav {
 
 .codePen{
   font-family:$codePen;
-  font-size:1.8em;
+  font-size:2em;
   position:absolute;
   background:$yellow;
-  width:300px;
+  width:360px;
   height:75px;
   z-index:1;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top:30px;
-  left:-90px;
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top:20px;
+  left:-60px;
   border:5px solid white;
  display: flex;
   align-items: center;

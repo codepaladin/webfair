@@ -65,17 +65,17 @@ nav {
 
 .codePen {
   font-family: "Yellowtail";
-  font-size: 1.8em;
+  font-size: 2em;
   position: absolute;
   background: #FFDD40;
-  width: 300px;
+  width: 360px;
   height: 75px;
   z-index: 1;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top: 30px;
-  left: -90px;
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top: 20px;
+  left: -60px;
   border: 5px solid white;
   display: flex;
   align-items: center;
@@ -260,6 +260,7 @@ h2 {
   color: #C7C9D3;
   font-family: "Cinzel", serif;
   font-size: 1.6em;
+  line-height: 1.3;
   width: 580px; }
 
 .eventDate {
@@ -320,23 +321,63 @@ h2::first-letter {
 
 .speak {
   background: #2C2F39;
-  border: 2px solid #e7e7e7;
   border-radius: 4px;
   padding: .5rem;
   border-radius: 15px;
-  grid-row: auto/span 2; }
+  grid-row: auto/span 2;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.speak .title {
+  font-family: "Cinzel", serif;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.2em; }
+
+.speak p {
+  font-family: "Open Sans", sans-serif;
+  color: #C7C9D3;
+  padding-bottom: 15px;
+  line-height: 1.5;
+  font-size: .9em;
+  font-weight: 300; }
+
+.speakActions {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: .9em;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center; }
+
+.apply {
+  display: flex;
+  background: #47CF73;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 5px; }
+
+.voteLite {
+  display: flex;
+  background: #C7C9D3;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 5px; }
 
 .speech {
   position: relative;
   border-radius: 15px;
-  border: 2px solid #e7e7e7;
   border-radius: 15px;
-  height: 200px;
+  height: 210px;
   z-index: 0; }
 
 .portrait {
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
   left: 0px;
   z-index: 3;
   width: 35px;
@@ -344,15 +385,19 @@ h2::first-letter {
   background: #FFFFFF; }
 
 .speakerInfo {
-  padding-left: 30px;
+  padding-left: 35px;
   align-self: flex-end;
-  padding-bottom: 5px; }
+  padding-bottom: 10px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: .9em; }
 
 .speakerName {
-  color: #FFFFFF; }
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-bottom: 3px; }
 
 .speakerCompany {
-  color: #FFFFFF; }
+  color: #0FBEFF; }
 
 .speechContainer {
   display: flex;
@@ -361,7 +406,17 @@ h2::first-letter {
   height: 150px;
   border-radius: 15px;
   z-index: 2;
-  width: 95%; }
+  width: 95%;
+  font-family: "Cinzel", serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.speechContainer p {
+  color: #C7C9D3;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.6; }
 
 .speakerContainer {
   display: flex;
@@ -370,7 +425,7 @@ h2::first-letter {
   width: 95%;
   z-index: 1;
   background: #1E1F26;
-  height: 150px;
+  height: 160px;
   border-radius: 15px;
   bottom: 0px;
   left: 10px; }
