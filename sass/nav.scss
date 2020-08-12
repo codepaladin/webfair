@@ -28,17 +28,17 @@ nav a:hover {
 
 .codePen{
   font-family:$codePen;
-  font-size:2em;
+  font-size:65px;
   position:absolute;
   background:$yellow;
-  width:360px;
-  height:75px;
+  width:700px;
+  height:150px;
   z-index:1;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
   top:20px;
-  left:-60px;
+  left:-190px;
   border:5px solid white;
  display: flex;
   align-items: center;
