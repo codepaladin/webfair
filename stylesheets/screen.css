@@ -392,16 +392,16 @@ h2::first-letter {
 .moreButton {
   padding: 10px;
   display: flex;
-  width: 125px;
-  height: 40px;
-  border-radius: 5px;
+  width: 250px;
+  height: 90px;
+  border-radius: 15px;
   background: bodyDark;
   border: 1px solid #FFFFFF;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 30px; }
 
 .moreButton:hover {
   background-color: #FFFFFF;
@@ -463,7 +463,7 @@ h2::first-letter {
   .speakContainer {
     display: block; } }
 #about {
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -472,45 +472,33 @@ h2::first-letter {
 
 .aboutContainer {
   background: #1E1F26;
-  width: 75%;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 15px;
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column; }
 
 .aboutContainer p {
-  max-width: 35em;
-  padding-bottom: 20px;
+  padding: 30px;
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 14px;
   text-align: left; }
 
 .aboutContainer .title {
   font-family: "Cinzel", serif;
   color: #FFFFFF;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 85px;
+  padding-bottom: 45px;
   font-weight: 700;
-  font-size: 1.8em; }
-
-.sponsorContainer {
-  width: 75%; }
+  font-size: 40px; }
 
 .sponsorContainer .title {
-  margin-top: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3em;
-  font-weight: 700; }
+  margin-top: 20px; }
 
 .sponsors {
-  margin-top: 35px;
+  margin-top: 100px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   justify-items: center; }
 
@@ -522,17 +510,30 @@ h2::first-letter {
   .sponsors {
     grid-template-columns: repeat(3, 1fr); } }
 .aboutActions {
-  margin-top: 25px;
+  padding-top: 40px;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.more {
+  padding: 10px;
+  display: flex;
+  width: 250px;
+  height: 90px;
+  border-radius: 15px;
   background: #47CF73;
-  width: 80px;
-  height: 40px;
-  border-radius: 5px;
+  border: 1px solid #FFFFFF;
   align-items: center;
   justify-content: center;
+  color: #131417;
   font-family: "Open Sans", sans-serif;
-  font-size: .9em;
+  font-size: 30px;
   font-weight: 700; }
+
+.more:hover {
+  background-color: #FFFFFF;
+  color: #131417; }
 
 .aboutActions a:link {
   color: #131417; }

@@ -157,16 +157,16 @@
 .moreButton{
 	padding:10px;
 	display:flex;
-	width:125px;
-	height:40px;
-	border-radius: 5px;
+	width:250px;
+	height:90px;
+	border-radius: 15px;
 	background:bodyDark;
 	border:1px solid $white;
 	align-items: center;
   	justify-content: center;
   	color:$white;
   	font-family: $textFont;
-  	font-size:14px;
+  	font-size:30px;
 }
 
 .moreButton:hover{ 

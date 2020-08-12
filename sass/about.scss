@@ -1,7 +1,7 @@
 @import "variables";
 
 #about{
-	padding-top:50px;
+	padding-top:100px;
  	display:flex;
  	align-items: center;
   	justify-content: center;
@@ -11,50 +11,44 @@
 
 .aboutContainer{
 	background:$bodyMed;
-	width:75%;
-	padding-left:15px;
-	padding-right:15px;
-	border-radius:15px;
+	width:100%;
 	display:flex;
-	align-items: center;
-  	justify-content: center;
+
   	flex-direction:column;
 }
 
 .aboutContainer p{
-	max-width:35em;
-	padding-bottom:20px;
+
+	padding:30px;
 	font-family:$textFont;
 	color:$white;
 	line-height:1.5;
-	font-size:.9em;
+	font-size:14px;
 	text-align:left;
 }
 
 .aboutContainer .title{
 	font-family:$titleFont;
 	color:$white;
-	padding-top:35px;
-	padding-bottom:35px;
+	padding-top:85px;
+	padding-bottom:45px;
 	font-weight:700;
-	font-size:1.8em;
+	font-size:40px;
 }
 
 .sponsorContainer{
-	width:75%;
+	
 }
 
 .sponsorContainer .title{
 	margin-top:20px;
-	font-family:$textFont;	
-  	font-size:1.3em;
-  	font-weight:700;
+	
 }
 
 .sponsors{
-	margin-top:35px;
+	margin-top:100px;
 	display:grid;
-	grid-template-columns:repeat(1, 1fr);
+	grid-template-columns:repeat(2, 1fr);
 	grid-gap:50px;
 	justify-items: center;
 }
@@ -80,18 +74,33 @@
 	
 }
 
-.aboutActions{
-	margin-top:25px;
+.aboutActions {
+	padding-top:40px;
+	width:100%;
 	display:flex;
-	background:$green;
-	width:80px;
-	height:40px;
-	border-radius: 5px;
 	align-items: center;
   	justify-content: center;
-  	font-family:$textFont;	
-  	font-size:.9em;
+}
+
+.more{
+	padding:10px;
+	display:flex;
+	width:250px;
+	height:90px;
+	border-radius: 15px;
+	background:$green;
+	border:1px solid $white;
+	align-items: center;
+  	justify-content: center;
+  	color:$bodyDark;
+  	font-family: $textFont;
+  	font-size:30px;
   	font-weight:700;
+}
+
+.more:hover{ 
+  background-color: $white;
+  color:$bodyDark;
 }
 
 
