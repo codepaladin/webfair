@@ -55,7 +55,7 @@ h2{
 .eventDate{
 	font-family:$titleFont;
 	color:$yellow;
-	font-size:30px;
+	font-size:40px;
 	margin-top:30px;
 }
 
@@ -78,26 +78,26 @@ h2::first-letter {
 .register{
 	background:$green;
 	color:$white;
-	height:5vh;
-	border-radius: 5px;
+	height:7vh;
+	border-radius: 15px;
 	text-align:center;
 	width:35vw;
 	vertical-align: middle;
 	margin-right:15px;
-	line-height: 5vh; /* question: best way to do this*/
+	line-height: 7vh; /* question: best way to do this*/
 	margin-right:5vw;
 }
 
 .vote {
 	background:$darkButton;
 	color:$white;
-	height:5vh;
-	border-radius: 5px;
+	height:7vh;
+	border-radius: 15px;
 	text-align:center;
 	width:35vw;
 	vertical-align: middle;
 	margin-right:15px;
-	line-height: 5vh; /* question: best way to do this*/
+	line-height: 7vh; /* question: best way to do this*/
 }
 
 .register:hover {
