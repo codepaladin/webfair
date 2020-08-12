@@ -2,28 +2,25 @@
 
 #speakers {
   display:grid;
-  padding-top:30px;
-  padding-left:20px;
-  padding-right:20px;
-  padding-bottom:20px;
+  padding:30px;
   background: $bodyDark;
   grid-template-columns:repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-gap: 1rem;
+
 }
 
 
 .speakContainer{
 	display:none;
+	padding-right:15px;
 }
 
 .speak {
   background:$bodyLight;
   border-radius:4px;
-  padding:.5rem;
+  padding:1rem;
   border-radius:15px;
-  padding-left:15px;
-  padding-right:15px;
+
 }
 
 
@@ -33,6 +30,8 @@
 	display:grid;
 	grid-template-columns:repeat(2, 1fr);
 	grid-gap: 1rem;
+	justify-content:center;
+	
 }
 
 .speak .title{
@@ -74,6 +73,15 @@
   	justify-content: center;
 }
 
+.speakActions a:link {
+  color: $white;
+}
+
+/* mouse over link */
+.speakActions a:hover {
+  color: $bodyDark;
+}
+
 .voteLite{
 	display:flex;
 	background:$greyButton;
@@ -110,6 +118,11 @@
 	width:35px;
 	height:35px;
 	background:$white;
+}
+
+.portrait img{
+	width:35px;
+	height:35px;
 }
 
 .speakerInfo{
@@ -184,7 +197,9 @@
 	display: flex;
 	flex-direction:row;
 	position:absolute;
-	width:95%;
+	width: -webkit-calc(100% - 10px);
+    width:    -moz-calc(100% - 10x);
+    width:         calc(100% - 10px);
 	z-index:1;
 	background:$bodyMed;
 	height:160px;

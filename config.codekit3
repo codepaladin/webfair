@@ -63,6 +63,28 @@
 		"oAP": "/config.rb",
 		"oF": 0
 		},
+	"/images/codepen.png": {
+		"ft": 32768,
+		"iS": 2339,
+		"oA": 0,
+		"oAP": "/images/codepen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/default.png": {
+		"ft": 32768,
+		"iS": 6545,
+		"oA": 0,
+		"oAP": "/images/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/rollercoaster.png": {
 		"ft": 32768,
 		"iS": 73235,
@@ -114,6 +136,19 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/sass/about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/about.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/sass/ie.scss": {
 		"aP": 0,
@@ -205,6 +240,26 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/stylesheets/about-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/about-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/about-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/stylesheets/ie.css": {
 		"aP": 1,

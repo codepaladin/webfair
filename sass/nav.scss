@@ -16,6 +16,16 @@ nav {
   padding: 0 15px;
 }
 
+nav a {
+  text-decoration: none;
+   color: $white;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: $blue;
+}
+
 .codePen{
   font-family:$codePen;
   font-size:2em;
@@ -35,10 +45,7 @@ nav {
   justify-content: center;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
+
 .menu,
 .submenu {
   list-style-type: none;
@@ -55,7 +62,7 @@ a {
 }
 .item:not(.button) a:hover,
 .item a:hover::after {
-  color: #ccc;
+  color: $white;
 }
 /* Mobile menu */
 .menu {
@@ -107,14 +114,14 @@ a {
   line-height: 16px;
   font-weight: 900;
   content: "\f078";
-  color: white;
+  color: $white;
   padding-left: 5px;
 }
 .subitem a {
   padding: 10px 15px;
 }
 .submenu-active {
-  background-color: #111;
+  background-color: $white;
   border-radius: 3px;
 }
 
@@ -156,8 +163,8 @@ a {
     text-decoration: none;
   }
   .button:not(.secondary) a:hover {
-    background: royalblue;
-    border-color: darkblue;
+    background: $white;
+    border-color: $white;
   }
 }
 /* Desktop menu */

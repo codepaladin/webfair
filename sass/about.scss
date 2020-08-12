@@ -1,0 +1,96 @@
+@import "variables";
+
+#about{
+	padding-top:50px;
+ 	display:flex;
+ 	align-items: center;
+  	justify-content: center;
+  	background:$bodyDark;
+  	text-align:center;
+}
+
+.aboutContainer{
+	background:$bodyMed;
+	width:75%;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:15px;
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+  	flex-direction:column;
+}
+
+.aboutContainer p{
+	max-width:35em;
+	padding-bottom:20px;
+	font-family:$textFont;
+	color:$white;
+	line-height:1.5;
+	font-size:.9em;
+	text-align:left;
+}
+
+.aboutContainer .title{
+	font-family:$titleFont;
+	color:$white;
+	padding-top:35px;
+	padding-bottom:35px;
+	font-weight:700;
+	font-size:1.8em;
+}
+
+.sponsorContainer{
+	width:75%;
+}
+
+.sponsorContainer .title{
+	margin-top:20px;
+	font-family:$textFont;	
+  	font-size:1.3em;
+  	font-weight:700;
+}
+
+.sponsors{
+	margin-top:35px;
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap:50px;
+	justify-items: center;
+}
+
+.sponsor{
+
+	
+}
+
+.sponsor img{
+	
+}
+
+
+
+
+.aboutActions{
+	margin-top:25px;
+	display:flex;
+	background:$green;
+	width:80px;
+	height:40px;
+	border-radius: 5px;
+	align-items: center;
+  	justify-content: center;
+  	font-family:$textFont;	
+  	font-size:.9em;
+  	font-weight:700;
+}
+
+
+.aboutActions a:link {
+  color: $bodyDark;
+}
+
+/* mouse over link */
+.aboutActions a:hover {
+  color: $white;
+}
