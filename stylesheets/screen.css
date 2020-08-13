@@ -651,8 +651,8 @@ footer {
 
 .footerTitle {
   padding: 50px;
-  border-top: 1px solid #C7C9D3;
-  border-bottom: 1px solid #C7C9D3;
+  border-top: 1px solid #2C2F39;
+  border-bottom: 1px solid #2C2F39;
   text-align: center;
   color: white;
   font-family: "Smythe", cursive;
@@ -681,8 +681,8 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  border-top: 1px solid #C7C9D3;
-  border-bottom: 1px solid #C7C9D3;
+  border-top: 1px solid #2C2F39;
+  border-bottom: 1px solid #2C2F39;
   text-align: center;
   color: white; }
 
