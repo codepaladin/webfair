@@ -31,14 +31,14 @@ main {
 }
 
 .hero{
-	 position:absolute;
+	 position:relative;
 	 z-index:2;
 }
 
 h1{
 	color:$white;
 	font-family:$logoFont;
-	font-size:250px;
+	font-size: 214px;
 	margin-bottom:2vh;
 }
 
@@ -64,8 +64,8 @@ h2::first-letter {
 }
 
 .actions{
- align-items: center;
-  justify-content: center;
+ 	align-items: center;
+  	justify-content: center;
 	margin-top:30px;
 	display:flex;
 	font-family:$textFont;
@@ -107,4 +107,51 @@ h2::first-letter {
 
 .vote:hover { 
   background-color: $greyHover;
+}
+
+
+@media only screen and (min-width: 768px) {
+	main{
+		background:$blue;
+	}
+
+	h1{
+		font-size:120px;
+	}
+
+	h2{
+		font-size:40px;
+	}
+
+	.eventDate{
+		font-family:$titleFont;
+		color:$yellow;
+		font-size:30px;
+		margin-top:0px;
+	}
+
+	.actions{
+			align-items: center;
+  	justify-content: center;
+	margin-top:30px;
+	display:flex;
+	font-family:$textFont;
+	font-weight:700;
+	font-size:16px;
+	margin-bottom:5vh;
+	}
+
+	.register{
+		height:4vh;
+		border-radius: 5px;
+		width:18vw;
+		line-height: 4vh; /* question: best way to do this*/
+	}
+
+	.vote {
+		height:4vh;
+		border-radius: 5px;
+		width:18vw;
+		line-height: 4vh; /* question: best way to do this*/
+	}
 }
