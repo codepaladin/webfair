@@ -58,9 +58,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -119,6 +117,90 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/icons8-facebook-50.png": {
+		"ft": 32768,
+		"iS": 4740,
+		"oA": 0,
+		"oAP": "/images/icons8-facebook-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons8-facebook-50.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons8-facebook-50.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icons8-instagram-50.png": {
+		"ft": 32768,
+		"iS": 5359,
+		"oA": 0,
+		"oAP": "/images/icons8-instagram-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons8-instagram-50.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons8-instagram-50.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icons8-play-button-50.png": {
+		"ft": 32768,
+		"iS": 3920,
+		"oA": 0,
+		"oAP": "/images/icons8-play-button-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons8-play-button-50.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons8-play-button-50.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icons8-twitter-50.png": {
+		"ft": 32768,
+		"iS": 5116,
+		"oA": 0,
+		"oAP": "/images/icons8-twitter-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons8-twitter-50.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icons8-twitter-50.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/rollercoaster.png": {
 		"ft": 32768,
@@ -191,6 +273,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/about.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/footer.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -342,6 +437,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/about-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/footer-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/footer-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/footer-min.css",
 		"oF": 0,
 		"oS": 3
 		},

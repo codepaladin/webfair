@@ -465,7 +465,8 @@ h2::first-letter {
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 50px; }
 
 .sponsorContainer .title {
   font-family: "Cinzel", serif;
@@ -505,8 +506,8 @@ h2::first-letter {
   margin-top: 50px; }
 
 .participateContainer {
-  border-top: 1px solid #C7C9D3;
-  border-bottom: 1px solid #C7C9D3;
+  border-top: 1px solid #454857;
+  border-bottom: 1px solid #454857;
   background: #2C2F39;
   border-radius: 15px;
   padding: 50px; }
@@ -515,7 +516,7 @@ h2::first-letter {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 30px;
   padding-bottom: 50px; }
 
 #participate p {
@@ -523,8 +524,59 @@ h2::first-letter {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   text-align: left;
-  font-size: 22px;
+  font-size: 28px;
   padding-bottom: 20px; }
+
+footer {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  align-items: center; }
+
+.footerTitle {
+  padding: 50px;
+  border-top: 1px solid #C7C9D3;
+  border-bottom: 1px solid #C7C9D3;
+  text-align: center;
+  color: white;
+  font-family: "Smythe", cursive;
+  font-size: 70px; }
+
+.footerLinks {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10px; }
+
+.footerLinks a {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+
+.footerSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-top: 1px solid #C7C9D3;
+  border-bottom: 1px solid #C7C9D3;
+  text-align: center;
+  color: white; }
+
+.footerSocial img {
+  width: 50px;
+  padding-right: 25px; }
+
+.copyright {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
 
 body {
   background: #131417; }
@@ -544,6 +596,3 @@ a {
 /* mouse over link */
 a:hover {
   color: white; }
-
-footer {
-  background: #000; }
