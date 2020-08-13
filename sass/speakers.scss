@@ -23,14 +23,6 @@
 
 }
 
-
-.speeches{
-	display:grid;
-	grid-template-columns:repeat(1, 1fr);
-	 justify-content: center;
-  align-content: center;
-}
-
 .speak .title{
 	font-family:$titleFont;
 	color:$white;
@@ -79,138 +71,46 @@
   color: $bodyDark;
 }
 
-.voteLite{
+
+.speeches{
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	 justify-content: center;
+  align-content: center;
+  
+}
+
+.speech{
+	background:$green;
+	height:500px;
+	width:65vw;
+	padding:30px;
 	display:flex;
-	background:$greyButton;
-	width:100px;
-	height:30px;
-	border-radius: 5px;
-	margin-left:5px;
 	align-items: center;
   	justify-content: center;
-}
-
-.speech {
-  border-radius:15px;
-  border-radius:15px;
-}
-
-.apply:hover {
-	background-color: $greenHover;
- }
-
-
-.voteLite:hover{ 
-  background-color: $greyHover;
+  	flex-direction:column;
 }
 
 .portrait{
-	position:relative;
-	left:0px;
-	top:30px;
-	z-index:3;
-	width:35px;
-	height:35px;
-	background:$white;
+
 }
 
-.portrait img{
-	width:75px;
-	height:75px;
+.portrait img {
+    display: inline;
+    margin: 0 auto;
+    width:350px;
+   border-radius: 50%;
+   border:20px solid $blue;
 }
 
-.speakerTitle{
-	font-family:$titleFont;
-	color:$white;
-	padding-top:45px;
-	padding-bottom:45px;
-	font-weight:700;
-	font-size:40px;
-	text-align:center;
-}
-
-.speakerInfo{
-	position:relative;
-	left:70px;
-	bottom:25px;
-	align-self:flex-end;
+.speaker{
 	font-family:$textFont;
-	font-size:34px;
-	z-index:3;
+	font-size:26px;
 }
 
-.speakerName{
-	font-weight:700;
-	color:$white;
-	padding-bottom:10px;
-}
-
-.speakerCompany{
-	color:$blue;
-}
-
-.moreSpeakers {
-	width:100%;
-	display:flex;
-	align-items: center;
-  	justify-content: center;
-}
-
-.moreButton{
-	padding:10px;
-	display:flex;
-	width:250px;
-	height:90px;
-	border-radius: 15px;
-	background:bodyDark;
-	border:1px solid $white;
-	align-items: center;
-  	justify-content: center;
-  	color:$white;
-  	font-family: $textFont;
-  	font-size:30px;
-}
-
-.moreButton:hover{ 
-  background-color: $white;
-  color:$bodyDark;
-}
-
-.speechContainer {
-	display:flex;
-	position:relative;
-	background:$bodyLight;
-	height:450px;
-	border-radius:15px;
-	z-index:1;
-	width:98%;
-	font-family:$titleFont;
-	align-items: center;
-  	justify-content: center;
-  	text-align: center;
-  	font-size:40px;
-  	font-weight:700;
-}
-
-.speechContainer p {
-	color:$lightGrey;
-	padding-left:5px;
-	padding-right:15px;
-	line-height:1.6;
-}
-
-.speakerContainer {
-	position:relative;
-	display: flex;
-	flex-direction:row;
-	bottom:450px;
-	left:20px;
-	z-index:0;
-	background:$bodyMed;
-	height:550px;
-	border-radius:15px;
-	margin-bottom:-400px;
-
+.speechTitle{
+font-family:$textFont;
+	font-size:20px;
 }
 
 

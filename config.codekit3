@@ -58,12 +58,21 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
+		},
+	"/images/alex.jpeg": {
+		"ft": 16384,
+		"iS": 7482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/alex.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/codepen.png": {
 		"ft": 32768,
@@ -74,6 +83,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/coyier.jpeg": {
+		"ft": 16384,
+		"iS": 25141,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/coyier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/dee.jpeg": {
+		"ft": 16384,
+		"iS": 42761,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/dee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/default.png": {
@@ -191,6 +222,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/oldspeakers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/oldspeakers.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/print.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -280,6 +324,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/nav-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/oldspeakers-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/oldspeakers-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/oldspeakers.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/oldspeakers-min.css",
 		"oF": 0,
 		"oS": 3
 		},
