@@ -139,6 +139,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/icons8-group-task-50.png": {
+		"ft": 32768,
+		"iS": 2226,
+		"oA": 0,
+		"oAP": "/images/icons8-group-task-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/icons8-instagram-50.png": {
 		"ft": 32768,
 		"iS": 5359,
@@ -159,6 +170,28 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/icons8-lecturer-50.png": {
+		"ft": 32768,
+		"iS": 2458,
+		"oA": 0,
+		"oAP": "/images/icons8-lecturer-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons8-money-box-50.png": {
+		"ft": 32768,
+		"iS": 3291,
+		"oA": 0,
+		"oAP": "/images/icons8-money-box-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/icons8-play-button-50.png": {
 		"ft": 32768,

@@ -11,22 +11,40 @@
 	border-bottom:1px solid $midGrey;
 	background:$bodyLight;
 	border-radius:15px;
-	padding:50px;
+	padding-bottom:75px;
+}
+
+.icon{
+	background:$bodyDark;
+	border-radius:15px;
+	width:150px;
+	position:relative;
+	top:-50px;
+	left:50px;
+}
+
+.icon img{
+	padding:20px;
+	width:150px;
 }
 
 #participate .title{
+	padding-left:50px;
 	color:$white;
 	font-family:$textFont;
 	font-weight:700;
-	font-size:30px;
+	font-size:40px;
 	padding-bottom:50px;
 }
 
 #participate p{
+	padding-left:50px;
+	padding-right:50px;
+
 	color:$white;
 	font-family:$textFont;
 	line-height:1.5;
 	text-align:left;
-	font-size:28px;
+	font-size:30px;
 	padding-bottom:20px;
 }

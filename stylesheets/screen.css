@@ -510,8 +510,7 @@ h2::first-letter {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #131417;
-  text-align: center; }
+  background: #131417; }
 
 .aboutContainer {
   background: #1E1F26;
@@ -532,15 +531,12 @@ h2::first-letter {
   text-align: left; }
 
 .aboutContainer .title {
-  font-family: "Cinzel", serif;
+  font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
-  padding-top: 85px;
+  padding-left: 50px;
   padding-bottom: 45px;
   font-weight: 700;
-  font-size: 50px; }
-
-.aboutContainer .title::first-letter {
-  font-family: "Cinzel Decorative", cursive; }
+  font-size: 40px; }
 
 .aboutActions {
   padding-top: 40px;
@@ -625,21 +621,36 @@ h2::first-letter {
   border-bottom: 1px solid #454857;
   background: #2C2F39;
   border-radius: 15px;
-  padding: 50px; }
+  padding-bottom: 75px; }
+
+.icon {
+  background: #131417;
+  border-radius: 15px;
+  width: 150px;
+  position: relative;
+  top: -50px;
+  left: 50px; }
+
+.icon img {
+  padding: 20px;
+  width: 150px; }
 
 #participate .title {
+  padding-left: 50px;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 50px; }
 
 #participate p {
+  padding-left: 50px;
+  padding-right: 50px;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   text-align: left;
-  font-size: 28px;
+  font-size: 30px;
   padding-bottom: 20px; }
 
 footer {

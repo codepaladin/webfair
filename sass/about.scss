@@ -6,7 +6,7 @@
  	align-items: center;
   	justify-content: center;
   	background:$bodyDark;
-  	text-align:center;
+  	
 
 }
 
@@ -32,17 +32,14 @@
 }
 
 .aboutContainer .title{
-	font-family:$titleFont;
+	font-family:$textFont;
 	color:$white;
-	padding-top:85px;
+padding-left:50px;
 	padding-bottom:45px;
 	font-weight:700;
-	font-size:50px;
+	font-size:40px;
 }
 
-.aboutContainer .title::first-letter { 
-  font-family:$titleFontDecorative;
-}
 
 .aboutActions {
 	padding-top:40px;
