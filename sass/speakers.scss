@@ -9,6 +9,16 @@
 
 }
 
+.speakerTitle{
+	font-family:$titleFont;
+	color:$white;
+	padding-top:45px;
+	padding-bottom:45px;
+	font-weight:700;
+	font-size:50px;
+	text-align:center;
+}
+
 
 .speakContainer{
 	display:none;
@@ -153,6 +163,14 @@
 	padding-top:15px;
 	color:$lightGrey;
 	font-size:30px;
+}
+
+.moreSpeakers{
+	padding-top:25px;
+	color:$blue;
+	font-family:$textFont;
+	font-size:30px;
+	text-align:right;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {

@@ -232,6 +232,15 @@ h2::first-letter {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto; }
 
+.speakerTitle {
+  font-family: "Cinzel", serif;
+  color: #FFFFFF;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center; }
+
 .speakContainer {
   display: none;
   padding-right: 15px; }
@@ -350,6 +359,13 @@ h2::first-letter {
   padding-top: 15px;
   color: #C7C9D3;
   font-size: 30px; }
+
+.moreSpeakers {
+  padding-top: 25px;
+  color: #0FBEFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  text-align: right; }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .speeches {
