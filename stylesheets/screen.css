@@ -268,12 +268,12 @@ h2::first-letter {
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 5vh; }
 
 .register {
   background: #47CF73;
-  color: #FFFFFF;
+  color: #131417;
   height: 7vh;
   border-radius: 15px;
   text-align: center;
@@ -654,16 +654,16 @@ h2::first-letter {
   padding-bottom: 20px; }
 
 footer {
-  padding-top: 150px;
+  border-top: 1px solid #2C2F39;
+  padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
-  align-items: center; }
+  align-items: center;
+  background: #1E1F26; }
 
 .footerTitle {
   padding: 50px;
-  border-top: 1px solid #2C2F39;
-  border-bottom: 1px solid #2C2F39;
   text-align: center;
   color: white;
   font-family: "Smythe", cursive;
@@ -672,14 +672,15 @@ footer {
 .footerLinks {
   padding-top: 20px;
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 28px;
   padding-left: 50px;
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 10px; }
+  gap: 10px;
+  padding-bottom: 50px; }
 
 .footerLinks a {
   padding: 15px;
