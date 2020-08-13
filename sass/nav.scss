@@ -8,13 +8,12 @@
   margin: 0;
 }
 
-nav {
-  background:$lightGrey;
-}
+
 
 nav a {
+  position:absolute;
   text-decoration: none;
-   color: $white;
+
 }
 
 /* mouse over link */
@@ -32,6 +31,7 @@ nav a:hover {
  * production code, beware of the browser
  * prefixes.
  */
+
 
 
 
@@ -197,7 +197,7 @@ nav a:hover {
   background:$yellow;
   width:700px;
   height:150px;
-  z-index:1;
+  z-index:2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
