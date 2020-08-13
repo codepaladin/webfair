@@ -397,14 +397,14 @@ h2::first-letter {
 
 .aboutContainer {
   background: #1E1F26;
-  width: 90%;
+  width: 100%;
   display: flex;
   border-radius: 15px;
   flex-direction: column;
   padding-bottom: 50px; }
 
 .aboutContainer p {
-  padding: 30px;
+  padding: 50px;
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
   line-height: 1.5;
@@ -418,6 +418,9 @@ h2::first-letter {
   padding-bottom: 45px;
   font-weight: 700;
   font-size: 40px; }
+
+.aboutContainer .title::first-letter {
+  font-family: "Cinzel Decorative", cursive; }
 
 .sponsorContainer {
   display: flex;
@@ -433,6 +436,9 @@ h2::first-letter {
   padding-top: 85px;
   font-weight: 700;
   font-size: 40px; }
+
+.sponsorContainer .title::first-letter {
+  font-family: "Cinzel Decorative", cursive; }
 
 #sponsors {
   background: #a7ffeb; }

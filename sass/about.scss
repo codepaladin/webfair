@@ -7,20 +7,21 @@
   	justify-content: center;
   	background:$bodyDark;
   	text-align:center;
+
 }
 
 .aboutContainer{
 	background:$bodyMed;
-	width:90%;
+	width:100%;
 	display:flex;
-border-radius:15px;
+	border-radius:15px;
   	flex-direction:column;
   	padding-bottom:50px;
 }
 
 .aboutContainer p{
 
-	padding:30px;
+	padding:50px;
 	font-family:$textFont;
 	color:$white;
 	line-height:1.5;
@@ -37,6 +38,10 @@ border-radius:15px;
 	font-size:40px;
 }
 
+.aboutContainer .title::first-letter { 
+  font-family:$titleFontDecorative;
+}
+
 .sponsorContainer{
 	display:flex;
 	align-items: center;
@@ -47,13 +52,15 @@ border-radius:15px;
 }
 
 .sponsorContainer .title{
-
 	font-family:$titleFont;
 	color:$white;
 	padding-top:85px;
-	
 	font-weight:700;
 	font-size:40px;
+}
+
+.sponsorContainer .title::first-letter { 
+  font-family:$titleFontDecorative;
 }
 
 #sponsors {
