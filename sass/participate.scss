@@ -9,6 +9,7 @@
 .participateContainer{
 	border-top:1px solid $lightGrey;
 	border-bottom:1px solid $lightGrey;
+	background:$bodyLight;
 	border-radius:15px;
 	padding:50px;
 }
@@ -18,7 +19,7 @@
 	font-family:$textFont;
 	font-weight:700;
 	font-size:26px;
-	padding-bottom:20px;
+	padding-bottom:50px;
 }
 
 #participate p{

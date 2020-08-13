@@ -507,6 +507,7 @@ h2::first-letter {
 .participateContainer {
   border-top: 1px solid #C7C9D3;
   border-bottom: 1px solid #C7C9D3;
+  background: #2C2F39;
   border-radius: 15px;
   padding: 50px; }
 
@@ -515,7 +516,7 @@ h2::first-letter {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  padding-bottom: 20px; }
+  padding-bottom: 50px; }
 
 #participate p {
   color: #FFFFFF;
