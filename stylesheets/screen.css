@@ -109,13 +109,13 @@ main {
 
 .coaster {
   position: absolute;
-  bottom: 0px;
+  bottom: -5px;
   left: 0px;
   height: 200px; }
 
 .wheel {
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   right: 0px;
   height: 400px; }
 
@@ -188,9 +188,6 @@ h2::first-letter {
   background-color: #5A6074; }
 
 @media screen and (min-device-width: 768px) {
-  main {
-    background: #0FBEFF; }
-
   h1 {
     font-size: 120px; }
 

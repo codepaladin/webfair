@@ -122,7 +122,7 @@
 		},
 	"/images/rollercoaster.png": {
 		"ft": 32768,
-		"iS": 73235,
+		"iS": 73558,
 		"oA": 0,
 		"oAP": "/images/rollercoaster.png",
 		"oF": 0,
@@ -143,12 +143,12 @@
 		},
 	"/images/wheel.png": {
 		"ft": 32768,
-		"iS": 47900,
+		"iS": 96168,
 		"oA": 0,
 		"oAP": "/images/wheel.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
