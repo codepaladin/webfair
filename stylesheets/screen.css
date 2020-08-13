@@ -76,7 +76,7 @@ nav a:hover {
 #menuToggle {
   /*overflow: hidden;*/
   display: block;
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 50px;
   z-index: 1;
@@ -706,10 +706,8 @@ body {
   grid-template-columns: 1fr; }
 
 .nav {
-  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
   width: 100%;
   height: 120px;
   background-color: #2C2F39; }
