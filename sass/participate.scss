@@ -1,0 +1,30 @@
+@import "variables";
+
+
+#participate{
+	margin-top:50px;
+}
+
+
+.participateContainer{
+	border-top:1px solid $white;
+	border-bottom:1px solid $white;
+	border-radius:15px;
+}
+
+#participate .title{
+	color:$white;
+	font-family:$textFont;
+	font-weight:700;
+	font-size:30px;
+	padding-bottom:20px;
+}
+
+#participate p{
+	color:$white;
+	font-family:$textFont;
+	line-height:1.5;
+	text-align:left;
+	font-size:24px;
+	padding-bottom:20px;
+}

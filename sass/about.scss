@@ -21,7 +21,9 @@
 
 .aboutContainer p{
 
-	padding:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
 	font-family:$textFont;
 	color:$white;
 	line-height:1.5;
@@ -40,61 +42,6 @@
 
 .aboutContainer .title::first-letter { 
   font-family:$titleFontDecorative;
-}
-
-.sponsorContainer{
-	display:flex;
-	align-items: center;
-  	justify-content: center;
-  	background:$bodyDark;
-  	text-align:center;
-  	flex-direction:column;
-}
-
-.sponsorContainer .title{
-	font-family:$titleFont;
-	color:$white;
-	padding-top:85px;
-	font-weight:700;
-	font-size:50px;
-}
-
-.sponsorContainer .title::first-letter { 
-  font-family:$titleFontDecorative;
-}
-
-#sponsors {
-  background: #a7ffeb;
-
-}
-
-.sponsors{
-	margin-top:100px;
-	display:grid;
-	grid-template-columns:repeat(2, 1fr);
-	grid-gap:50px;
-	justify-items: center;
-}
-
-.sponsors img{
-	height:52px;
-	width:272px;
-
-}
-
-@media all and (min-width: 1024px) {
-	.sponsors{
-		grid-template-columns:repeat(3, 1fr);
-	}
-}
-
-.sponsor{
-
-	
-}
-
-.sponsor img{
-	
 }
 
 .aboutActions {

@@ -247,6 +247,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/participate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/participate.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/print.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -282,6 +295,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/speakers.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/sponsors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/sponsors.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -359,6 +385,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/stylesheets/particpate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/particpate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/stylesheets/print.css": {
 		"aP": 1,
 		"bl": 0,
@@ -386,6 +422,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/screen-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/sponsors.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/sponsors-min.css",
 		"oF": 0,
 		"oS": 3
 		},
