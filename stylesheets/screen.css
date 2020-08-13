@@ -662,9 +662,11 @@ footer {
   font-size: 70px; }
 
 .footerLinks {
+  padding-top: 20px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 22px;
   padding-left: 50px;
+  padding-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -672,6 +674,7 @@ footer {
   gap: 10px; }
 
 .footerLinks a {
+  padding: 15px;
   display: grid;
   align-items: center;
   justify-content: center; }
