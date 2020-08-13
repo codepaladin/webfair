@@ -7,16 +7,17 @@
 
 
 .participateContainer{
-	border-top:1px solid $white;
-	border-bottom:1px solid $white;
+	border-top:1px solid $lightGrey;
+	border-bottom:1px solid $lightGrey;
 	border-radius:15px;
+	padding:50px;
 }
 
 #participate .title{
 	color:$white;
 	font-family:$textFont;
 	font-weight:700;
-	font-size:30px;
+	font-size:26px;
 	padding-bottom:20px;
 }
 
@@ -25,6 +26,6 @@
 	font-family:$textFont;
 	line-height:1.5;
 	text-align:left;
-	font-size:24px;
+	font-size:22px;
 	padding-bottom:20px;
 }
