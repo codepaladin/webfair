@@ -58,7 +58,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -128,6 +130,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/Subtle-Prism.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/Subtle-Prism.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/wheel.png": {
 		"ft": 32768,
