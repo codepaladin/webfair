@@ -643,7 +643,7 @@ h2::first-letter {
   padding-bottom: 20px; }
 
 footer {
-  height: 500px;
+  padding-top: 150px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -691,10 +691,11 @@ footer {
   padding-right: 30px; }
 
 .copyright {
+  padding-top: 50px;
   text-align: center;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 18px; }
 
 body {
   background: #131417; }

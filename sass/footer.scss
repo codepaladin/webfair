@@ -2,7 +2,7 @@
 
 
 footer{
-	height:500px;
+	padding-top:150px;
 	display:grid;
 	grid-template-columns:repeat(1, 1fr);
 	grid-template-rows:auto;
@@ -58,8 +58,9 @@ footer{
 }
 
 .copyright{
+	padding-top:50px;
 	text-align:center;
 	color:$white;
 	font-family:$textFont;
-	font-size:14px;
+	font-size:18px;
 }
