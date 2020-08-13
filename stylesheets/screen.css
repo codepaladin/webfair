@@ -177,8 +177,8 @@ nav a:hover {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
 #menu li {
-  padding: 10px 0;
-  font-size: 26px;
+  padding: 20px 0;
+  font-size: 30px;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif; }
 
