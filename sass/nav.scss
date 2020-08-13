@@ -22,36 +22,26 @@ nav a:hover {
   color: $blue;
 }
 
-.codePen{
-  font-family:$codePen;
-  font-size:65px;
-  position:absolute;
-  background:$yellow;
-  width:700px;
-  height:150px;
-  z-index:1;
-  -webkit-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  transform: rotate(-30deg);
-  top:20px;
-  left:-190px;
-  border:5px solid white;
- display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
 
-.menu{
-  display:flex;
-  height:100px;
-}
+
 
 #menuToggle
 {
+  /*overflow: hidden;*/
   display: block;
-  position: relative;
+  position: absolute;
   top: 50px;
-  left: 50px;
+  right: 50px;
   
   z-index: 1;
   
@@ -100,8 +90,9 @@ nav a:hover {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
+
   
-  background: #cdcdcd;
+  background: $white;
   border-radius: 3px;
   
   z-index: 1;
@@ -131,7 +122,7 @@ nav a:hover {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: $white;
 }
 
 /*
@@ -157,27 +148,38 @@ nav a:hover {
  */
 #menu
 {
+  text-align:center;
+  filter: drop-shadow(-10px 1px 4px $bodyDark);
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  display:block;
+  width: 100vw;
+  margin: -100px 0 0 100px;
   padding: 50px;
   padding-top: 125px;
+  background:$bodyLight;
+  /*start location of menu*/
+  right:-50px;
   
-  background: #ededed;
+  
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+
+  /*move down*/
+  transform: translate(0, -100%);
   
+  /*easing*/
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 26px;
+  color:$white;
+  font-family:$textFont;
 }
 
 /*
@@ -187,6 +189,26 @@ nav a:hover {
 {
   transform: none;
 }
+
+.codePen{
+  font-family:$codePen;
+  font-size:65px;
+  position:absolute;
+  background:$yellow;
+  width:700px;
+  height:150px;
+  z-index:1;
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top:20px;
+  left:-190px;
+  border:5px solid white;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 @media screen and (min-device-width:768px) {
