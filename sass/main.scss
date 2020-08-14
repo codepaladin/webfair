@@ -5,13 +5,14 @@
 main {
    position:relative;
    background: $bodyMed;
-   height:80vh;
+   height:70vh;
    display:flex;
    align-items:center;
    text-align:center;
    justify-content:center;
    flex-wrap: nowrap;
    flex-direction:column;
+   z-index:0;
 }
 
 
@@ -114,7 +115,7 @@ h2::first-letter {
 
 @media screen and (min-device-width:768px) {
 	main{
-		
+		width:100%;
 	}
 
 	h1{
@@ -144,16 +145,16 @@ h2::first-letter {
 	}
 
 	.register{
-		height:4vh;
+		height:6vh;
 		border-radius: 5px;
-		width:18vw;
-		line-height: 4vh; /* question: best way to do this*/
+		
+		line-height: 6vh; /* question: best way to do this*/
 	}
 
 	.vote {
-		height:4vh;
+		height:6vh;
 		border-radius: 5px;
-		width:18vw;
-		line-height: 4vh; /* question: best way to do this*/
+		
+		line-height: 6vh; /* question: best way to do this*/
 	}
 }
