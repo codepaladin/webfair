@@ -272,13 +272,13 @@ main {
 h1 {
   color: #FFFFFF;
   font-family: "Smythe", cursive;
-  font-size: 214px;
+  font-size: 15vh;
   margin-bottom: 2vh; }
 
 h2 {
   color: #C7C9D3;
   font-family: "Cinzel", serif;
-  font-size: 50px;
+  font-size: 3vh;
   width: 90vw;
   line-height: 1.3;
   margin-bottom: 5vh; }
@@ -286,7 +286,7 @@ h2 {
 .eventDate {
   font-family: "Cinzel", serif;
   color: #FFDD40;
-  font-size: 40px;
+  font-size: 2vh;
   margin-top: 30px; }
 
 h2::first-letter {
@@ -305,26 +305,26 @@ h2::first-letter {
 .register {
   background: #47CF73;
   color: #131417;
-  height: 7vh;
+  height: 6vh;
   border-radius: 15px;
   text-align: center;
   width: 35vw;
   vertical-align: middle;
   margin-right: 15px;
-  line-height: 7vh;
+  line-height: 6vh;
   /* question: best way to do this*/
   margin-right: 5vw; }
 
 .vote {
   background: #2C2C2C;
   color: #FFFFFF;
-  height: 7vh;
+  height: 6vh;
   border-radius: 15px;
   text-align: center;
   width: 35vw;
   vertical-align: middle;
   margin-right: 15px;
-  line-height: 7vh;
+  line-height: 6vh;
   /* question: best way to do this*/ }
 
 .register:hover {
@@ -359,17 +359,39 @@ h2::first-letter {
     font-size: 16px;
     margin-bottom: 5vh; }
 
+  .eventDate {
+    font-size: 30px; }
+
   .register {
-    height: 6vh;
+    height: 50px;
     border-radius: 5px;
-    line-height: 6vh;
+    background-color: #0FBEFF;
+    line-height: 50px;
     /* question: best way to do this*/ }
 
   .vote {
-    height: 6vh;
+    height: 50px;
     border-radius: 5px;
-    line-height: 6vh;
-    /* question: best way to do this*/ } }
+    line-height: 50px;
+    /* question: best way to do this*/ }
+
+  /*iphones in landscape*/ }
+@media only screen and (min-device-width: 768px) and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .register {
+    height: 10vh;
+    border-radius: 5px;
+    line-height: 10vh;
+    /* question: best way to do this*/
+    background-color: #FFFFFF; }
+
+  .vote {
+    height: 10vh;
+    border-radius: 5px;
+    line-height: 10vh;
+    /* question: best way to do this*/ }
+
+  main {
+    height: 110vh; } }
 .break {
   display: none; }
 
