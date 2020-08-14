@@ -211,31 +211,34 @@ h2::first-letter {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
   	.register{
-		height:10vh;
+		height:11vh;
 		border-radius: 5px;
-		line-height: 10vh; /* question: best way to do this*/
+		line-height: 11vh; /* question: best way to do this*/
 		background-color:$white;
 	}
 
 	.vote{
-		height:10vh;
+		height:11vh;
 		border-radius: 5px;
-		line-height: 10vh; /* question: best way to do this*/
+		line-height: 11vh; /* question: best way to do this*/
 	}
 
 	main{
-		height:100vh;
+		height:115vh;
 	}
 
 	h1{
 		font-size:120px;
+		padding-bottom:10px;
 	}
 
 	h2{
 		font-size:30px;
+		padding-bottom:20px;
 	}
 
 	.eventDate{
+		padding-top:10px;
 		font-size:20px;
 	}
 }
