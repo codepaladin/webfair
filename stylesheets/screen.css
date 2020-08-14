@@ -208,7 +208,11 @@ nav a:hover {
     width: 350;
     height: 90px;
     top: 20px;
-    left: -220px; } }
+    left: -220px; }
+
+  #menuToggle {
+    top: 20px;
+    right: 20px; } }
 @media screen and (min-width: 1024px) {
   #menuToggle {
     display: block; } }
@@ -901,6 +905,13 @@ nav {
   height: 120px;
   background-color: #2C2F39; }
 
+/*iphone landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 824px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  nav {
+    height: 60px; } }
+@media only screen and (min-device-width: 300px) and (max-device-width: 824px) and (orientation: landscape) {
+  nav {
+    height: 60px; } }
 @media screen and (min-device-width: 768px) {
   nav {
     height: 60px; } }
