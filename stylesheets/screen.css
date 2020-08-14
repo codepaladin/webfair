@@ -859,6 +859,56 @@ h2::first-letter {
   font-size: 30px;
   padding-bottom: 20px; }
 
+@media screen and (min-device-width: 768px) {
+  #participate {
+    padding-left: 10vw;
+    padding-right: 10vw; }
+
+  .participateContainer {
+    padding-bottom: 20px; }
+
+  #participate .more {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background: #47CF73;
+    border: 1px solid #FFFFFF;
+    font-size: 14px; }
+
+  #participate .aboutActions {
+    font-size: 14px; }
+
+  .icon {
+    background: #131417;
+    border-radius: 15px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 50px; }
+
+  .icon img {
+    padding: 20px;
+    width: 100px; }
+
+  #participate .title {
+    margin-top: -20px;
+    padding-left: 50px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 25px; }
+
+  #participate p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    line-height: 0;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 0px; } }
 footer {
   border-top: 1px solid #2C2F39;
   padding-top: 50px;

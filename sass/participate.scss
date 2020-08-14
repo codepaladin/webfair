@@ -48,3 +48,67 @@
 	font-size:30px;
 	padding-bottom:20px;
 }
+
+@media screen and (min-device-width:768px)  {
+	#participate{
+		padding-left:10vw;
+		padding-right:10vw;
+	}
+
+	.participateContainer{
+		padding-bottom:20px;
+	}
+
+	#participate .more{
+		display:flex;
+		width:100px;
+		height:40px;
+		border-radius: 15px;
+		background:$green;
+		border:1px solid $white;
+	  	font-size:14px;
+	}
+
+	#participate .aboutActions{
+		font-size:14px;
+	}
+
+	.icon{
+	background:$bodyDark;
+	border-radius:15px;
+	width:100px;
+	position:relative;
+	top:-50px;
+	left:50px;
+}
+
+	.icon img{
+		padding:20px;
+		width:100px;
+	}
+
+	#participate .title{
+		margin-top:-20px;
+		padding-left:50px;
+		color:$white;
+		font-family:$textFont;
+		font-weight:700;
+		font-size:20px;
+		padding-bottom:25px;
+
+	}
+
+	#participate p{
+		padding-left:50px;
+		padding-right:50px;
+
+		color:$white;
+		font-family:$textFont;
+		line-height:0;
+		text-align:left;
+		font-size:14px;
+		padding-bottom:0px;
+	}
+
+
+}
