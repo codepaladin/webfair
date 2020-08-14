@@ -489,8 +489,8 @@ h2::first-letter {
   .portrait {
     position: relative;
     z-index: 1;
-    top: 9vh;
-    margin-top: -9vh;
+    top: 70px;
+    margin-top: -70px;
     left: -1vw; }
 
   .portrait img {
