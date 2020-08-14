@@ -310,7 +310,7 @@ h2::first-letter {
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 3.3vw;
   margin-bottom: 5vh; }
 
 .register {
@@ -524,7 +524,7 @@ h2::first-letter {
 
 .speechTitle {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.7em;
+  font-size: 2em;
   padding-top: 20px;
   color: #C7C9D3; }
 
@@ -542,7 +542,7 @@ h2::first-letter {
 
 .speaker .company {
   color: #FFFFFF;
-  font-size: 1.7em; }
+  font-size: 2em; }
 
 /*not on iphones*/
 @media screen and (min-device-width: 768px) {
@@ -832,14 +832,14 @@ h2::first-letter {
 .icon {
   background: #131417;
   border-radius: 15px;
-  width: 150px;
+  width: 120px;
   position: relative;
   top: -50px;
   left: 50px; }
 
 .icon img {
   padding: 20px;
-  width: 150px; }
+  width: 120px; }
 
 #participate .title {
   padding-left: 50px;
