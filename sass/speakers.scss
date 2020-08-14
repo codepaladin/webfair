@@ -5,6 +5,16 @@
 
 }
 
+.moreSpeakers{
+	display:flex;
+	color:$white;
+  	justify-content: flex-end;
+	font-family:$textFont;
+	padding-top:20px;
+	padding-right:20px;
+	font-size:2em;
+}
+
 .break {
 	display:none;
 }
@@ -78,7 +88,7 @@
 
 .speechTitle{
 	font-family:$textFont;
-	font-size:2em;
+	font-size:1.7em;
 	padding-top:20px;
 	color:$lightGrey;
 }
@@ -99,13 +109,32 @@
 
 .speaker .company {
 	color:$white;
-	font-size:2em;
+	font-size:1.7em;
 
 }
 
 
 /*not on iphones*/
 @media screen and (min-device-width:768px) {
+
+.moreSpeakers{
+	font-size:.8em;
+	justify-content: center;
+}
+
+.moreBtn{
+	background:$bodyDark;
+	border:1px solid white;
+	border-radius:15px;
+	color:$white;
+	height:40px;
+	border-radius: 15px;
+	text-align:center;
+	width:100px;
+	line-height: 40px; /* question: best way to do this*/
+	font-weight:700;
+}
+
 
 .speakerTitle{
 	font-family:$titleFont;
@@ -138,7 +167,6 @@
 .speechContainer{
 	display:flex;
 	padding-bottom:1.5em;
-	
 	flex-direction:column;
 	text-align:center;
 }
@@ -183,7 +211,7 @@
 
 .speechTitle{
 	font-family:$textFont;
-	font-size:1em;
+	font-size:.8em;
 	padding-top:10px;
 	color:$lightGrey;
 }
@@ -204,7 +232,7 @@
 
 	.speaker .company {
 		color:$white;
-		font-size:1em;
+		font-size:.8em;
 
 	}
 }

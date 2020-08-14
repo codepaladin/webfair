@@ -375,19 +375,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/sass/oldspeakers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sass/oldspeakers.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
 	"/sass/participate.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -436,19 +423,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/speakers.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/sass/speakersold.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sass/speakersold.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

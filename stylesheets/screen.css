@@ -451,6 +451,15 @@ h2::first-letter {
   .eventDate {
     padding-top: 10px;
     font-size: 20px; } }
+.moreSpeakers {
+  display: flex;
+  color: #FFFFFF;
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 2em; }
+
 .break {
   display: none; }
 
@@ -515,7 +524,7 @@ h2::first-letter {
 
 .speechTitle {
   font-family: "Open Sans", sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   padding-top: 20px;
   color: #C7C9D3; }
 
@@ -533,10 +542,27 @@ h2::first-letter {
 
 .speaker .company {
   color: #FFFFFF;
-  font-size: 2em; }
+  font-size: 1.7em; }
 
 /*not on iphones*/
 @media screen and (min-device-width: 768px) {
+  .moreSpeakers {
+    font-size: .8em;
+    justify-content: center; }
+
+  .moreBtn {
+    background: #131417;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+    line-height: 40px;
+    /* question: best way to do this*/
+    font-weight: 700; }
+
   .speakerTitle {
     font-family: "Cinzel", serif;
     color: #FFFFFF;
@@ -602,7 +628,7 @@ h2::first-letter {
 
   .speechTitle {
     font-family: "Open Sans", sans-serif;
-    font-size: 1em;
+    font-size: .8em;
     padding-top: 10px;
     color: #C7C9D3; }
 
@@ -620,7 +646,7 @@ h2::first-letter {
 
   .speaker .company {
     color: #FFFFFF;
-    font-size: 1em; } }
+    font-size: .8em; } }
 /*iphone only*/
 @media only screen and (min-device-width: 300px) and (max-device-width: 812px) {
   .speechContainer {
