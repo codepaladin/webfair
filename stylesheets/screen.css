@@ -467,14 +467,13 @@ h2::first-letter {
   display: flex;
   padding-bottom: 1em;
   flex-direction: column;
-  text-align: center;
-  padding-right: 2em; }
+  text-align: center; }
 
 .portrait {
   position: relative;
   z-index: 1;
-  top: 5vh;
-  margin-top: -5vh;
+  top: 150px;
+  margin-top: -150px;
   left: -1vw; }
 
 .portrait img {
@@ -488,8 +487,8 @@ h2::first-letter {
   border-radius: 15px;
   width: 65vw;
   padding: 30px;
-  padding-top: 5em;
-  padding-bottom: 7em;
+  padding-top: 8em;
+  padding-bottom: 6em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,6 +611,11 @@ h2::first-letter {
   .speaker .company {
     color: #FFFFFF;
     font-size: 1em; } }
+@media only screen and (min-device-width: 300px) and (max-device-width: 812px) and (orientation: landscape) {
+  .portrait img {
+    width: 10em;
+    border-radius: 50%;
+    border: 10px solid #2C2F39; } }
 #about {
   padding-top: 100px;
   display: flex;
