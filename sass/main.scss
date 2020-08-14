@@ -5,7 +5,7 @@
 main {
    position:relative;
    background: $bodyMed;
-   height:80vh;
+   height:70vh;
    display:flex;
    align-items:center;
    text-align:center;
@@ -113,21 +113,25 @@ h2::first-letter {
 
 /*old iphones in landscape*/
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+
   and (orientation: landscape) { 
   	.register{
 		height:10vh;
 		border-radius: 5px;
 		line-height: 10vh; /* question: best way to do this*/
-		
+		font-size:4vh;
+		width:25vw;
+		background:$white;
 	}
 
 	.vote{
 		height:10vh;
 		border-radius: 5px;
 		line-height: 10vh; /* question: best way to do this*/
+		font-size:4vh;
+		width:25vw;
 	}
 
 	main{
@@ -141,20 +145,25 @@ h2::first-letter {
 	h2{
 		font-size:3vw
 	}
+
+	.eventDate{
+		font-size:3.5vh;
+	}
 }
 
 
 @media screen and (min-device-width:768px)  {
 	main{
 		width:100%;
+		height:57vh;
 	}
 
 	h1{
-		font-size:160px;
+		font-size:130px;
 	}
 
 	h2{
-		font-size:40px;
+		font-size:30px;
 	}
 
 	.eventDate{
@@ -176,22 +185,22 @@ h2::first-letter {
 	}
 
 	.eventDate{
-		font-size:30px;
+		font-size:20px;
 	}
 
 	.register{
-		height:60px;
+		height:50px;
 		border-radius: 5px;
 		background-color:$blue;
-		line-height: 60px; /* question: best way to do this*/
+		line-height: 50px; /* question: best way to do this*/
 		width:170px
 	}
 
 	.vote {
-			height:60px;
+			height:50px;
 		border-radius: 5px;
 		
-		line-height: 60px; /* question: best way to do this*/
+		line-height: 50px; /* question: best way to do this*/
 		width:170px;
 	}
 
@@ -215,7 +224,19 @@ h2::first-letter {
 	}
 
 	main{
-		height:110vh;
+		height:100vh;
+	}
+
+	h1{
+		font-size:120px;
+	}
+
+	h2{
+		font-size:30px;
+	}
+
+	.eventDate{
+		font-size:20px;
 	}
 }
 
