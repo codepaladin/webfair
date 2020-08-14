@@ -98,13 +98,13 @@
 		},
 	"/images/dee.jpeg": {
 		"ft": 16384,
-		"iS": 42761,
+		"iS": 39973,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/dee.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/default.png": {

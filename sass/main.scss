@@ -114,7 +114,7 @@ h2::first-letter {
 /*old iphones in landscape*/
 @media only screen 
   and (min-device-width: 300px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 824px) 
 
   and (orientation: landscape) { 
   	.register{
@@ -135,18 +135,21 @@ h2::first-letter {
 	}
 
 	main{
-		height:90vh;
+		height:100vh;
 	}
 
 	h1{
 		font-size:15vw;
+		padding-bottom:10px;
 	}
 
 	h2{
-		font-size:3vw
+		font-size:3vw;
+		padding-bottom:20px;
 	}
 
 	.eventDate{
+		padding-top:20px;
 		font-size:3.5vh;
 	}
 }
@@ -207,7 +210,7 @@ h2::first-letter {
 /*iphonex in landscape*/
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 824px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
   	.register{

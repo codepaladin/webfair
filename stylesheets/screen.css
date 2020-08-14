@@ -341,7 +341,7 @@ h2::first-letter {
   background-color: #5A6074; }
 
 /*old iphones in landscape*/
-@media only screen and (min-device-width: 300px) and (max-device-width: 812px) and (orientation: landscape) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 824px) and (orientation: landscape) {
   .register {
     height: 10vh;
     border-radius: 5px;
@@ -360,15 +360,18 @@ h2::first-letter {
     width: 25vw; }
 
   main {
-    height: 90vh; }
+    height: 100vh; }
 
   h1 {
-    font-size: 15vw; }
+    font-size: 15vw;
+    padding-bottom: 10px; }
 
   h2 {
-    font-size: 3vw; }
+    font-size: 3vw;
+    padding-bottom: 20px; }
 
   .eventDate {
+    padding-top: 20px;
     font-size: 3.5vh; } }
 @media screen and (min-device-width: 768px) {
   main {
@@ -416,7 +419,7 @@ h2::first-letter {
     width: 170px; }
 
   /*iphonex in landscape*/ }
-@media only screen and (min-device-width: 768px) and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (min-device-width: 375px) and (max-device-width: 824px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
   .register {
     height: 11vh;
     border-radius: 5px;
