@@ -551,7 +551,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 
 */
 /*not on iphones*/
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 568px) {
   .moreSpeakers {
     font-size: .8em;
     justify-content: center; }
