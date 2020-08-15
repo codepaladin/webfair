@@ -478,11 +478,18 @@ h2::first-letter {
   font-family: "Cinzel Decorative", cursive;
   font-size: 1.3em; }
 
+/*horiznotal scrolling
+.speeches{
+	display:flex;
+	flex-wrap: nowrap;
+  	overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+}*/
 .speeches {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: center; }
 
 .speechContainer {
   display: flex;
@@ -497,15 +504,15 @@ h2::first-letter {
   margin-top: -150px; }
 
 .portrait img {
-  width: 15em;
+  width: 13em;
   border-radius: 50%;
-  border: 20px solid #47CF73; }
+  border: 10px solid #47CF73; }
 
 .speech {
   position: relative;
   background: #1E1F26;
   border-radius: 15px;
-  width: 65vw;
+  /*width:65vw;*/
   padding: 30px;
   padding-top: 8em;
   padding-bottom: 6em;
@@ -552,7 +559,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 
 */
 /*not on phones vertical*/
-@media screen and (min-width: 568px) {
+@media screen and (min-device-width: 568px) {
   .moreSpeakers {
     font-size: .8em;
     justify-content: center; }
@@ -653,11 +660,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
   .speaker .company {
     color: #FFFFFF;
     font-size: .8em; } }
-/*iphone only*/
-@media only screen and (min-device-width: 300px) and (max-device-width: 812px) {
-  .speechContainer {
-    padding-right: 20px; } }
-/*iphone landscape*/
+/*phones portrait*/
 #about {
   padding-top: 100px;
   display: flex;

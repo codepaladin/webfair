@@ -33,12 +33,18 @@
   font-family:$titleFontDecorative;
   font-size:1.3em;
 }
-
+/*horiznotal scrolling
 .speeches{
 	display:flex;
 	flex-wrap: nowrap;
   	overflow-x: auto;
    -webkit-overflow-scrolling: touch;
+}*/
+.speeches{
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows:auto;
+	justify-items:center;
 }
 
 .speechContainer{
@@ -57,16 +63,16 @@
 }
 
 .portrait img{
-    width:15em;
+    width:13em;
       border-radius: 50%;
-    border:20px solid $green;
+    border:10px solid $green;
   }
 
   .speech{
   	position:relative;
 	background:$bodyMed;
 	border-radius:15px;
-	width:65vw;
+	/*width:65vw;*/
 	padding:30px;
 	padding-top:8em;
 	padding-bottom:6em;
@@ -121,7 +127,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 */
 
 /*not on phones vertical*/
-@media screen and (min-width:568px) {
+@media screen and (min-device-width:568px) {
 
 .moreSpeakers{
 	font-size:.8em;
@@ -243,24 +249,13 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 	}
 }
 
-
-/*iphone only*/
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 812px) {
-
-  	.speechContainer{
-  		padding-right:20px;
-  	}
-  }
+/*phones portrait*/
 
 
-/*iphone landscape*/
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 812px) 
 
-  and (orientation: landscape) { 
+  and (orientation: portrait) { 
 	
-
-  }
+}
