@@ -123,7 +123,7 @@ h2::first-letter {
 		line-height: 10vh; /* question: best way to do this*/
 		font-size:4vh;
 		width:25vw;
-		background:$white;
+		background:$green;
 	}
 
 	.vote{
@@ -194,9 +194,10 @@ h2::first-letter {
 	.register{
 		height:50px;
 		border-radius: 5px;
-		background-color:$blue;
+		background-color:$yellow;
 		line-height: 50px; /* question: best way to do this*/
-		width:170px
+		width:170px;
+		font-size:16px;
 	}
 
 	.vote {
@@ -205,6 +206,7 @@ h2::first-letter {
 		
 		line-height: 50px; /* question: best way to do this*/
 		width:170px;
+		font-size:16px;
 	}
 
 /*iphonex in landscape*/
