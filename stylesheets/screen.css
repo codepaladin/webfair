@@ -547,7 +547,7 @@ h2::first-letter {
 /*CHRIS TODO Iphone x landscape the cards are too big and don't float. Need to either make them
 grid or continue to scroll horizontally. Ipad landscape is also busted
 
-add some stuff for stats, features, some fun pictures about Q&A, swag, etc. 
+add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 
 */
 /*not on iphones*/
@@ -608,7 +608,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
   .portrait img {
     width: 6em;
     border-radius: 50%;
-    border: 8px solid #2C2F39; }
+    border: 8px solid #0FBEFF; }
 
   .speech {
     position: relative;
@@ -657,6 +657,7 @@ add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
 @media only screen and (min-device-width: 300px) and (max-device-width: 812px) {
   .speechContainer {
     padding-right: 20px; } }
+/*iphone landscape*/
 #about {
   padding-top: 100px;
   display: flex;
