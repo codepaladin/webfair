@@ -802,6 +802,7 @@ i don't want phones portrait
   padding-bottom: 50px; }
 
 #participate p {
+  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
   color: #FFFFFF;
@@ -809,7 +810,7 @@ i don't want phones portrait
   line-height: 1.5;
   text-align: left;
   font-size: 30px;
-  padding-bottom: 20px; }
+  padding-bottom: 60px; }
 
 @media screen and (min-device-width: 768px) {
   #participate {
