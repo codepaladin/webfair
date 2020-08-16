@@ -794,12 +794,12 @@ i don't want phones portrait
   padding-bottom: 50px; }
 
 .statTitle {
-  font-family: titleFont;
+  font-family: "Cinzel", serif;
   font-size: 140px;
   color: #FFDD40; }
 
 .statText {
-  font-family: textFont;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   color: #FFFFFF; }
 

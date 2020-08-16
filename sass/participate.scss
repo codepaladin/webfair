@@ -29,13 +29,13 @@
 }
 
 .statTitle{
-	font-family:titleFont;
+	font-family:$titleFont;
 	font-size:140px;
 	color:$yellow;
 }
 
 .statText{
-	font-family:textFont;
+	font-family:$textFont;
 	font-size:30px;
 	color:$white;
 }
