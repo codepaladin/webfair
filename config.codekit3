@@ -246,6 +246,105 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/sponsors/falconio.png": {
+		"ft": 32768,
+		"iS": 5006,
+		"oA": 0,
+		"oAP": "/images/sponsors/falconio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/grey-white.png": {
+		"ft": 32768,
+		"iS": 4211,
+		"oA": 0,
+		"oAP": "/images/sponsors/grey-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/hootsuite.png": {
+		"ft": 32768,
+		"iS": 5981,
+		"oA": 0,
+		"oAP": "/images/sponsors/hootsuite.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/khoros-white.png": {
+		"ft": 32768,
+		"iS": 7266,
+		"oA": 0,
+		"oAP": "/images/sponsors/khoros-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/netbase.png": {
+		"ft": 32768,
+		"iS": 7970,
+		"oA": 0,
+		"oAP": "/images/sponsors/netbase.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/social-chain.png": {
+		"ft": 32768,
+		"iS": 5033,
+		"oA": 0,
+		"oAP": "/images/sponsors/social-chain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/talkwalker-white.png": {
+		"ft": 32768,
+		"iS": 6294,
+		"oA": 0,
+		"oAP": "/images/sponsors/talkwalker-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/viacom-white.png": {
+		"ft": 32768,
+		"iS": 5934,
+		"oA": 0,
+		"oAP": "/images/sponsors/viacom-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sponsors/vimeocreate.png": {
+		"ft": 32768,
+		"iS": 6725,
+		"oA": 0,
+		"oAP": "/images/sponsors/vimeocreate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/Subtle-Prism.svg": {
 		"ft": 2097152,
 		"miP": 0,
