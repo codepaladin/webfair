@@ -5,13 +5,38 @@
 	margin-top:50px;
 	margin-left:20px;
 	margin-right:20px;
+	display:flex;
+	flex-direction:column;
 }
 
 
+.quickStatsContainer{
+	display:flex;
+	background-color:$bodyLight;
+	border-radius:15px;
+	flex-wrap:wrap;
+}
+
+.stat{
+	background-color:$bodyDark;
+	border:1px solid $white;
+	width:45vw;
+}
+
+.statTitle{
+	font-family:titleFont;
+	font-size:140px;
+	color:$yellow;
+}
+
+.statText{
+	font-family:textFont;
+	font-size:20px;
+	color:$white;
+}
+
 .participateContainer{
-	border-top:1px solid $midGrey;
-	border-bottom:1px solid $midGrey;
-	background:$bodyLight;
+	background:$bodyDark;
 	border-radius:15px;
 	padding-bottom:75px;
 	padding-top:50px;
