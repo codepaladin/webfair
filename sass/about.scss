@@ -1,16 +1,14 @@
 @import "variables";
 
-#about{
+#about {
 	padding-top:100px;
  	display:flex;
  	align-items: center;
   	justify-content: center;
   	background:$bodyDark;
-  	
-
 }
 
-.aboutContainer{
+.aboutContainer {
 	background:$bodyMed;
 	width:100%;
 	display:flex;
@@ -19,7 +17,7 @@
   	padding-bottom:50px;
 }
 
-.aboutContainer p{
+.aboutContainer p {
 
 	padding-left:50px;
 	padding-right:50px;
@@ -31,15 +29,6 @@
 	text-align:left;
 }
 
-.aboutContainer .title{
-	font-family:$textFont;
-	color:$white;
-padding-left:50px;
-	padding-bottom:45px;
-	font-weight:700;
-	font-size:40px;
-}
-
 
 .aboutActions {
 	padding-top:40px;
@@ -49,7 +38,7 @@ padding-left:50px;
   	justify-content: center;
 }
 
-.more{
+.more {
 	padding:10px;
 	display:flex;
 	width:250px;
@@ -65,7 +54,7 @@ padding-left:50px;
   	font-weight:700;
 }
 
-.more:hover{ 
+.more:hover { 
   background-color: $white;
   color:$bodyDark;
 }

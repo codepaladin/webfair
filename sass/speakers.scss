@@ -5,7 +5,7 @@
 
 }
 
-.moreSpeakers{
+.moreSpeakers {
 	display:flex;
 	color:$white;
   	justify-content: flex-end;
@@ -19,21 +19,6 @@
 	display:none;
 }
 
-.speakerTitle{
-	font-family:$titleFont;
-	color:$white;
-	padding-top:45px;
-	padding-bottom:45px;
-	font-weight:700;
-	font-size:3em;
-	text-align:left;
-	padding-left: 20px;
-}
-
-.speakerTitle::first-letter { 
-  font-family:$titleFontDecorative;
-  font-size:1.3em;
-}
 /*horiznotal scrolling
 .speeches{
 	display:flex;
@@ -41,14 +26,14 @@
   	overflow-x: auto;
    -webkit-overflow-scrolling: touch;
 }*/
-.speeches{
+.speeches {
 	display:grid;
 	grid-template-columns:repeat(2, 1fr);
 	grid-template-rows:auto;
 	justify-items:center;
 }
 
-.speechContainer{
+.speechContainer {
 	display:flex;
 	padding-bottom:1em;
 	flex-direction:column;
@@ -57,26 +42,23 @@
 	padding-bottom:50px;
 }
 
-.portrait{
+.portrait {
 	position:relative;
 	z-index:1;
 	top:150px;
 	margin-top:-150px;
-	
 }
 
-.portrait img{
+.portrait img {
     width:13em;
-      border-radius: 50%;
+     border-radius: 50%;
     border:10px solid $green;
   }
 
-  .speech{
-
+  .speech {
   	position:relative;
 	background:$bodyMed;
 	border-radius:15px;
-	/*width:65vw;*/
 	width:48vw;
 	padding:30px;
 	padding-top:8em;
@@ -93,14 +75,11 @@
 	height: 100%;
 }
 
-.speaker{
+.speaker {
 	padding-top:2em;
-	font-family:$textFont;
 }
 
-.speechTitle{
-	font-family:$textFont;
-	font-size:2em;
+.speechTitle {
 	padding-top:20px;
 	color:$lightGrey;
 }
@@ -109,10 +88,7 @@
 	padding-top:25px;
 	padding-bottom:20px;
 	display:block;
-	font-size:2.5em;
 	color:$white;
-	font-weight:700;
-	font-family:$titleFont;
 }
 
 .speaker .name::first-letter { 
@@ -121,8 +97,6 @@
 
 .speaker .company {
 	color:$white;
-	font-size:2em;
-
 }
 
 /*
@@ -134,12 +108,12 @@ i don't want phones portrait
 @media screen and (min-width:700px)
 and (orientation: landscape) {
 
-.moreSpeakers{
+.moreSpeakers {
 	font-size:.8em;
 	justify-content: center;
 }
 
-.moreBtn{
+.moreBtn {
 	background:$bodyDark;
 	border:1px solid white;
 	border-radius:15px;
@@ -153,7 +127,7 @@ and (orientation: landscape) {
 }
 
 
-.speakerTitle{
+.speakerTitle {
 	font-family:$titleFont;
 	color:$white;
 	padding-top:45px;
@@ -167,41 +141,41 @@ and (orientation: landscape) {
   font-size:1.3em;
 }
 
-.speakContainer{
+.speakContainer {
 	display:none;
 	padding-right:15px;
 }
 
 
-.speeches{
+.speeches {
 	display:grid;
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows:auto;
 	justify-items:center;
 }
 
-.speechContainer{
+.speechContainer {
 	display:flex;
 	padding-bottom:1.5em;
 	flex-direction:column;
 	text-align:center;
 }
 
-.portrait{
+.portrait {
 	position:relative;
 	z-index:1;
 	top:70px;
 	margin-top:-70px;
 	
 }
-
-.portrait img{
+ 
+.portrait img {
     width:6em;
       border-radius: 50%;
     border:8px solid $blue;
   }
 
-  .speech{
+  .speech {
   	position:relative;
 	background:$bodyMed;
 	border-radius:15px;
@@ -220,12 +194,12 @@ and (orientation: landscape) {
 	borderackground-size: cover;	
 }
 
-.speaker{
+.speaker {
 	padding-top:0em;
 	font-family:$textFont;
 }
 
-.speechTitle{
+.speechTitle {
 	font-family:$textFont;
 	font-size:.8em;
 	padding-top:10px;

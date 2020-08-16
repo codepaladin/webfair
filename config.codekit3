@@ -422,6 +422,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/globals.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/globals.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/ie.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -448,6 +461,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/nav.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -457,19 +483,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/nav.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/sass/navold.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sass/navold.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -592,6 +605,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/stylesheets/globals-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/globals-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/globals.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/globals-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/stylesheets/ie.css": {
 		"aP": 1,
 		"bl": 0,
@@ -599,6 +632,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/ie-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/mixins-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/mixins-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/mixins.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/mixins-min.css",
 		"oF": 0,
 		"oS": 3
 		},

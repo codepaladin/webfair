@@ -1,7 +1,7 @@
 @import "variables";
 
 
-footer{
+footer {
 	border-top:5px solid $bodyLight;
 	margin-top:150px;
 	padding-top:50px;
@@ -11,10 +11,9 @@ footer{
 	grid-template-rows:auto;
 	align-items:center;
 	background:$bodyMed;
-
 }
 
-.footerTitle{
+.footerTitle {
 	padding:50px;
 
 	text-align:center;
@@ -23,7 +22,7 @@ footer{
 	font-size:70px;
 }
 
-.footerLinks{
+.footerLinks {
 	padding-top:20px;
 	font-family:$textFont;
 	font-size:28px;
@@ -34,17 +33,17 @@ footer{
 	align-items:center;
 	justify-content: center;
 	gap:10px;
-padding-bottom:50px;
+	padding-bottom:50px;
 }
 
-.footerLinks a{
+.footerLinks a {
 	padding:15px;
 	display:grid;
 	align-items:center;
 	justify-content: center;
 }
 
-.footerSocial{
+.footerSocial {
 	display:flex;
 	 align-items: center;
     justify-content: center;
@@ -55,12 +54,12 @@ padding-bottom:50px;
 	color:white;
 }
 
-.footerSocial img{
+.footerSocial img {
 	width:70px;
 	padding-right:30px;
 }
 
-.copyright{
+.copyright {
 	padding-top:50px;
 	text-align:center;
 	color:$white;
