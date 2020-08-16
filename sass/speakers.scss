@@ -124,15 +124,14 @@
 
 }
 
-/*CHRIS TODO Iphone x landscape the cards are too big and don't float. Need to either make them
-grid or continue to scroll horizontally. Ipad landscape is also busted
-
-add some stuff for stats, features, some fun pictures about Q&A, swag, etc.
-
+/*
+I want everything that is a tablet or laptop or phone landscape
+i don't want phones portrait
 */
 
 /*not on phones vertical*/
-@media screen and (min-device-width:568px) {
+@media screen and (min-width:700px)
+and (orientation: landscape) {
 
 .moreSpeakers{
 	font-size:.8em;
