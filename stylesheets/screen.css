@@ -742,7 +742,9 @@ i don't want phones portrait
   color: #FFFFFF;
   padding-top: 85px;
   font-weight: 700;
-  font-size: 50px; }
+  font-size: 50px;
+  align-self: start;
+  padding-left: 25px; }
 
 .sponsorContainer .title::first-letter {
   font-family: "Cinzel Decorative", cursive; }
@@ -893,7 +895,8 @@ i don't want phones portrait
     font-size: 14px;
     padding-bottom: 0px; } }
 footer {
-  border-top: 1px solid #2C2F39;
+  border-top: 5px solid #2C2F39;
+  margin-top: 150px;
   padding-top: 50px;
   padding-bottom: 100px;
   display: grid;

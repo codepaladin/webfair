@@ -7,6 +7,7 @@
   	text-align:center;
   	flex-direction:column;
   	margin-bottom:50px;
+
 }
 
 .sponsorContainer .title{
@@ -15,6 +16,9 @@
 	padding-top:85px;
 	font-weight:700;
 	font-size:50px;
+	align-self: start;
+	padding-left:25px;
+
 }
 
 .sponsorContainer .title::first-letter { 
