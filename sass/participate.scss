@@ -12,15 +12,17 @@
 
 .quickStatsContainer{
 	display:flex;
-	background-color:$bodyLight;
+	background-color:$bodyMed;
 	border-radius:15px;
 	flex-wrap:wrap;
+	text-align:center;
+	padding-top:50px;
+
 }
 
 .stat{
-	background-color:$bodyDark;
-	border:1px solid $white;
-	width:45vw;
+	width:47vw;
+	padding-bottom:50px;
 }
 
 .statTitle{

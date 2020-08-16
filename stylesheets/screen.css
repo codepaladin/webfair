@@ -780,14 +780,15 @@ i don't want phones portrait
 
 .quickStatsContainer {
   display: flex;
-  background-color: #2C2F39;
+  background-color: #1E1F26;
   border-radius: 15px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 50px; }
 
 .stat {
-  background-color: #131417;
-  border: 1px solid #FFFFFF;
-  width: 45vw; }
+  width: 47vw;
+  padding-bottom: 50px; }
 
 .statTitle {
   font-family: titleFont;
