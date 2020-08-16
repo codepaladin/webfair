@@ -472,7 +472,8 @@ h2::first-letter {
   padding-bottom: 45px;
   font-weight: 700;
   font-size: 3em;
-  text-align: center; }
+  text-align: left;
+  padding-left: 20px; }
 
 .speakerTitle::first-letter {
   font-family: "Cinzel Decorative", cursive;
@@ -585,8 +586,7 @@ i don't want phones portrait
     padding-top: 45px;
     padding-bottom: 45px;
     font-weight: 700;
-    font-size: 1.7em;
-    text-align: center; }
+    font-size: 1.7em; }
 
   .speakerTitle::first-letter {
     font-family: "Cinzel Decorative", cursive;

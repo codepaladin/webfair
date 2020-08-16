@@ -26,7 +26,8 @@
 	padding-bottom:45px;
 	font-weight:700;
 	font-size:3em;
-	text-align:center;
+	text-align:left;
+	padding-left: 20px;
 }
 
 .speakerTitle::first-letter { 
@@ -159,7 +160,6 @@ and (orientation: landscape) {
 	padding-bottom:45px;
 	font-weight:700;
 	font-size:1.7em;
-	text-align:center;
 }
 
 .speakerTitle::first-letter { 
