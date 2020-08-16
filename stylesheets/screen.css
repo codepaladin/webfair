@@ -772,14 +772,17 @@ i don't want phones portrait
   height: 150px; }
 
 #participate {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .participateContainer {
   border-top: 1px solid #454857;
   border-bottom: 1px solid #454857;
   background: #2C2F39;
   border-radius: 15px;
-  padding-bottom: 75px; }
+  padding-bottom: 75px;
+  padding-top: 50px; }
 
 .icon {
   background: #131417;
