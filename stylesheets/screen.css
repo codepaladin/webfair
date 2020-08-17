@@ -510,6 +510,9 @@ h2::first-letter {
   color: #FFFFFF; }
 
 @media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
+  #speakers {
+    padding-top: 25px; }
+
   .moreSpeakers {
     font-size: .8em;
     justify-content: center; }
@@ -554,7 +557,8 @@ h2::first-letter {
     display: flex;
     padding-bottom: 1.5em;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    padding-top: 0; }
 
   .portrait {
     position: relative;
