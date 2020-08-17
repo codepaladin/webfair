@@ -2,6 +2,10 @@
 	padding-left:50px;
 }
 
+@mixin leftBodyPaddingLandscape{
+	padding-left:30px;
+}
+
 @mixin breakpoint($breakpoint){
 	@media screen and (min-width:700px)
 	and (orientation: landscape) {

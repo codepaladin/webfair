@@ -107,7 +107,7 @@ b {
 	}
 
 	.largeTitle {
-		@include leftBodyPadding;
+		@include leftBodyPaddingLandscape;
 		font-family:$titleFont;
 		color:$white;
 		padding-top:45px;
@@ -146,8 +146,8 @@ b {
 		font-family:$textFont;
 		line-height:1.5;
 		text-align:left;
-		font-size:30px;
-		padding-bottom:60px;
+		font-size:18px;
+		padding-bottom:30px;
 	}
 
 
