@@ -21,17 +21,31 @@
 .sponsors img {
 	max-width:40vw;
 	max-height:7vh;
-
-}
-
-@media all and (min-width: 1024px) {
-	.sponsors{
-		grid-template-columns:repeat(3, 1fr);
-	}
 }
 
 .sponsor{
 	padding:50px;
 	height:150px;
+}
+
+@media screen and 
+	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+	(orientation:landscape)
+{
+	.sponsors img {
+		max-height:5vw;
+
+	}
+
+	.sponsor{
+		
+		padding:15px;
+		padding-top:50px;
+		height:150px;
+	}
 	
+	.sponsors {
+		grid-gap:0px;
+		grid-template-columns:repeat(4, 1fr);
+	}
 }

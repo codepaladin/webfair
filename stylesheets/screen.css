@@ -690,13 +690,22 @@ h2::first-letter {
   max-width: 40vw;
   max-height: 7vh; }
 
-@media all and (min-width: 1024px) {
-  .sponsors {
-    grid-template-columns: repeat(3, 1fr); } }
 .sponsor {
   padding: 50px;
   height: 150px; }
 
+@media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
+  .sponsors img {
+    max-height: 5vw; }
+
+  .sponsor {
+    padding: 15px;
+    padding-top: 50px;
+    height: 150px; }
+
+  .sponsors {
+    grid-gap: 0px;
+    grid-template-columns: repeat(4, 1fr); } }
 #participate {
   margin-top: 50px;
   margin-left: 20px;
@@ -894,10 +903,10 @@ b {
 
   .bodyButton {
     padding: 10px;
-    width: 150px;
-    height: 40px;
+    height: 30px;
     border-radius: 5px;
-    font-size: 16px; }
+    font-size: 14px;
+    width: auto; }
 
   .largeTitle {
     padding-left: 30px;
@@ -930,7 +939,7 @@ b {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 30px; } }
 body {
   background: #131417;

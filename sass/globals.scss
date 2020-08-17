@@ -90,11 +90,10 @@ b {
 
 	.bodyButton {
 		padding:10px;
-		width:150px;
-		height:40px;
+		height:30px;
 		border-radius: 5px;
-	  	font-size:16px;
-	  	
+	  	font-size:14px;
+	  	width:auto;
 	}
 
 	.largeTitle {
@@ -137,7 +136,7 @@ b {
 		font-family:$textFont;
 		line-height:1.5;
 		text-align:left;
-		font-size:16px;
+		font-size:14px;
 		padding-bottom:30px;
 	}
 
