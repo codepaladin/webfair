@@ -91,8 +91,7 @@ b {
 		border-radius: 5px;
 	  	font-size:14px;
 	  	width:auto;
-	  	font-family:$titleFont;
-	  	background:$blue;
+	  	font-family:$textFont;
 	}
 
 	.largeTitle {
@@ -138,6 +137,15 @@ b {
 		font-size:16px;
 		padding-bottom:30px;
 	}
+
+	@media only screen 
+  		and (min-device-width: 375px) 
+  		and (max-device-width: 812px) 
+ 		and (orientation: landscape) { 
+  	p{
+  		font-size:14px;
+  	}
+  }
 
 
 }
