@@ -20,6 +20,7 @@
 	background-attachment: fixed;
 	border-background-size: cover;	
 	padding-bottom:30px;
+	padding-top:30px;
 }
 
 .stat {
@@ -30,12 +31,14 @@
 	font-family:$titleFont;
 	font-size:120px;
 	color:$yellow;
+	padding-bottom:20px;
 }
 
 .statText{
 	font-family:$textFont;
 	font-size:35px;
 	color:$white;
+	padding-bottom:100px;
 }
 
 .participateContainer{
@@ -56,6 +59,7 @@
 		margin-right:20px;
 		display:grid;
 		grid-template-columns:repeat(2, 1fr);
+		padding:0;
 	}
 
 	.stat {
@@ -68,6 +72,7 @@
 		font-size:40px;
 		font-weight:700;
 		color:$yellow;
+		padding:0;
 	}
 
 	.statText{
@@ -75,6 +80,7 @@
 		font-family:$textFont;
 		font-size:16px;
 		color:$white;
+		padding:0;
 	}
 
 	.participateContainer{
