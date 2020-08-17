@@ -20,7 +20,8 @@
 	align-items: center;
   	justify-content: center;
   	color:$bodyDark;
-  	font-family: $textFont;
+  	font-family:$textFont;
+	line-height:1.5;
   	font-size:40px;
  	font-weight:700;
  }
@@ -90,6 +91,8 @@ b {
 		border-radius: 5px;
 	  	font-size:14px;
 	  	width:auto;
+	  	font-family:$titleFont;
+	  	background:$blue;
 	}
 
 	.largeTitle {
@@ -132,7 +135,7 @@ b {
 		font-family:$textFont;
 		line-height:1.5;
 		text-align:left;
-		font-size:14px;
+		font-size:16px;
 		padding-bottom:30px;
 	}
 
