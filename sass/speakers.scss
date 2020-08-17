@@ -99,12 +99,7 @@
 	color:$white;
 }
 
-/*
-I want everything that is a tablet or laptop or phone landscape
-i don't want phones portrait
-*/
 
-/*not on phones vertical*/
 @media screen and (min-width:700px)
 and (orientation: landscape) {
 
@@ -225,15 +220,4 @@ and (orientation: landscape) {
 		font-size:.8em;
 
 	}
-}
-
-/*phones portrait*/
-
-
-@media only screen 
-  and (min-device-width: 300px) 
-  and (max-device-width: 812px) 
-
-  and (orientation: portrait) { 
-	
 }

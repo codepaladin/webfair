@@ -115,7 +115,6 @@ h2::first-letter {
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 824px) 
-
   and (orientation: landscape) { 
   	.register{
 		height:10vh;
@@ -155,7 +154,11 @@ h2::first-letter {
 }
 
 
-@media screen and (min-device-width:768px)  {
+@media screen and 
+	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+	(min-device-width:900px) and (orientation:landscape)/*allow ipads but not landscape iphones*/
+
+{
 	main{
 		width:100%;
 		height:60vh;
@@ -210,44 +213,7 @@ h2::first-letter {
 		font-size:16px;
 	}
 
-/*iphonex in landscape*/
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 824px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-  	.register{
-		height:11vh;
-		border-radius: 5px;
-		line-height: 11vh; /* question: best way to do this*/
-		background-color:$white;
-	}
 
-	.vote{
-		height:11vh;
-		border-radius: 5px;
-		line-height: 11vh; /* question: best way to do this*/
-	}
-
-	main{
-		height:115vh;
-	}
-
-	h1{
-		font-size:120px;
-		padding-bottom:10px;
-	}
-
-	h2{
-		font-size:30px;
-		padding-bottom:20px;
-	}
-
-	.eventDate{
-		padding-top:10px;
-		font-size:20px;
-	}
-}
 
 
 }

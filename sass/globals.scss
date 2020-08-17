@@ -72,3 +72,83 @@ p {
 a {
 
 }
+
+b {
+	font-weight:700;
+}
+
+
+@media screen and 
+	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+	(orientation:landscape)
+{
+	.bodyButtonContainer {
+		padding-top:40px;
+		width:100%;
+		display:flex;
+		align-items: center;
+	  	justify-content: center;
+	}
+
+	.bodyButton {
+		padding:10px;
+		display:flex;
+		width:250px;
+		height:90px;
+		border-radius: 15px;
+		background:$green;
+		border:1px solid $white;
+		align-items: center;
+	  	justify-content: center;
+	  	color:$bodyDark;
+	  	font-family: $textFont;
+	  	font-size:30px;
+	  	font-weight:700;
+	}
+
+	.largeTitle {
+		@include leftBodyPadding;
+		font-family:$titleFont;
+		color:$white;
+		padding-top:45px;
+		padding-bottom:45px;
+		font-weight:700;
+		font-size:24px;
+		text-align:left;
+	}
+
+	.largeTitle::first-letter { 
+	  font-family:$titleFontDecorative;
+	  font-size:1.3em;
+	}
+
+	.smallTitle {
+		font-size:1.7em;
+		color:$white;
+		font-weight:700;
+		font-family:$titleFont;
+	}
+
+	.largeText {
+
+	}
+
+	.smallText{
+		font-family:$textFont;
+		font-size:2em;
+	}
+
+	p {
+		text-align:center;
+		@include leftBodyPadding;
+		padding-right:50px;
+		color:$white;
+		font-family:$textFont;
+		line-height:1.5;
+		text-align:left;
+		font-size:30px;
+		padding-bottom:60px;
+	}
+
+
+}
