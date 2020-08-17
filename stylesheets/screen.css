@@ -941,7 +941,14 @@ b {
     padding-bottom: 30px; } }
 @media only screen and (min-device-width: 451px) and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape), only screen and (orientation: landscape) and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
   p {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .bodyButton {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: auto;
+    font-family: "Open Sans", sans-serif; } }
 body {
   background: #131417;
   overflow-x: hidden; }
