@@ -708,6 +708,9 @@ h2::first-letter {
   border-background-size: cover;
   padding-top: 100px; }
 
+.space {
+  margin-top: 10px; }
+
 .statTitle {
   font-family: "Cinzel", serif;
   font-size: 120px;
@@ -841,7 +844,6 @@ footer {
   font-family: "Cinzel", serif;
   color: #FFFFFF;
   padding-top: 45px;
-  padding-bottom: 45px;
   font-weight: 700;
   font-size: 3em;
   text-align: left; }
@@ -901,8 +903,7 @@ b {
     padding-left: 30px;
     font-family: "Cinzel", serif;
     color: #FFFFFF;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
     text-align: left; }
