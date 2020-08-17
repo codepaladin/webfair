@@ -22,7 +22,7 @@
   	color:$bodyDark;
   	font-family:$textFont;
 	line-height:1.5;
-  	font-size:40px;
+  	font-size:30px;
  	font-weight:700;
  }
 
@@ -143,18 +143,18 @@ b {
   		and (max-device-width: 812px) 
  		and (orientation: landscape) { 
 
-  	p {
-  		font-size:14px;
-  	}
+	  	p {
+	  		font-size:14px;
+	  	}
 
-	.bodyButton {
-		height:30px;
-		border-radius: 5px;
-	  	font-size:14px;
-	  	width:auto;
-	  	font-family:$textFont;
-	}
-  }
+		.bodyButton {
+			height:30px;
+			border-radius: 5px;
+		  	font-size:14px;
+		  	width:auto;
+		  	font-family:$textFont;
+		}
+	  }
 
 
 }
