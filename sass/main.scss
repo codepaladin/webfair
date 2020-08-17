@@ -155,9 +155,9 @@ h2::first-letter {
 
 
 @media screen and 
-	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
-	(min-device-width:900px) and (orientation:landscape)/*allow ipads but not landscape iphones*/
-
+	/*(min-device-width:451px) and (orientation:portrait),phones -- not a portrait device greater than 400px*/
+	(min-device-width:1024px) and (orientation:landscape),/*allow ipads but not landscape iphones*/
+	(min-device-width:768px) and (orientation:portrait)
 {
 	main{
 		width:100%;
