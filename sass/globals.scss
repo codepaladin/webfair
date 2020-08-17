@@ -32,7 +32,7 @@
 	color:$white;
 	padding-top:45px;
 	font-weight:700;
-	font-size:3em;
+	font-size:1.3em;
 	text-align:left;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .smallTitle {
-	font-size:2.5em;
+	font-size:1em;
 	color:$white;
 	font-weight:700;
 	font-family:$titleFont;
@@ -54,19 +54,18 @@
 
 .smallText{
 	font-family:$textFont;
-	font-size:2em;
+	font-size:.8em;
 }
 
 p {
 	text-align:center;
 	@include leftBodyPadding;
-	padding-right:50px;
 	color:$white;
 	font-family:$textFont;
 	line-height:1.5;
 	text-align:left;
-	font-size:30px;
-	padding-bottom:60px;
+	font-size:16px;
+	padding-bottom:20px;
 }
 
 a {

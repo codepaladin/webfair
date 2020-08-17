@@ -153,7 +153,7 @@ h2::first-letter {
 	}
 }
 
-
+/*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
 @media screen and 
 	/*(min-device-width:451px) and (orientation:portrait),phones -- not a portrait device greater than 400px*/
 	(min-device-width:1024px) and (orientation:landscape),/*allow ipads but not landscape iphones*/
