@@ -7,6 +7,8 @@
 	display:flex;
 	align-items: center;
   	justify-content: center;
+  	font-weight:700;
+
 }
 
 .bodyButton {
@@ -22,8 +24,7 @@
   	color:$bodyDark;
   	font-family: $textFont;
   	font-size:30px;
-  	font-weight:700;
-}
+  	}
 
 .largeTitle {
 	@include leftBodyPadding;
@@ -82,8 +83,7 @@ b {
 	(orientation:landscape)
 {
 	.bodyButtonContainer {
-		padding-top:40px;
-		width:100%;
+		padding-top:20px;
 		display:flex;
 		align-items: center;
 	  	justify-content: center;
@@ -91,18 +91,11 @@ b {
 
 	.bodyButton {
 		padding:10px;
-		display:flex;
-		width:250px;
-		height:90px;
-		border-radius: 15px;
-		background:$green;
-		border:1px solid $white;
-		align-items: center;
-	  	justify-content: center;
-	  	color:$bodyDark;
-	  	font-family: $textFont;
-	  	font-size:30px;
-	  	font-weight:700;
+		width:150px;
+		height:50px;
+		border-radius: 5px;
+	  	font-size:18px;
+	  	
 	}
 
 	.largeTitle {

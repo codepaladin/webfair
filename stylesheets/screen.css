@@ -825,7 +825,8 @@ footer {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  font-weight: 700; }
 
 .bodyButton {
   padding: 10px;
@@ -839,8 +840,7 @@ footer {
   justify-content: center;
   color: #131417;
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  font-weight: 700; }
+  font-size: 30px; }
 
 .largeTitle {
   padding-left: 50px;
@@ -881,26 +881,17 @@ b {
 
 @media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
   .bodyButtonContainer {
-    padding-top: 40px;
-    width: 100%;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center; }
 
   .bodyButton {
     padding: 10px;
-    display: flex;
-    width: 250px;
-    height: 90px;
-    border-radius: 15px;
-    background: #47CF73;
-    border: 1px solid #FFFFFF;
-    align-items: center;
-    justify-content: center;
-    color: #131417;
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    font-weight: 700; }
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px; }
 
   .largeTitle {
     padding-left: 30px;
