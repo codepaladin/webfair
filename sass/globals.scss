@@ -18,7 +18,6 @@
 	height:90px;
 	border-radius: 15px;
 	background:$green;
-	border:1px solid $white;
 	align-items: center;
   	justify-content: center;
   	color:$bodyDark;
@@ -92,9 +91,9 @@ b {
 	.bodyButton {
 		padding:10px;
 		width:150px;
-		height:50px;
+		height:40px;
 		border-radius: 5px;
-	  	font-size:18px;
+	  	font-size:16px;
 	  	
 	}
 
@@ -127,7 +126,7 @@ b {
 
 	.smallText{
 		font-family:$textFont;
-		font-size:2em;
+		font-size:16px;
 	}
 
 	p {
@@ -138,7 +137,7 @@ b {
 		font-family:$textFont;
 		line-height:1.5;
 		text-align:left;
-		font-size:18px;
+		font-size:16px;
 		padding-bottom:30px;
 	}
 

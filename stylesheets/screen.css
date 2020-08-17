@@ -423,6 +423,9 @@ h2::first-letter {
     /* question: best way to do this*/
     width: 170px;
     font-size: 16px; } }
+#speakers {
+  padding-top: 50px; }
+
 .moreSpeakers {
   display: flex;
   color: #FFFFFF;
@@ -454,7 +457,8 @@ h2::first-letter {
   flex-direction: column;
   text-align: center;
   min-height: 0;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  padding-top: 25px; }
 
 .portrait {
   position: relative;
@@ -505,7 +509,7 @@ h2::first-letter {
 .speaker .company {
   color: #FFFFFF; }
 
-@media screen and (min-width: 700px) and (orientation: landscape) {
+@media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
   .moreSpeakers {
     font-size: .8em;
     justify-content: center; }
@@ -543,7 +547,8 @@ h2::first-letter {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    justify-items: center; }
+    justify-items: center;
+    padding-top: 10px; }
 
   .speechContainer {
     display: flex;
@@ -560,7 +565,7 @@ h2::first-letter {
   .portrait img {
     width: 6em;
     border-radius: 50%;
-    border: 8px solid #0FBEFF; }
+    border: 8px solid #454857; }
 
   .speech {
     position: relative;
@@ -571,8 +576,6 @@ h2::first-letter {
     padding-top: 3.5em;
     padding-bottom: 1em;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: #1e1f26;
@@ -586,15 +589,16 @@ h2::first-letter {
 
   .speechTitle {
     font-family: "Open Sans", sans-serif;
-    font-size: .8em;
+    font-size: 1em;
+    color: #C7C9D3;
     padding-top: 10px;
-    color: #C7C9D3; }
+    padding-bottom: 25px; }
 
   .speaker .name {
     padding-top: 25px;
     padding-bottom: 10px;
     display: block;
-    font-size: 1.3em;
+    font-size: 22px;
     color: #FFFFFF;
     font-weight: 700;
     font-family: "Cinzel", serif; }
@@ -604,7 +608,7 @@ h2::first-letter {
 
   .speaker .company {
     color: #FFFFFF;
-    font-size: .8em; } }
+    font-size: 16px; } }
 #about {
   padding-top: 100px;
   display: flex;
@@ -726,7 +730,6 @@ h2::first-letter {
 .participateContainer {
   background: #131417;
   border-radius: 15px;
-  padding-bottom: 75px;
   padding-top: 100px; }
 
 @media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
@@ -835,7 +838,6 @@ footer {
   height: 90px;
   border-radius: 15px;
   background: #47CF73;
-  border: 1px solid #FFFFFF;
   align-items: center;
   justify-content: center;
   color: #131417;
@@ -889,9 +891,9 @@ b {
   .bodyButton {
     padding: 10px;
     width: 150px;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
-    font-size: 18px; }
+    font-size: 16px; }
 
   .largeTitle {
     padding-left: 30px;
@@ -914,7 +916,7 @@ b {
 
   .smallText {
     font-family: "Open Sans", sans-serif;
-    font-size: 2em; }
+    font-size: 16px; }
 
   p {
     text-align: center;
@@ -924,7 +926,7 @@ b {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 30px; } }
 body {
   background: #131417;
