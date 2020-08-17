@@ -838,16 +838,14 @@ footer {
 
 .bodyButtonContainer {
   padding-top: 40px;
-  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-weight: 700; }
+  justify-content: center; }
 
 .bodyButton {
   padding: 10px;
   display: flex;
-  width: 250px;
+  width: 270px;
   height: 90px;
   border-radius: 15px;
   background: #47CF73;
@@ -855,7 +853,8 @@ footer {
   justify-content: center;
   color: #131417;
   font-family: "Open Sans", sans-serif;
-  font-size: 30px; }
+  font-size: 40px;
+  font-weight: 700; }
 
 .largeTitle {
   padding-left: 50px;
@@ -896,13 +895,9 @@ b {
 
 @media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
   .bodyButtonContainer {
-    padding-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    padding-top: 20px; }
 
   .bodyButton {
-    padding: 10px;
     height: 30px;
     border-radius: 5px;
     font-size: 14px;
