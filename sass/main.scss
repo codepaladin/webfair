@@ -115,24 +115,24 @@ h2::first-letter {
   and (max-device-width: 824px) 
   and (orientation: landscape) { 
   	.register{
-		height:10vh;
+		height:13vh;
 		border-radius: 5px;
-		line-height: 10vh; /* question: best way to do this*/
-		font-size:4vh;
+		line-height: 13vh; /* question: best way to do this*/
+		font-size:4.5vh;
 		width:25vw;
 		background:$green;
 	}
 
 	.vote{
-		height:10vh;
+		height:13vh;
 		border-radius: 5px;
-		line-height: 10vh; /* question: best way to do this*/
-		font-size:4vh;
+		line-height: 13vh; /* question: best way to do this*/
+		font-size:4.5vh;
 		width:25vw;
 	}
 
 	main{
-		height:100vh;
+		height:120vh;
 	}
 
 	h1{
@@ -147,7 +147,7 @@ h2::first-letter {
 
 	.eventDate{
 		padding-top:20px;
-		font-size:3.5vh;
+		font-size:4.5vh;
 	}
 }
 

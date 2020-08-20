@@ -83,14 +83,6 @@ b {
 		padding-top:20px;
 	}
 
-	.bodyButton {
-		height:30px;
-		border-radius: 5px;
-	  	font-size:14px;
-	  	width:auto;
-	  	font-family:$textFont;
-	}
-
 	.largeTitle {
 		@include leftBodyPaddingLandscape;
 		font-family:$titleFont;
@@ -135,7 +127,7 @@ b {
 		padding-bottom:30px;
 	}
 
-	@media only screen 
+	/*@media only screen 
   		and (min-device-width: 375px) 
   		and (max-device-width: 812px) 
  		and (orientation: landscape) { 
@@ -151,7 +143,7 @@ b {
 		  	width:auto;
 		  	font-family:$textFont;
 		}
-	  }
+	  }*/
 
 
 }

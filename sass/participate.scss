@@ -75,7 +75,7 @@
 
 	.statTitle {
 		font-family:$titleFont;
-		font-size:40px;
+		font-size:5vw;
 		font-weight:700;
 		color:$yellow;
 		padding:0;
@@ -109,6 +109,10 @@
 			padding-top:10px;
 			padding-bottom:10px;
 			align-items:center;
+		}
+
+		.statTitle {
+			font-size:30px;
 		}
 
 		.participateContainer{

@@ -348,24 +348,24 @@ h2::first-letter {
 /*old iphones in landscape*/
 @media only screen and (min-device-width: 300px) and (max-device-width: 824px) and (orientation: landscape) {
   .register {
-    height: 10vh;
+    height: 13vh;
     border-radius: 5px;
-    line-height: 10vh;
+    line-height: 13vh;
     /* question: best way to do this*/
-    font-size: 4vh;
+    font-size: 4.5vh;
     width: 25vw;
     background: #47CF73; }
 
   .vote {
-    height: 10vh;
+    height: 13vh;
     border-radius: 5px;
-    line-height: 10vh;
+    line-height: 13vh;
     /* question: best way to do this*/
-    font-size: 4vh;
+    font-size: 4.5vh;
     width: 25vw; }
 
   main {
-    height: 100vh; }
+    height: 120vh; }
 
   h1 {
     font-size: 15vw;
@@ -377,7 +377,7 @@ h2::first-letter {
 
   .eventDate {
     padding-top: 20px;
-    font-size: 3.5vh; } }
+    font-size: 4.5vh; } }
 /*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
 @media screen and (min-device-width: 1024px) and (orientation: landscape), (min-device-width: 768px) and (orientation: portrait) {
   main {
@@ -763,7 +763,7 @@ h2::first-letter {
 
   .statTitle {
     font-family: "Cinzel", serif;
-    font-size: 40px;
+    font-size: 5vw;
     font-weight: 700;
     color: #FFDD40;
     padding: 0; }
@@ -786,6 +786,9 @@ h2::first-letter {
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center; }
+
+  .statTitle {
+    font-size: 30px; }
 
   .participateContainer {
     width: 70vw;
@@ -909,13 +912,6 @@ b {
   .bodyButtonContainer {
     padding-top: 20px; }
 
-  .bodyButton {
-    height: 30px;
-    border-radius: 5px;
-    font-size: 14px;
-    width: auto;
-    font-family: "Open Sans", sans-serif; }
-
   .largeTitle {
     padding-left: 30px;
     font-family: "Cinzel", serif;
@@ -948,17 +944,25 @@ b {
     line-height: 1.5;
     text-align: left;
     font-size: 16px;
-    padding-bottom: 30px; } }
-@media only screen and (min-device-width: 451px) and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape), only screen and (orientation: landscape) and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
-  p {
-    font-size: 14px; }
+    padding-bottom: 30px; }
 
-  .bodyButton {
-    height: 30px;
-    border-radius: 5px;
-    font-size: 14px;
-    width: auto;
-    font-family: "Open Sans", sans-serif; } }
+  	/*@media only screen 
+    		and (min-device-width: 375px) 
+    		and (max-device-width: 812px) 
+   		and (orientation: landscape) { 
+  
+  	  	p {
+  	  		font-size:14px;
+  	  	}
+  
+  		.bodyButton {
+  			height:30px;
+  			border-radius: 5px;
+  		  	font-size:14px;
+  		  	width:auto;
+  		  	font-family:$textFont;
+  		}
+  	  }*/ }
 body {
   background: #131417;
   overflow-x: hidden; }
