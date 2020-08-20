@@ -13,9 +13,10 @@
 }
 
 .sponsors {
+	padding-top:50px;
 	display:grid;
 	grid-template-columns:repeat(2, 1fr);
-	gap:40px;
+	gap:4px;
 }
 
 .sponsors img {
@@ -24,8 +25,7 @@
 }
 
 .sponsor{
-	padding:50px;
-	height:150px;
+	height:100px;
 }
 
 @media screen and 

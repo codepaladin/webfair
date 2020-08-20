@@ -2,27 +2,25 @@
 @import "mixins";
 
 .bodyButtonContainer {
-	padding-top:40px;
+	padding-top:20px;
 	display:flex;
 	align-items: center;
   	justify-content: center;
- 
-
 }
 
 .bodyButton {
 	padding:10px;
 	display:flex;
-	width:270px;
-	height:90px;
-	border-radius: 15px;
+	width:150px;
+	height:40px;
+	border-radius: 5px;
 	background:$green;
 	align-items: center;
   	justify-content: center;
   	color:$bodyDark;
   	font-family:$textFont;
 	line-height:1.5;
-  	font-size:30px;
+  	font-size:16px;
  	font-weight:700;
  }
 
@@ -32,7 +30,7 @@
 	color:$white;
 	padding-top:45px;
 	font-weight:700;
-	font-size:1.3em;
+	font-size:1.1em;
 	text-align:left;
 }
 
@@ -59,7 +57,7 @@
 
 p {
 	text-align:center;
-	@include leftBodyPadding;
+	padding-left:10px;
 	color:$white;
 	font-family:$textFont;
 	line-height:1.5;
