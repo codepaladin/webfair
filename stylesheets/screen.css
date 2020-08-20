@@ -602,7 +602,7 @@ h2::first-letter {
     padding-top: 25px;
     padding-bottom: 10px;
     display: block;
-    font-size: 22px;
+    font-size: 18px;
     color: #FFFFFF;
     font-weight: 700;
     font-family: "Cinzel", serif; }
@@ -700,7 +700,7 @@ h2::first-letter {
 
   .sponsor {
     padding: 15px;
-    padding-top: 50px;
+    padding-top: 0px;
     height: 150px; }
 
   .sponsors {
@@ -791,7 +791,7 @@ h2::first-letter {
     font-size: 30px; }
 
   .participateContainer {
-    width: 70vw;
+    width: 65vw;
     border-radius: 15px;
     padding: 0; } }
 footer {
@@ -918,7 +918,7 @@ b {
     color: #FFFFFF;
     padding-bottom: 20px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     text-align: left; }
 
   .largeTitle::first-letter {
