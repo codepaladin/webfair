@@ -312,7 +312,7 @@ h2::first-letter {
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 3.7vw;
+  font-size: 14px;
   margin-bottom: 5vh; }
 
 .register {
@@ -322,21 +322,20 @@ h2::first-letter {
   border-radius: 15px;
   text-align: center;
   width: 39vw;
+  margin-right: 10px;
   vertical-align: middle;
-  margin-right: 15px;
   line-height: 6vh;
-  /* question: best way to do this*/
-  margin-right: 5vw; }
+  /* question: best way to do this*/ }
 
 .vote {
   background: #2C2C2C;
+  margin-left: 10px;
   color: #FFFFFF;
   height: 6vh;
   border-radius: 15px;
   text-align: center;
   width: 39vw;
   vertical-align: middle;
-  margin-right: 15px;
   line-height: 6vh;
   /* question: best way to do this*/ }
 
@@ -858,7 +857,7 @@ footer {
 .bodyButton {
   padding: 10px;
   display: flex;
-  width: 150px;
+  width: 130px;
   height: 40px;
   border-radius: 5px;
   background: #47CF73;
@@ -867,7 +866,7 @@ footer {
   color: #131417;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700; }
 
 .largeTitle {
@@ -900,7 +899,7 @@ p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   padding-bottom: 20px; }
 
 b {
