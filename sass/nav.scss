@@ -180,11 +180,11 @@ nav a:hover {
 }
 
 
-.codePen{
+.codePen1{
 
 }
 
-.codePen1{
+.codePen{
   font-family:$codePen;
   font-size:26px;
   position:absolute;
@@ -201,6 +201,7 @@ nav a:hover {
  display: flex;
   align-items: center;
   justify-content: center;
+  overflow:hidden;
 }
 
 

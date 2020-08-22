@@ -181,7 +181,7 @@ nav a:hover {
 #menuToggle input:checked ~ ul {
   transform: none; }
 
-.codePen1 {
+.codePen {
   font-family: "Yellowtail";
   font-size: 26px;
   position: absolute;
@@ -197,7 +197,8 @@ nav a:hover {
   border: 3px solid white;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
 
 #responsiveMenu {
   display: none; }
