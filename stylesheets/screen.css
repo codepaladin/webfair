@@ -379,7 +379,7 @@ h2::first-letter {
   .eventDate {
     padding-top: 20px;
     font-size: 4.5vh; } }
-/*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
+/*tablets, desktops*/
 @media only screen and (min-device-width: 451px) and (orientation: portrait), (min-device-width: 768px) and (orientation: landscape) and (-webkit-max-device-pixel-ratio: 2) {
   main {
     height: 60vh; }
