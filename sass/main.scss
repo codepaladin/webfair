@@ -13,14 +13,14 @@ main {
    flex-wrap: nowrap;
    flex-direction:column;
    z-index:0;
+   overflow: hidden;
 }
 
 
 .coaster{
   position:absolute;
-  bottom:-5px;
   left:0px;
-  height:200px;
+  bottom:-5px;
 }
 
 .wheel{
