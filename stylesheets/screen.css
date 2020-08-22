@@ -346,23 +346,23 @@ h2::first-letter {
   background-color: #5A6074; }
 
 /*phones in landscape*/
-@media only screen and (min-device-width: 300px) and (max-device-width: 824px) and (orientation: landscape) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   .register {
-    height: 11vh;
+    height: 13vh;
     border-radius: 5px;
-    line-height: 11vh;
+    line-height: 13vh;
     /* question: best way to do this*/
-    font-size: 14px;
-    width: 25vw;
+    font-size: 16px;
+    width: 30vw;
     background: #0FBEFF; }
 
   .vote {
-    height: 11vh;
+    height: 13vh;
     border-radius: 5px;
-    line-height: 11vh;
+    line-height: 13vh;
     /* question: best way to do this*/
-    font-size: 14px;
-    width: 25vw; }
+    font-size: 16px;
+    width: 30vw; }
 
   main {
     height: 120vh; }
