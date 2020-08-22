@@ -346,39 +346,6 @@ h2::first-letter {
 .vote:hover {
   background-color: #5A6074; }
 
-/*phones in landscape*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
-  .register {
-    height: 13vh;
-    border-radius: 5px;
-    line-height: 13vh;
-    /* question: best way to do this*/
-    font-size: 16px;
-    width: 30vw;
-    background: #0FBEFF; }
-
-  .vote {
-    height: 13vh;
-    border-radius: 5px;
-    line-height: 13vh;
-    /* question: best way to do this*/
-    font-size: 16px;
-    width: 30vw; }
-
-  main {
-    height: 120vh; }
-
-  h1 {
-    font-size: 15vw;
-    padding-bottom: 10px; }
-
-  h2 {
-    font-size: 3vw;
-    padding-bottom: 20px; }
-
-  .eventDate {
-    padding-top: 20px;
-    font-size: 4.5vh; } }
 /*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
 @media only screen and (min-device-width: 451px) and (orientation: portrait), (min-device-width: 768px) and (orientation: landscape) and (-webkit-max-device-pixel-ratio: 2) {
   main {
