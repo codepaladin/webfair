@@ -189,7 +189,7 @@ h2::first-letter {
 		font-family:$textFont;
 		font-weight:700;
 		font-size:16px;
-		margin-bottom:20px;
+		margin-bottom:30px;
 	}
 
 	.eventDate{
@@ -199,7 +199,7 @@ h2::first-letter {
 	.register{
 		height:50px;
 		border-radius: 5px;
-		background-color:$yellow;
+		background-color:$green;
 		line-height: 50px; /* question: best way to do this*/
 		width:170px;
 		font-size:16px;
