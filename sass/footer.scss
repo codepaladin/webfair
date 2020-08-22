@@ -11,6 +11,10 @@ footer {
 	grid-template-rows:auto;
 	align-items:center;
 	background:$bodyMed;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .footerTitle {

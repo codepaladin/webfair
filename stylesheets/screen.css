@@ -803,7 +803,11 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
   align-items: center;
-  background: #1E1F26; }
+  background: #1E1F26;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 .footerTitle {
   padding: 10px;
