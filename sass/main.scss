@@ -159,9 +159,12 @@ h2::first-letter {
 {
 	main{
 		
-		height:70vh;
+		height:60vh;
 
 	}
+
+
+
 
 	h1{
 		font-size:130px;
@@ -186,11 +189,11 @@ h2::first-letter {
 		font-family:$textFont;
 		font-weight:700;
 		font-size:16px;
-		margin-bottom:5vh;
+		margin-bottom:30px;
 	}
 
 	.eventDate{
-		font-size:20px;
+		font-size:16px;
 	}
 
 	.register{
@@ -211,4 +214,5 @@ h2::first-letter {
 		font-size:16px;
 	}
 }
+
 
