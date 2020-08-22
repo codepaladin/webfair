@@ -2,6 +2,7 @@
 
 #speakers {
 	padding-top:0px;
+	max-width:1200px;
 }
 
 .moreSpeakers {
@@ -225,4 +226,12 @@
 		font-size:16px;
 
 	}
+}
+
+ @media only screen and (min-width: 1200px){
+	.speech{
+		width:350px;
+	}
+
+	
 }

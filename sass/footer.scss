@@ -50,7 +50,8 @@ footer {
 .footerSocial {
 	display:flex;
 	 align-items: center;
-    justify-content: space-between;
+	 justify-content:center;
+  	
 	padding:50px;
 	border-top:1px solid $bodyLight;
 	border-bottom:1px solid $bodyLight;
@@ -59,8 +60,8 @@ footer {
 }
 
 .footerSocial img {
-	width:70px;
-	padding-right:30px;
+	width:90px;
+	padding-right:50px;
 }
 
 .copyright {

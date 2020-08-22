@@ -266,7 +266,8 @@ main {
   flex-wrap: nowrap;
   flex-direction: column;
   z-index: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100vw; }
 
 .coaster {
   position: absolute;
@@ -426,7 +427,8 @@ h2::first-letter {
     width: 170px;
     font-size: 16px; } }
 #speakers {
-  padding-top: 0px; }
+  padding-top: 0px;
+  max-width: 1200px; }
 
 .moreSpeakers {
   display: flex;
@@ -613,6 +615,9 @@ h2::first-letter {
   .speaker .company {
     color: #FFFFFF;
     font-size: 16px; } }
+@media only screen and (min-width: 1200px) {
+  .speech {
+    width: 350px; } }
 #about {
   padding-top: 100px;
   display: flex;
@@ -764,7 +769,7 @@ h2::first-letter {
 
   .statTitle {
     font-family: "Cinzel", serif;
-    font-size: 5vw;
+    font-size: 40px;
     font-weight: 700;
     color: #FFDD40;
     padding: 0; }
@@ -796,6 +801,12 @@ h2::first-letter {
     width: 65vw;
     border-radius: 15px;
     padding: 0; } }
+@media only screen and (min-width: 1200px) {
+  .quickStatsContainer {
+    width: 400px; }
+
+  .participateContainer {
+    width: 800px; } }
 footer {
   border-top: 5px solid #2C2F39;
   margin-top: 50px;
@@ -839,7 +850,7 @@ footer {
 .footerSocial {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
   border-top: 1px solid #2C2F39;
   border-bottom: 1px solid #2C2F39;
@@ -847,8 +858,8 @@ footer {
   color: white; }
 
 .footerSocial img {
-  width: 70px;
-  padding-right: 30px; }
+  width: 90px;
+  padding-right: 50px; }
 
 .copyright {
   padding-top: 30px;
@@ -862,6 +873,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.center {
+  align-self: center;
+  text-align: center; }
 
 .bodyButton {
   padding: 10px;
@@ -884,8 +899,7 @@ footer {
   color: #FFFFFF;
   padding-top: 45px;
   font-weight: 700;
-  font-size: 1.1em;
-  text-align: left; }
+  font-size: 1.1em; }
 
 .largeTitle::first-letter {
   font-family: "Cinzel Decorative", cursive;
@@ -924,8 +938,7 @@ b {
     color: #FFFFFF;
     padding-bottom: 20px;
     font-weight: 700;
-    font-size: 20px;
-    text-align: left; }
+    font-size: 20px; }
 
   .largeTitle::first-letter {
     font-family: "Cinzel Decorative", cursive;
@@ -970,22 +983,23 @@ b {
   		}
   	  }*/ }
 body {
-  width: 100%;
+  width: 100vw;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: #131417; }
+  background: #131417;
+  display: grid;
+  justify-items: center; }
 
-.container {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; }
+#container {
+  max-width: 1200px;
+  display: grid;
+  /*background:$blue;*/ }
 
 nav {
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   overflow-x: hidden;
   overflow-y: hidden;

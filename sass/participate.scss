@@ -9,6 +9,8 @@
 	flex-direction:column;
 }
 
+
+
 .quickStatsContainer {
 	display:grid;
 	grid-template-columns:repeat(2, 1fr);
@@ -21,6 +23,7 @@
 	padding-top:30px;
 	align-items:center;
 }
+
 
 .stat {
 	
@@ -76,7 +79,7 @@
 
 	.statTitle {
 		font-family:$titleFont;
-		font-size:5vw;
+		font-size:40px;
 		font-weight:700;
 		color:$yellow;
 		padding:0;
@@ -123,5 +126,16 @@
 		padding:0;
 	}	
  }
+
+ @media only screen and (min-width: 1200px){
+	.quickStatsContainer {
+		width:400px;
+	}
+
+	.participateContainer{
+		width:800px;
+	}
+}
+
 
  
