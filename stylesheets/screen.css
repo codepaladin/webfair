@@ -380,12 +380,12 @@ h2::first-letter {
     padding-top: 20px;
     font-size: 4.5vh; } }
 /*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
-@media only screen and (min-device-width: 451px) and (orientation: portrait), (min-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 451px) and (orientation: portrait), (min-device-width: 768px) and (orientation: landscape) and (-webkit-max-device-pixel-ratio: 2) {
   main {
     height: 60vh; }
 
   h1 {
-    font-size: 13px; }
+    font-size: 130px; }
 
   h2 {
     font-size: 30px; }
