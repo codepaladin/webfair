@@ -185,15 +185,15 @@ nav a:hover {
   font-family: "Yellowtail";
   font-size: 26px;
   position: absolute;
-  background: #47CF73;
-  width: 220px;
+  background: #FFDD40;
+  width: 700px;
   height: 60px;
   z-index: 2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
-  top: -5px;
-  left: -30px;
+  top: 20px;
+  left: -250px;
   border: 3px solid white;
   display: flex;
   align-items: center;
@@ -964,8 +964,11 @@ b {
   		}
   	  }*/ }
 body {
-  background: #131417;
-  overflow-x: hidden; }
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: #131417; }
 
 .container {
   display: grid;
