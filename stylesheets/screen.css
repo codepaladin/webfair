@@ -782,7 +782,7 @@ h2::first-letter {
     border-radius: 15px;
     padding: 0; } }
 /*phones in landscape*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 767px) and (orientation: landscape), (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (max-device-height: 600px) and (orientation: landscape) {
   .quickStatsContainer {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 10px;
