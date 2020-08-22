@@ -392,7 +392,7 @@ h2::first-letter {
 
   .eventDate {
     font-family: "Cinzel", serif;
-    color: #C7C9D3;
+    color: #FFDD40;
     font-size: 30px;
     margin-top: 0px; }
 
@@ -781,7 +781,7 @@ h2::first-letter {
     border-radius: 15px;
     padding: 0; } }
 /*phones in landscape*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 768px) and (orientation: landscape), (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 767px) and (orientation: landscape), (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .quickStatsContainer {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 10px;
