@@ -110,8 +110,8 @@ h2::first-letter {
 
 /*phones in landscape*/
 @media only screen 
-  and (min-width: 280px) 
-  and (max-width: 824px) 
+  and (min-device-width: 280px) 
+  and (max-device-width: 824px) 
   and (orientation: landscape) { 
   	.register{
 		height:13vh;
@@ -167,7 +167,7 @@ h2::first-letter {
 	}
 
 	h1{
-		font-size:130px;
+		font-size:13px;
 	}
 
 	h2{

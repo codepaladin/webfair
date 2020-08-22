@@ -347,7 +347,7 @@ h2::first-letter {
   background-color: #5A6074; }
 
 /*phones in landscape*/
-@media only screen and (min-width: 280px) and (max-width: 824px) and (orientation: landscape) {
+@media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   .register {
     height: 13vh;
     border-radius: 5px;
@@ -385,7 +385,7 @@ h2::first-letter {
     height: 60vh; }
 
   h1 {
-    font-size: 130px; }
+    font-size: 13px; }
 
   h2 {
     font-size: 30px; }
