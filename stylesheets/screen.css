@@ -973,6 +973,10 @@ body {
 .container {
   display: grid;
   height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   grid-template-columns: 1fr; }
 
 nav {
@@ -982,16 +986,6 @@ nav {
   height: 60px;
   background-color: #2C2F39; }
 
-/*iphone landscape*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 824px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  nav {
-    height: 60px; } }
-@media only screen and (min-device-width: 300px) and (max-device-width: 824px) and (orientation: landscape) {
-  nav {
-    height: 60px; } }
-@media screen and (min-device-width: 768px) {
-  nav {
-    height: 60px; } }
 a {
   text-decoration: none;
   color: #0FBEFF; }
