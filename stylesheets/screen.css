@@ -381,7 +381,6 @@ h2::first-letter {
 /*chris, it's not working in ipad landscape. try css tricks diong an OR for exact ipad landscape*/
 @media screen and (min-device-width: 1024px) and (orientation: landscape), (min-device-width: 768px) and (orientation: portrait) {
   main {
-    width: 100%;
     height: 60vh; }
 
   h1 {
