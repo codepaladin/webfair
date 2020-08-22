@@ -71,7 +71,7 @@ h2::first-letter {
 	display:flex;
 	font-family:$textFont;
 	font-weight:700;
-	font-size:14px;
+	font-size:4vw;
 	margin-bottom:5vh;
 }
 
@@ -79,7 +79,7 @@ h2::first-letter {
 	background:$green;
 	color:$bodyDark;
 	height:6vh;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-align:center;
 	width:39vw;
 	margin-right:10px;
@@ -92,7 +92,7 @@ h2::first-letter {
 	margin-left:10px;
 	color:$white;
 	height:6vh;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-align:center;
 	width:39vw;
 	vertical-align: middle;

@@ -184,16 +184,16 @@ nav a:hover {
   font-size:26px;
   position:absolute;
   background:$yellow;
-  width:700px;
+  width:220px;
   height:60px;
   z-index:2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
-  top:20px;
-  left:-250px;
+  top:-5px;
+  left:-30px;
   border:3px solid white;
- display: flex;
+   display: flex;
   align-items: center;
   justify-content: center;
 }

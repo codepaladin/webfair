@@ -186,14 +186,14 @@ nav a:hover {
   font-size: 26px;
   position: absolute;
   background: #FFDD40;
-  width: 700px;
+  width: 220px;
   height: 60px;
   z-index: 2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
-  top: 20px;
-  left: -250px;
+  top: -5px;
+  left: -30px;
   border: 3px solid white;
   display: flex;
   align-items: center;
@@ -312,14 +312,14 @@ h2::first-letter {
   display: flex;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 4vw;
   margin-bottom: 5vh; }
 
 .register {
   background: #47CF73;
   color: #131417;
   height: 6vh;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
   width: 39vw;
   margin-right: 10px;
@@ -332,7 +332,7 @@ h2::first-letter {
   margin-left: 10px;
   color: #FFFFFF;
   height: 6vh;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
   width: 39vw;
   vertical-align: middle;
