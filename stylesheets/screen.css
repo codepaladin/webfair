@@ -181,7 +181,7 @@ nav a:hover {
 #menuToggle input:checked ~ ul {
   transform: none; }
 
-.codePen {
+#codepen {
   font-family: "Yellowtail";
   font-size: 26px;
   position: absolute;
@@ -992,9 +992,8 @@ body {
   justify-items: center; }
 
 #container {
-  max-width: 1200px;
   display: grid;
-  /*background:$blue;*/ }
+  background: #0FBEFF; }
 
 nav {
   top: 0;
