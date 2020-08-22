@@ -183,11 +183,11 @@ nav a:hover {
 
 .codePen {
   font-family: "Yellowtail";
-  font-size: 30px;
+  font-size: 26px;
   position: absolute;
   background: #FFDD40;
   width: 700px;
-  height: 70px;
+  height: 60px;
   z-index: 2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
