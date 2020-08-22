@@ -807,7 +807,7 @@ footer {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 .footerTitle {
   padding: 10px;
@@ -975,13 +975,10 @@ body {
   background: #131417; }
 
 .container {
-  display: grid;
-  height: 100vh;
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
-  grid-template-columns: 1fr; }
+  overflow-x: hidden; }
 
 nav {
   top: 0;
