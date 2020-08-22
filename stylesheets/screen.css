@@ -745,6 +745,7 @@ h2::first-letter {
   border-radius: 15px;
   padding-top: 20px; }
 
+/*portrait tablets or anything in landscape*/
 @media screen and (min-device-width: 451px) and (orientation: portrait), (orientation: landscape) {
   #participate {
     margin-top: 0;

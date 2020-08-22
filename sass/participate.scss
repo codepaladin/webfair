@@ -50,8 +50,9 @@
 	padding-top:20px;
 }
 
+/*portrait tablets or anything in landscape*/
 @media screen and 
-	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+	(min-device-width:451px) and (orientation:portrait),
 	(orientation:landscape)
 {
 
