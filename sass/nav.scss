@@ -180,23 +180,21 @@ nav a:hover {
 }
 
 
-.codePen1{
 
-}
 
 #codepen{
   font-family:$codePen;
   font-size:26px;
   position:absolute;
   background:$yellow;
-  width:700px;
+  width:300px;
   height:60px;
   z-index:2;
   -webkit-transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
   top:20px;
-  left:-250px;
+  left:-40px;
   border:3px solid white;
  display: flex;
   align-items: center;
@@ -214,8 +212,8 @@ nav a:hover {
   and (max-device-width: 812px) 
 
   and (orientation: landscape) { 
- .codePen {
-      font-size:40px;
+ #codepen {
+      font-size:50px;
       width:350;
       height:90px;
       top:20px;
@@ -242,8 +240,8 @@ nav a:hover {
 
 /*not on iphones*/
  @media screen and (min-device-width:768px) {
-   .codePen {
-      font-size:40px;
+   #codepen {
+      font-size:50px;
       width:350;
       height:90px;
       top:20px;
