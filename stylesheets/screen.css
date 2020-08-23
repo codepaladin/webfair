@@ -809,6 +809,13 @@ h2::first-letter {
 
   .participateContainer {
     width: 800px; } }
+/*desktops*/
+@media only screen and (min-device-width: 1200px) and (max-width: 650px) {
+  .quickStatsContainer {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center; } }
 footer {
   border-top: 5px solid #2C2F39;
   margin-top: 50px;
