@@ -824,6 +824,7 @@ footer {
 
 .footerTitle {
   padding: 10px;
+  padding-top: 30px;
   text-align: center;
   color: white;
   font-family: "Smythe", cursive;
@@ -858,8 +859,8 @@ footer {
   color: white; }
 
 .footerSocial img {
-  width: 90px;
-  padding-right: 50px; }
+  width: 30px;
+  margin-right: 20px; }
 
 .copyright {
   padding-top: 30px;
@@ -992,8 +993,9 @@ body {
   justify-items: center; }
 
 #container {
+  max-width: 1200px;
   display: grid;
-  background: #0FBEFF; }
+  /*background:$blue;*/ }
 
 nav {
   top: 0;

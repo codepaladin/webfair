@@ -19,7 +19,7 @@ footer {
 
 .footerTitle {
 	padding:10px;
-
+	padding-top:30px;
 	text-align:center;
 	color:white;
 	font-family:$logoFont;
@@ -50,8 +50,7 @@ footer {
 .footerSocial {
 	display:flex;
 	 align-items: center;
-	 justify-content:center;
-  	
+    justify-content: center;
 	padding:50px;
 	border-top:1px solid $bodyLight;
 	border-bottom:1px solid $bodyLight;
@@ -60,8 +59,8 @@ footer {
 }
 
 .footerSocial img {
-	width:90px;
-	padding-right:50px;
+	width:30px;
+	margin-right:20px;
 }
 
 .copyright {
