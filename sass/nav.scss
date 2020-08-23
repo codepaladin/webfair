@@ -213,7 +213,7 @@ nav a:hover {
 
   and (orientation: landscape) { 
  #codepen {
-      font-size:50px;
+      font-size:40px;
       width:350;
       height:90px;
       top:20px;
@@ -241,11 +241,11 @@ nav a:hover {
 /*not on iphones*/
  @media screen and (min-device-width:768px) {
    #codepen {
-      font-size:50px;
-      width:350;
-      height:90px;
-      top:20px;
-      left:-220px;
+      font-size:40px;
+      width:500px;
+      height:80px;
+      top:40px;
+      left:-100px;
   }
 
     #menuToggle{
