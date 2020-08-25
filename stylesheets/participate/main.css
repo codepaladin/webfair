@@ -447,8 +447,8 @@ a {
   font-size: 14px;
   display: flex;
   color: #FFFFFF;
-  height: 45px;
-  line-height: 45px;
+  height: 60px;
+  line-height: 60px;
   margin-left: 48px;
   border-bottom: 1px solid #454857;
   width: 100%; }
@@ -468,7 +468,7 @@ a {
   align-self: flex-end;
   text-align: center;
   margin-left: auto;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   order: 2; }
 
 .categories ul li:first-child {
