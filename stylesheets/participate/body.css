@@ -42,7 +42,7 @@
   align-self: flex-end;
   text-align: center;
   margin-left: auto;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   order: 2; }
 
 .categories ul li:first-child {
@@ -216,6 +216,9 @@
 @media only screen and (max-device-height: 600px) and (orientation: landscape) {
   #voting {
     grid-column: span 12; }
+
+  .submit {
+    display: block; }
 
   #information {
     display: none; } }
