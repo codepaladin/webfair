@@ -37,8 +37,6 @@
 .categories ul {
 	display:flex;
 	list-style-type: none;
-		font-family:$textFont;
-	font-size:14px;
 }
 
  .submit {
@@ -69,8 +67,6 @@
 
 .categories li {
 	padding-left:20px;
-		font-family:$textFont;
-	font-size:14px;
 }
 
 .speakers {
@@ -123,7 +119,7 @@
 .speakerName {
 	color:$lightGrey;
 	font-family:$textFont;
-	font-size:12px;
+	font-size:14px;
 }
 
 .speechTitle {

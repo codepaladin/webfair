@@ -455,9 +455,7 @@ a {
 
 .categories ul {
   display: flex;
-  list-style-type: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  list-style-type: none; }
 
 .submit {
   background: #47CF73;
@@ -482,9 +480,7 @@ a {
   color: #FFDD40; }
 
 .categories li {
-  padding-left: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  padding-left: 20px; }
 
 .speakers {
   display: none; }
@@ -528,7 +524,7 @@ a {
 .speakerName {
   color: #C7C9D3;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px; }
+  font-size: 14px; }
 
 .speechTitle {
   color: #FFFFFF;
