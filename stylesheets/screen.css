@@ -59,6 +59,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 nav a:hover {
   color: #0FBEFF; }
 
+nav {
+  display: grid;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #2C2F39;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #0FBEFF; }
+
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -69,6 +85,24 @@ nav a:hover {
  * production code, beware of the browser
  * prefixes.
  */
+.navAction {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+  bottom: 10px; }
+
+.signup {
+  background: #47CF73;
+  color: #131417;
+  height: 34px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  line-height: 34px;
+  /* question: best way to do this*/ }
+
 #menuToggle {
   /*overflow: hidden;*/
   display: block;
@@ -956,20 +990,3 @@ body {
   max-width: 1200px;
   display: grid;
   /*background:$blue;*/ }
-
-nav {
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 60px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #2C2F39; }
-
-a {
-  text-decoration: none;
-  color: #0FBEFF; }
-
-/* mouse over link */
-a:hover {
-  color: white; }

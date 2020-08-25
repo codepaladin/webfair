@@ -193,22 +193,6 @@ footer {
 nav a:hover {
   color: #0FBEFF; }
 
-nav {
-  display: grid;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #2C2F39;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
-
-a {
-  text-decoration: none;
-  color: #0FBEFF; }
-
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -219,24 +203,6 @@ a {
  * production code, beware of the browser
  * prefixes.
  */
-.navAction {
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  font-weight: 700;
-  bottom: 10px; }
-
-.signup {
-  background: #47CF73;
-  color: #131417;
-  height: 34px;
-  border-radius: 5px;
-  text-align: center;
-  width: 100px;
-  line-height: 34px;
-  /* question: best way to do this*/ }
-
 #menuToggle {
   /*overflow: hidden;*/
   display: block;
@@ -430,115 +396,41 @@ a {
   grid-template-columns: repeat(12, 1fr);
   color: #0FBEFF;
   width: 100%;
-  padding-bottom: 100px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  background: #0FBEFF;
+  /*
+      grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  
+  
+      .item-a {
+    grid-area: header;
+  }*/ }
 
 #voting {
-  grid-column: span 12; }
+  grid-column: span 12;
+  background: #FFDD40; }
 
 #information {
   display: none; }
 
-.categories {
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  display: flex;
-  color: #FFFFFF;
-  height: 34px;
-  line-height: 34px;
-  margin-left: 50px; }
-
-.categories ul {
-  display: flex;
-  list-style-type: none;
-  border-bottom: 1px solid #454857;
-  width: 80vw; }
-
-.categories ul li:first-child {
-  padding-left: 0px; }
-
-.selected {
-  border-bottom: 1px solid #FFDD40;
-  color: #FFDD40; }
-
-.categories li {
-  padding-left: 10px; }
-
-.speakers {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 1px solid #454857;
-  border-radius: 5px;
-  width: 100px;
-  display: none;
-  margin-right: 50px; }
-
-.speaker img {
-  width: 40px;
-  border-radius: 50%;
-  border: 3px solid #2C2F39; }
-
-.upvote img {
-  width: 20px; }
-
-.submission {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 15px; }
-
-.speaker {
-  width: 100px;
-  text-align: center;
-  padding-bottom: 15px;
-  display: none; }
-
-.upvote {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  padding-bottom: 15px; }
-
-.speechInfo {
-  border-bottom: 1px solid #454857;
-  padding-bottom: 15px;
-  width: 80vw; }
-
-.speakerContainer {
-  display: flex;
-  flex-direction: column; }
-
-.speakerName {
-  color: #C7C9D3;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px; }
-
-.speechTitle {
-  color: #FFFFFF;
-  font-family: "Cinzel", serif;
-  font-size: 13px;
-  padding-top: 2px; }
-
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
   #voting {
-    grid-column: span 9; }
+    grid-column: span 8;
+    background: #FFDD40; }
 
   #information {
     display: block;
-    grid-column: span 3;
-    background: #FFFFFF; }
-
-  .speakers, .speaker {
-    display: block; } }
-/*phones landscape*/
+    grid-column: span 4;
+    background: #FFFFFF; } }
+/*need to avoid iphone x*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   #voting {
-    grid-column: span 12; }
+    grid-column: span 12;
+    background: #FFDD40; }
 
   #information {
     display: none; } }
@@ -552,6 +444,14 @@ body {
   justify-items: center; }
 
 nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #2C2F39;
+  display: grid;
   justify-items: center; }
 
 .navContainer {

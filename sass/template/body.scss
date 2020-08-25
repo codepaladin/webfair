@@ -7,6 +7,17 @@
   color:$blue;
   width:100%;
   background:$blue;
+/*
+    grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+
+
+    .item-a {
+  grid-area: header;
+}*/
 }
 
 #voting {
