@@ -447,8 +447,8 @@ a {
   font-size: 14px;
   display: flex;
   color: #FFFFFF;
-  height: 34px;
-  line-height: 34px;
+  height: 45px;
+  line-height: 45px;
   margin-left: 48px;
   border-bottom: 1px solid #454857;
   width: 100%; }
@@ -460,10 +460,10 @@ a {
 .submit {
   background: #47CF73;
   color: #131417;
-  height: 28px;
+  height: 33px;
   border-radius: 5px;
   width: 80px;
-  line-height: 28px;
+  line-height: 33px;
   font-weight: 700;
   align-self: flex-end;
   text-align: center;
@@ -476,8 +476,9 @@ a {
   padding-left: 0px; }
 
 .selected {
-  border-bottom: 1px solid #FFDD40;
-  color: #FFDD40; }
+  border-bottom: 2px solid #FFDD40;
+  color: #FFDD40;
+  margin-bottom: -3px; }
 
 .categories li {
   padding-left: 20px; }
