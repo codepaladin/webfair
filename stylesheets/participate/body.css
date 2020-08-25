@@ -19,15 +19,32 @@
   color: #FFFFFF;
   height: 34px;
   line-height: 34px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  border-bottom: 1px solid #454857;
+  width: 80vw;
+  align-items: center;
+  justify-content: center; }
 
 .categories ul {
   display: flex;
-  list-style-type: none;
-  border-bottom: 1px solid #454857;
-  width: 80vw; }
+  list-style-type: none; }
+
+.submit {
+  background: #47CF73;
+  color: #131417;
+  height: 28px;
+  border-radius: 5px;
+  width: 80px;
+  line-height: 28px;
+  font-weight: bold;
+  align-self: flex-end;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 5px;
+  order: 2; }
 
 .categories ul li:first-child {
+  align-self: flex-end;
   padding-left: 0px; }
 
 .selected {

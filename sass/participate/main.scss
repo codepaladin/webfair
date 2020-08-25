@@ -42,7 +42,7 @@ a {
 }
 
 h3 {
-	font-size:26px;
+	font-size:24px;
 	font-family:$titleFont;
 	font-weight:500;
 }
@@ -57,7 +57,7 @@ a:hover {
 
 main{
 	padding-top:50px;
-	padding-bottom:50px;
+	padding-bottom:40px;
 	padding-left:10px;
 	padding-right:10px;
 	text-align:center;
@@ -69,6 +69,7 @@ main{
 	color:$yellow;
 	font-size:18px;
 	margin-top:30px;
+	display:none;
 }
 
 /*tablets, desktops*/
@@ -84,6 +85,7 @@ main{
 
 	.eventDate{
 		font-size:24px;
+		display:block;
 	}
 
 }

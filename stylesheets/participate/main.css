@@ -445,15 +445,32 @@ a {
   color: #FFFFFF;
   height: 34px;
   line-height: 34px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  border-bottom: 1px solid #454857;
+  width: 80vw;
+  align-items: center;
+  justify-content: center; }
 
 .categories ul {
   display: flex;
-  list-style-type: none;
-  border-bottom: 1px solid #454857;
-  width: 80vw; }
+  list-style-type: none; }
+
+.submit {
+  background: #47CF73;
+  color: #131417;
+  height: 28px;
+  border-radius: 5px;
+  width: 80px;
+  line-height: 28px;
+  font-weight: bold;
+  align-self: flex-end;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 5px;
+  order: 2; }
 
 .categories ul li:first-child {
+  align-self: flex-end;
   padding-left: 0px; }
 
 .selected {
@@ -570,7 +587,7 @@ a {
   color: #0FBEFF; }
 
 h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Cinzel", serif;
   font-weight: 500; }
 
@@ -580,7 +597,7 @@ a:hover {
 
 main {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -590,7 +607,8 @@ main {
   font-family: "Cinzel", serif;
   color: #FFDD40;
   font-size: 18px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  display: none; }
 
 /*tablets, desktops*/
 @media only screen and (min-device-width: 451px) and (orientation: portrait), (min-device-width: 768px) and (orientation: landscape) and (-webkit-max-device-pixel-ratio: 2) {
@@ -599,4 +617,5 @@ main {
     font-weight: 700; }
 
   .eventDate {
-    font-size: 24px; } }
+    font-size: 24px;
+    display: block; } }

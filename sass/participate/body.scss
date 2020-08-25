@@ -24,19 +24,43 @@
 	display:flex;
 	color:$white;
 	height:34px;
-   line-height: 34px;
-   margin-left:50px;
+    line-height: 34px;
+	margin-left:50px;
+  	border-bottom:1px solid $midGrey;
+	width:80vw;
+	 align-items: center;
+  justify-content: center;
 }
 
 .categories ul {
 	display:flex;
 	list-style-type: none;
-	border-bottom:1px solid $midGrey;
-	width:80vw;
+}
+
+ .submit {
+ 	background:$green;
+	color:$bodyDark;
+	height:28px;
+	border-radius: 5px;
+	width:80px;
+	line-height: 28px; 
+	font-weight:bold;
+	align-self:flex-end;
+	text-align:center;
+	margin-left: auto;
+	margin-bottom:5px;
+ 	 order: 2;
 }
 
 .categories ul li:first-child { 
+	align-self:flex-end;
+
   padding-left:0px;
+}
+
+.categories ul li:last-child{ 
+	
+ 
 }
 
 .selected {
