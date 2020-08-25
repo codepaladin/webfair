@@ -464,7 +464,7 @@ a {
   border-radius: 5px;
   width: 80px;
   line-height: 28px;
-  font-weight: bold;
+  font-weight: 700;
   align-self: flex-end;
   text-align: center;
   margin-left: auto;
@@ -535,13 +535,63 @@ a {
 
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
+  .submits {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #2C2F39;
+    width: 120px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+    background: #47CF73;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+
   #voting {
-    grid-column: span 9; }
+    grid-column: span 9;
+    margin-right: 70px; }
 
   #information {
     display: block;
     grid-column: span 3;
-    background: #FFFFFF; }
+    font-family: "Open Sans", sans-serif; }
+
+  .participate {
+    background: #2C2F39;
+    border-radius: 15px;
+    height: 230px; }
+
+  h4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Cinzel", serif;
+    color: #FFDD40;
+    font-size: 18px;
+    font-weight: 700; }
+
+  h5 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF; }
+
+  p {
+    padding: 0px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #C7C9D3; }
+
+  .participate p {
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
 
   .speaker {
     display: block; }
