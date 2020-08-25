@@ -439,15 +439,19 @@ a {
 #information {
   display: none; }
 
+.top {
+  display: flex; }
+
 .categories {
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
   color: #FFFFFF;
   height: 34px;
   line-height: 34px;
-  margin-left: 50px;
-  border-bottom: 1px solid #454857; }
+  margin-left: 48px;
+  border-bottom: 1px solid #454857;
+  width: 100%; }
 
 .categories ul {
   display: flex;
@@ -479,6 +483,7 @@ a {
   padding-left: 20px; }
 
 .speakers {
+  background: #0FBEFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -528,13 +533,14 @@ a {
 .speakerName {
   color: #C7C9D3;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px; }
+  font-size: 14px; }
 
 .speechTitle {
   color: #FFFFFF;
   font-family: "Cinzel", serif;
-  font-size: 13px;
-  padding-top: 2px; }
+  font-size: 14px;
+  padding-top: 2px;
+  font-weight: 700; }
 
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
