@@ -37,6 +37,8 @@
 .categories ul {
 	display:flex;
 	list-style-type: none;
+		font-family:$textFont;
+	font-size:14px;
 }
 
  .submit {
@@ -51,18 +53,13 @@
 	text-align:center;
 	margin-left: auto;
 	margin-bottom:5px;
- 	 order: 2;
+ 	order: 2;
 }
 
 .categories ul li:first-child { 
 	align-self:flex-end;
 
   padding-left:0px;
-}
-
-.categories ul li:last-child{ 
-	
- 
 }
 
 .selected {
@@ -72,19 +69,12 @@
 
 .categories li {
 	padding-left:20px;
+		font-family:$textFont;
+	font-size:14px;
 }
 
 .speakers {
-	background:$blue;
-	display:flex;
-	align-items: center;
- 	justify-content: center;
- 	text-align:center;
-	border:1px solid $midGrey;
-	border-radius:5px;
-	width:100px;
 	display:none;
-	margin-right:50px;
 }
 
 .speaker img {
@@ -95,12 +85,6 @@
 
 .upvote img {
 	width:20px;
-
-}
-
-.submissions {
-
-
 }
 
 .submission {
@@ -139,7 +123,7 @@
 .speakerName {
 	color:$lightGrey;
 	font-family:$textFont;
-	font-size:14px;
+	font-size:12px;
 }
 
 .speechTitle {
@@ -165,8 +149,26 @@
 		background:$white;
 	}
 
-	.speakers, .speaker {
+	.speaker {
 		display:block;
+	}
+
+	.container {
+		padding-left:20px;
+	}
+
+	.speakers {
+		display:flex;
+		align-items: center;
+	 	justify-content: center;
+	 	text-align:center;
+		border:1px solid $midGrey;
+		border-radius:5px;
+		width:100px;
+		display:block;
+		color:$lightGrey;
+		height:33px;
+		line-height:33px;
 	}
 }
 

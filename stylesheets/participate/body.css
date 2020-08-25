@@ -29,7 +29,9 @@
 
 .categories ul {
   display: flex;
-  list-style-type: none; }
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
 
 .submit {
   background: #47CF73;
@@ -54,19 +56,12 @@
   color: #FFDD40; }
 
 .categories li {
-  padding-left: 20px; }
+  padding-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
 
 .speakers {
-  background: #0FBEFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border: 1px solid #454857;
-  border-radius: 5px;
-  width: 100px;
-  display: none;
-  margin-right: 50px; }
+  display: none; }
 
 .speaker img {
   width: 40px;
@@ -107,7 +102,7 @@
 .speakerName {
   color: #C7C9D3;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 12px; }
 
 .speechTitle {
   color: #FFFFFF;
@@ -126,8 +121,24 @@
     grid-column: span 3;
     background: #FFFFFF; }
 
-  .speakers, .speaker {
-    display: block; } }
+  .speaker {
+    display: block; }
+
+  .container {
+    padding-left: 20px; }
+
+  .speakers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #454857;
+    border-radius: 5px;
+    width: 100px;
+    display: block;
+    color: #C7C9D3;
+    height: 33px;
+    line-height: 33px; } }
 /*phones landscape*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   #voting {
