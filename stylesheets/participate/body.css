@@ -4,9 +4,7 @@
   grid-template-columns: repeat(12, 1fr);
   color: #0FBEFF;
   width: 100%;
-  padding-bottom: 100px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-bottom: 100px; }
 
 #voting {
   grid-column: span 12; }
@@ -37,7 +35,7 @@
   color: #FFDD40; }
 
 .categories li {
-  padding-left: 10px; }
+  padding-left: 20px; }
 
 .speakers {
   display: flex;
