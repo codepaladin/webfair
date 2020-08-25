@@ -177,7 +177,6 @@
 		border-radius:5px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom:50px;
  	}
 
 	#voting {
@@ -195,8 +194,7 @@
 	.participate {
 		background:$bodyLight;
 		border-radius:15px;
-
-		height:230px;
+		padding-bottom:40px;
 	}
 
 	h4 {
@@ -264,9 +262,8 @@
 
 /*phones landscape*/
 @media only screen 
-  and (min-device-width: 280px) 
-  and (max-device-width: 824px) 
-  and (orientation: landscape) { 
+  and (max-device-height: 600px) 
+  and (orientation: landscape){
   	#voting {
 		grid-column:span 12;
 		
