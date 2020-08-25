@@ -430,7 +430,8 @@ a {
   grid-template-columns: repeat(12, 1fr);
   color: #0FBEFF;
   width: 100%;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  padding-right: 5vw; }
 
 #voting {
   grid-column: span 12; }
@@ -446,10 +447,7 @@ a {
   height: 34px;
   line-height: 34px;
   margin-left: 50px;
-  border-bottom: 1px solid #454857;
-  width: 80vw;
-  align-items: center;
-  justify-content: center; }
+  border-bottom: 1px solid #454857; }
 
 .categories ul {
   display: flex;
@@ -521,7 +519,7 @@ a {
 .speechInfo {
   border-bottom: 1px solid #454857;
   padding-bottom: 15px;
-  width: 80vw; }
+  width: 100%; }
 
 .speakerContainer {
   display: flex;
