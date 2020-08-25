@@ -77,6 +77,22 @@
 	width:40px;
 	border-radius: 50%;
 	border:3px solid $bodyLight;
+	bottom:0px;
+}
+
+.firstImage{
+	position:absolute;
+	left:0px;
+}
+
+.secondImage{
+	left:20px;
+	position:absolute;
+}
+
+.thirdImage{
+	left:40px;
+	position:absolute;
 }
 
 .upvote img {
@@ -95,6 +111,7 @@
 	text-align:center;
 	padding-bottom:15px;
 	display:none;
+	position:relative;
 }
 
 .upvote {
@@ -130,7 +147,7 @@
 	font-weight:700;
 }
 
-.next{
+.next {
 	font-family:$textFont;
 	font-size:14px;
 	color:$green;
@@ -142,7 +159,11 @@
 @media only screen 
 	and (min-width:768px){
 
-	 .submits {
+	.next {
+		margin-left:125px;
+	}
+
+ 	.submits {
 	 	font-family:$textFont;
 	 	font-size:14px;
 		color:$bodyLight;
@@ -153,10 +174,10 @@
 		background:$green;
 		font-weight:700;
 		border-radius:5px;
-		 margin-left: auto;
-   		 margin-right: auto;
-   		 margin-bottom:50px;
-	 }
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:50px;
+ 	}
 
 	#voting {
 		grid-column:span 9;

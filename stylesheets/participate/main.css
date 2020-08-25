@@ -488,7 +488,20 @@ a {
 .speaker img {
   width: 40px;
   border-radius: 50%;
-  border: 3px solid #2C2F39; }
+  border: 3px solid #2C2F39;
+  bottom: 0px; }
+
+.firstImage {
+  position: absolute;
+  left: 0px; }
+
+.secondImage {
+  left: 20px;
+  position: absolute; }
+
+.thirdImage {
+  left: 40px;
+  position: absolute; }
 
 .upvote img {
   width: 20px; }
@@ -503,7 +516,8 @@ a {
   width: 100px;
   text-align: center;
   padding-bottom: 15px;
-  display: none; }
+  display: none;
+  position: relative; }
 
 .upvote {
   display: flex;
@@ -542,6 +556,9 @@ a {
 
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
+  .next {
+    margin-left: 125px; }
+
   .submits {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
