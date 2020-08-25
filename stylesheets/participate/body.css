@@ -138,7 +138,10 @@
     display: block;
     color: #C7C9D3;
     height: 33px;
-    line-height: 33px; } }
+    line-height: 33px; }
+
+  .categories .submit {
+    display: none; } }
 /*phones landscape*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   #voting {

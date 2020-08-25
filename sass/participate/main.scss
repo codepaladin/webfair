@@ -4,6 +4,10 @@
 @import "nav";
 @import "body";
 
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
 body{
   width: 100vw;
   margin: 0px;

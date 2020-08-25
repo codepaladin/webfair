@@ -564,7 +564,10 @@ a {
     display: block;
     color: #C7C9D3;
     height: 33px;
-    line-height: 33px; } }
+    line-height: 33px; }
+
+  .categories .submit {
+    display: none; } }
 /*phones landscape*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
   #voting {
@@ -572,6 +575,9 @@ a {
 
   #information {
     display: none; } }
+html {
+  -webkit-text-size-adjust: 100%; }
+
 body {
   width: 100vw;
   margin: 0px;
