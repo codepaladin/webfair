@@ -533,6 +533,13 @@ a {
   padding-top: 2px;
   font-weight: 700; }
 
+.next {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #47CF73;
+  margin-left: 45px;
+  padding-top: 15px; }
+
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
   .submits {
