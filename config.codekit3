@@ -58,7 +58,9 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -396,18 +398,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/sass/about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/sass/about.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
+	"/participate.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/participate.html",
+		"oF": 0
 		},
 	"/sass/footer.scss": {
 		"aP": 0,
@@ -500,6 +497,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/participate/body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/participate/body.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/participate/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/participate/main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/print.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -552,6 +575,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/template/body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/template/body.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/template/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/template/main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -564,26 +613,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
-		},
-	"/stylesheets/about-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/stylesheets/about-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/stylesheets/about.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/stylesheets/about-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/stylesheets/footer-min.css": {
 		"aP": 1,
@@ -655,6 +684,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/stylesheets/nav-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/nav-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/stylesheets/nav.css": {
 		"aP": 1,
 		"bl": 0,
@@ -665,43 +704,43 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/stylesheets/navold-min.css": {
+	"/stylesheets/participate/body-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/stylesheets/navold-min-min.css",
+		"oAP": "/stylesheets/participate/body-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/stylesheets/navold.css": {
+	"/stylesheets/participate/body.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/stylesheets/navold-min.css",
+		"oAP": "/stylesheets/participate/body-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/stylesheets/oldspeakers-min.css": {
+	"/stylesheets/participate/main-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/stylesheets/oldspeakers-min-min.css",
+		"oAP": "/stylesheets/participate/main-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/stylesheets/oldspeakers.css": {
+	"/stylesheets/participate/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/stylesheets/oldspeakers-min.css",
+		"oAP": "/stylesheets/participate/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -742,16 +781,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/screen-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/stylesheets/speakersold.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/stylesheets/speakersold-min.css",
 		"oF": 0,
 		"oS": 3
 		},

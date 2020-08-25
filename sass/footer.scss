@@ -9,7 +9,7 @@ footer {
 	display:grid;
 	grid-template-columns:repeat(1, 1fr);
 	grid-template-rows:auto;
-	align-items:center;
+	 justify-items: center;
 	background:$bodyMed;
 	width: 100%;
     margin: 0px;
@@ -24,6 +24,11 @@ footer {
 	color:white;
 	font-family:$logoFont;
 	font-size:35px;
+}
+
+.footerContainer{
+	width:100%;
+	max-width:1200px;
 }
 
 .footerLinks {

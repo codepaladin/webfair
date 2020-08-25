@@ -42,7 +42,7 @@ a {
   align-items: center; }
 
 .menu li a {
-  display: block;
+  display: none;
   padding: 15px 5px; }
 
 .menu li.subitem a {

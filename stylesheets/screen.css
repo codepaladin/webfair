@@ -620,64 +620,6 @@ h2::first-letter {
 @media only screen and (min-width: 1200px) {
   .speech {
     width: 350px; } }
-#about {
-  padding-top: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #131417; }
-
-.aboutContainer {
-  background: #1E1F26;
-  width: 100%;
-  display: flex;
-  border-radius: 15px;
-  flex-direction: column;
-  padding-bottom: 50px; }
-
-.aboutContainer p {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  font-family: "Open Sans", sans-serif;
-  color: #FFFFFF;
-  line-height: 1.5;
-  font-size: 30px;
-  text-align: left; }
-
-.aboutActions {
-  padding-top: 40px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.more {
-  padding: 10px;
-  display: flex;
-  width: 250px;
-  height: 90px;
-  border-radius: 15px;
-  background: #47CF73;
-  border: 1px solid #FFFFFF;
-  align-items: center;
-  justify-content: center;
-  color: #131417;
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  font-weight: 700; }
-
-.more:hover {
-  background-color: #FFFFFF;
-  color: #131417; }
-
-.aboutActions a:link {
-  color: #131417; }
-
-/* mouse over link */
-.aboutActions a:hover {
-  color: #FFFFFF; }
-
 .sponsorContainer {
   display: flex;
   align-items: center;
@@ -824,7 +766,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
-  align-items: center;
+  justify-items: center;
   background: #1E1F26;
   width: 100%;
   margin: 0px;
@@ -838,6 +780,10 @@ footer {
   color: white;
   font-family: "Smythe", cursive;
   font-size: 35px; }
+
+.footerContainer {
+  width: 100%;
+  max-width: 1200px; }
 
 .footerLinks {
   padding-top: 20px;
@@ -910,6 +856,11 @@ footer {
   padding-top: 45px;
   font-weight: 700;
   font-size: 1.1em; }
+
+.logo {
+  font-family: "Smythe", cursive;
+  font-size: 40px;
+  color: #FFDD40; }
 
 .largeTitle::first-letter {
   font-family: "Cinzel Decorative", cursive;
