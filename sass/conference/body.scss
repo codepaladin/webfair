@@ -5,7 +5,6 @@
   display:grid;
    grid-template-columns: repeat(3, 1fr);
   color:$blue;
-  width:100%;
   background:$blue;
 
     grid-template-rows: auto;
@@ -33,6 +32,7 @@
 	grid-area: agenda;
 	background:$bodyDark;
   padding:10px;
+
 }
 
 .small {
@@ -94,9 +94,10 @@
 .speechContainer {
     margin-right:10px;
    border-radius:5px;
-   display:flex;
    flex-direction:column;
    padding-top:5px;
+   display:flex; overflow-x: auto;
+   margin-left:10px;
   
 }
 
@@ -120,15 +121,16 @@
 .speakers {
   font-size:12px;
   display:flex;
-  overflow-x: auto;
+  
   grid-gap:5px;
-  padding-left:10px;
+  padding-left:0px;
 }
 
 .speaker {
-  width:150px;
-     background:$bodyLight;
+  min-width:130px;
+  background:$bodyLight;
   text-align:center;
+  border-radius:5px;
 }
 
 /*<div id="agenda">
