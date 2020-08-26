@@ -39,7 +39,7 @@
   padding-top:10px;
   display:grid;
    grid-area: sponsors;
-     align-items: center;
+ 
   justify-content: center;
 }
 
@@ -209,13 +209,19 @@
     }
 
     .sponsorContainer {
-      padding-top:35px;
+      align-self: start;
+       padding-top:0px;
       text-align:center;
       grid-template-columns: repeat(1, 1fr);
     }
 
     #sponsors  img {
       width:150px;
+    }
+
+    #sponsors {
+      padding-top:10px;
+  
     }
 
     .speakers {

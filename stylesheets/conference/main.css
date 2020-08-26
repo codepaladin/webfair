@@ -454,7 +454,6 @@ a {
   padding-top: 10px;
   display: grid;
   grid-area: sponsors;
-  align-items: center;
   justify-content: center; }
 
 .sponsorContainer {
@@ -596,12 +595,16 @@ a {
     grid-template-areas: "liveStream liveStream liveStream liveStream" "agenda agenda agenda sponsors"; }
 
   .sponsorContainer {
-    padding-top: 35px;
+    align-self: start;
+    padding-top: 0px;
     text-align: center;
     grid-template-columns: repeat(1, 1fr); }
 
   #sponsors img {
     width: 150px; }
+
+  #sponsors {
+    padding-top: 10px; }
 
   .speakers {
     grid-template-columns: repeat(3, 1fr);
