@@ -165,6 +165,7 @@
   margin-right:10px;
   display:grid;
   grid-template-columns: repeat(2,1fr); 
+  border:1px solid $bodyLight;
 }
 
 .speaker {
