@@ -508,7 +508,8 @@ a {
 
 .agendaInfo {
   padding-top: 10px;
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .time {
   text-align: center;
@@ -516,7 +517,6 @@ a {
   color: #131417;
   height: 30px;
   border-radius: 5px;
-  width: 80px;
   line-height: 30px;
   font-size: 12px; }
 
@@ -538,10 +538,8 @@ a {
 .speechTitle {
   font-family: "Cinzel", serif;
   font-weight: 700;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  width: 70vw; }
 
 .speakers {
   font-size: 12px;
@@ -576,24 +574,6 @@ a {
   line-height: 30px;
   font-size: 12px; }
 
-/*<div id="agenda">
-    <div class="date">June 14, 2021</div>
-    <div class="agendaItem">
-      <div class="agendaInfo">
-        <div class="time">10:00 AM</div>
-        <div class="speechTitle">how To Design Anything In CSS</div>
-      </div>
-      <div class="speechContainer">
-        <div class="speakers">
-              <div class="speaker">
-                <img src="images/coyier.jpeg">
-                <div class="speakerName">Chris Coyier</div>
-                <div class="speakerInfo">Founder, <a href="#">Codepen.io</a></div>
-              </div>
-        </div>
-      </div>
-    </div>
-  </div>*/
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
   .large {
@@ -601,7 +581,17 @@ a {
 
   .small {
     display: none; } }
-/*need to avoid iphone x*/
+/*iphone x*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 812px) and (orientation: landscape) {
+  .speakers {
+    grid-template-columns: repeat(3, 1fr); }
+
+  .sponsorContainer {
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr); }
+
+  #sponsors img {
+    width: 15vw; } }
 body {
   width: 100vw;
   margin: 0px;
