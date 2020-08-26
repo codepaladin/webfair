@@ -480,7 +480,11 @@ a {
   height: 100%; }
 
 .date {
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center; }
+
+.agendaItem {
+  padding-top: 20px; }
 
 .agendaInfo {
   padding-top: 10px;
