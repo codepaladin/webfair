@@ -460,7 +460,8 @@ a {
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; }
+  grid-gap: 10px;
+  padding-bottom: 50px; }
 
 .sponsor {
   margin-bottom: 10px; }
