@@ -2,10 +2,9 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background: #0FBEFF;
   width: 100%;
   grid-template-rows: auto;
-  grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda";
+  grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda" "sponsors sponsors sponsors";
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #FFFFFF; }
@@ -23,6 +22,25 @@
   grid-area: agenda;
   background: #131417;
   padding: 10px; }
+
+#sponsors {
+  grid-area: sponsors;
+  padding: 10px;
+  padding-left: 20px; }
+
+.sponsorContainer {
+  padding-top: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; }
+
+.sponsor {
+  margin-bottom: 10px; }
+
+#sponsors img {
+  width: 25vw; }
 
 .small {
   display: block; }
@@ -54,8 +72,10 @@
   height: 100%; }
 
 .date {
+  padding-top: 10px;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  color: #C7C9D3; }
 
 .agendaItem {
   padding-top: 20px; }
@@ -112,6 +132,9 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px; }
+
+.speakerTitle {
+  color: #C7C9D3; }
 
 .speakerInfo {
   padding-left: 10px; }

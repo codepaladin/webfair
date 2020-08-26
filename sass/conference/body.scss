@@ -4,12 +4,13 @@
   max-width:1200px;
   display:grid;
    grid-template-columns: repeat(3, 1fr);
-  background:$blue;
+
   width:100%;
     grid-template-rows: auto;
   grid-template-areas: 
     "liveStream liveStream liveStream"
-    "agenda agenda agenda";
+    "agenda agenda agenda"
+    "sponsors sponsors sponsors";
 
   font-family:$textFont;
   font-size:14px;
@@ -31,7 +32,29 @@
   grid-area: agenda;
   background:$bodyDark;
   padding:10px;
+}
 
+#sponsors {
+   grid-area: sponsors;
+  padding:10px;
+  padding-left:20px;
+}
+
+.sponsorContainer {
+  padding-top:20px;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+}
+
+.sponsor {
+  margin-bottom:10px;
+}
+
+#sponsors img{
+  width:25vw;
 }
 
 .small {
@@ -66,8 +89,10 @@
 }
 
 .date {
+  padding-top:10px;
   font-weight:700;
   text-align:center;
+  color:$lightGrey;
 }
 
 .agendaItem {
@@ -139,6 +164,10 @@
 
 .speakerName{
  
+}
+
+.speakerTitle{
+  color:$lightGrey;
 }
 
 .speakerInfo{
