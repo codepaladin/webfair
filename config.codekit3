@@ -66,9 +66,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -698,6 +696,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/conference/body-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/conference/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/conference/main-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},

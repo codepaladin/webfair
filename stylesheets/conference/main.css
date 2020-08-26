@@ -432,7 +432,10 @@ a {
   width: 100%;
   background: #0FBEFF;
   grid-template-rows: auto;
-  grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda" "sponsors sponsors sponsors"; }
+  grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda";
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF; }
 
 #liveStream {
   grid-area: liveStream;
@@ -443,22 +446,21 @@ a {
   background: #0FBEFF;
   color: white; }
 
-#sponsors {
-  grid-area: sponsors;
-  background: #FFFFFF; }
-
 #agenda {
   grid-area: agenda;
-  background: #FFDD40; }
+  background: #131417;
+  padding-left: 10px; }
 
-html, body {
-  height: 100%; }
+.small {
+  display: block; }
+
+.large {
+  display: none; }
 
 .wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   height: 100%;
-  margin: 0 auto;
-  background: #CCC; }
+  margin: 0 auto; }
 
 .h_iframe {
   position: relative;
@@ -471,17 +473,62 @@ html, body {
   width: 100%;
   height: 100%; }
 
-.video {
-  position: relative; }
-
-.video iframe {
+.wrapper img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
 
+.date {
+  font-weight: 700; }
+
+.agendaInfo {
+  display: flex; }
+
+.time {
+  text-align: center;
+  background: #FFDD40;
+  color: #131417;
+  height: 30px;
+  border-radius: 5px;
+  width: 100px;
+  line-height: 30px; }
+
+.speakers img {
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #2C2F39; }
+
+/*<div id="agenda">
+  <div class="date">June 14th, 2021</div>
+  <div class="agendaItem">
+    <div class="agendaInfo">
+      <div class="time">10:00 AM</div>
+      <div class="speechContainer">
+        <div class="duration">9:30 AM - 10:00 AM (30 Min)</div>
+        <div class="speechTitle">how To Design Anything in CSS</div>
+        <div class="speakers">
+          <div class="speaker">
+            <img src="images/coyier.jpeg">
+            <div class="speakerName">Chris Coyier</div>
+            <div class="speakerInfo">Founder, <a href="#">Codepen.io</a></div>
+          </div>
+        </div>
+      </div>
+    <div class="sponsorInfo">sponsor Info</div>
+  </div>
+</div>*/
 /*tablets & desktop*/
+@media only screen and (min-width: 768px) {
+  .large {
+    display: block; }
+
+  .small {
+    display: none; }
+
+  .container {
+    grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda"; } }
 /*need to avoid iphone x*/
 body {
   width: 100vw;
