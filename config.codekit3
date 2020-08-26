@@ -57,8 +57,18 @@
 		"oAP": "/.sass-cache/fd695067bac5db7663da579b46f9274f6119707c/screen.scssc",
 		"oF": 0
 		},
+	"/conference.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/conference.html",
+		"oF": 0
+		},
 	"/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -234,6 +244,28 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/livestream-small.png": {
+		"ft": 32768,
+		"iS": 527721,
+		"oA": 0,
+		"oAP": "/images/livestream-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/livestream.png": {
+		"ft": 32768,
+		"iS": 622882,
+		"oA": 0,
+		"oAP": "/images/livestream.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/rollercoaster.png": {
 		"ft": 32768,
@@ -415,6 +447,32 @@
 		"oAP": "/participate.html",
 		"oF": 0
 		},
+	"/sass/conference/body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/conference/body.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/conference/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/conference/main.css",
+		"oF": 1,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -528,7 +586,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/sass/participate/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 0
 		},
@@ -622,6 +680,36 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/stylesheets/conference/body-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/conference/body-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/conference/body.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/conference/body-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/conference/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/conference/main-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/stylesheets/footer-min.css": {
 		"aP": 1,
@@ -842,6 +930,14 @@
 		"oAP": "/stylesheets/variables-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/template.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template.html",
+		"oF": 0
 		}
 	},
 "hooks": [
