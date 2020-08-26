@@ -452,17 +452,18 @@ a {
 
 #sponsors {
   padding-top: 10px;
-  padding-right: 20px;
   display: grid;
-  grid-area: sponsors; }
+  grid-area: sponsors;
+  align-items: center;
+  justify-content: center; }
 
 .sponsorContainer {
-  padding-top: 20px;
+  padding-top: 40px;
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 15px;
   padding-bottom: 50px; }
 
 .sponsor {
@@ -609,14 +610,15 @@ a {
 
   footer {
     margin-top: 100px; } }
-/*iphone x*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 812px) and (orientation: landscape) {
+/*phones landscape*/
+@media only screen and (max-device-height: 600px) and (orientation: landscape) {
   .speakers {
     grid-template-columns: repeat(3, 1fr); }
 
   .sponsorContainer {
     text-align: center;
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px; }
 
   #sponsors img {
     width: 15vw; }
