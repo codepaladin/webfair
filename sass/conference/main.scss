@@ -27,20 +27,20 @@ nav {
 }
 
 .navContainer{
-	display:grid;
+  display:grid;
 
-	width:100%;
-	max-width:1200px;
+  width:100%;
+  max-width:1200px;
 }
 
 #responsiveMenu {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .logoContainer {
-	position:absolute;
-	top:5px;
-	padding-left:15px;
+  position:absolute;
+  top:5px;
+  padding-left:15px;
 }
 
 a {
@@ -49,9 +49,9 @@ a {
 }
 
 h3 {
-	font-size:26px;
-	font-family:$titleFont;
-	font-weight:500;
+  font-size:26px;
+  font-family:$titleFont;
+  font-weight:500;
 }
 
 
@@ -64,8 +64,8 @@ a:hover {
 
 /*tablets, desktops*/
 @media only screen 
-	and (min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
-	(min-device-width:768px) and (orientation:landscape)   and (-webkit-max-device-pixel-ratio: 2)/*allow ipads but not landscape iphones*/
+  and (min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+  (min-device-width:768px) and (orientation:landscape)   and (-webkit-max-device-pixel-ratio: 2)/*allow ipads but not landscape iphones*/
 
 {
 
