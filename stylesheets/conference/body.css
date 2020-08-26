@@ -1,10 +1,10 @@
 .container {
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4 1fr);
   width: 100%;
   grid-template-rows: auto;
-  grid-template-areas: "liveStream liveStream liveStream" "agenda agenda agenda" "sponsors sponsors sponsors";
+  grid-template-areas: "liveStream liveStream liveStream liveStream" "agenda agenda agenda agenda" "sponsors sponsors sponsors sponsors";
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #FFFFFF; }
@@ -21,9 +21,11 @@
 #agenda {
   grid-area: agenda;
   background: #131417;
-  padding: 10px; }
+  padding: 10px;
+  display: grid; }
 
 #sponsors {
+  display: grid;
   grid-area: sponsors;
   padding: 10px;
   padding-left: 20px; }
@@ -73,10 +75,16 @@
   height: 100%; }
 
 .date {
-  padding-top: 10px;
+  margin-top: 25px;
   font-weight: 700;
   text-align: center;
-  color: #C7C9D3; }
+  color: #C7C9D3;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #2C2F39;
+  width: 150px;
+  justify-self: center; }
 
 .agendaItem {
   padding-top: 20px; }
@@ -103,9 +111,9 @@
 
 .speakers img {
   margin-left: 10px;
-  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  border: 3px solid #2C2F39; }
+  border: 4px solid #454857; }
 
 .duration {
   display: none; }
@@ -114,7 +122,7 @@
   font-family: "Cinzel", serif;
   font-weight: 700;
   padding-left: 10px;
-  width: 70vw; }
+  max-width: 75vw; }
 
 .speakers {
   font-size: 12px;
@@ -155,7 +163,26 @@
     display: block; }
 
   .small {
-    display: none; } }
+    display: none; }
+
+  .container {
+    grid-template-areas: "liveStream liveStream liveStream liveStream" "agenda agenda agenda sponsors"; }
+
+  .sponsorContainer {
+    padding-top: 35px;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr); }
+
+  #sponsors img {
+    width: 150px; }
+
+  .speakers {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  footer {
+    margin-top: 100px; } }
 /*iphone x*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 812px) and (orientation: landscape) {
   .speakers {
@@ -166,4 +193,7 @@
     grid-template-columns: repeat(4, 1fr); }
 
   #sponsors img {
-    width: 15vw; } }
+    width: 15vw; }
+
+  .container {
+    grid-template-areas: "liveStream liveStream liveStream liveStream" "agenda agenda agenda agenda" "sponsors sponsors sponsors sponsors"; } }
