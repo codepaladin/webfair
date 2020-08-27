@@ -19,22 +19,24 @@ main {
 
 .coaster{
   position:absolute;
-  left:0px;
+   right: calc(50%);
   bottom:-5px;
 }
 
 .wheel{
   position:absolute;
   bottom:-3px;
-  right:0px;
+  left: calc(50% + 10vw);
   height:40vh;
-
+  min-height:250px;
 }
 
 .hero{
 	 position:relative;
 	 z-index:2;
 }
+
+
 
 h1{
 	color:$white;

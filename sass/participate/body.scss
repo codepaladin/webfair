@@ -191,6 +191,7 @@
 		display:block;
 		grid-column:span 3;
 		font-family:$textFont;
+		padding-right:30px;
 	}
 
 	.participate {
@@ -244,6 +245,7 @@
 
 	.container {
 		padding-left:20px;
+		padding-right:0px;
 	}
 
 
@@ -285,3 +287,13 @@
 		display:none;
   }
  }
+
+
+ @media only screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 824px) 
+  and (orientation: landscape) { 
+  	.submit {
+		display:block;
+	}
+  }

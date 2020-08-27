@@ -156,7 +156,8 @@
   #information {
     display: block;
     grid-column: span 3;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    padding-right: 30px; }
 
   .participate {
     background: #2C2F39;
@@ -200,7 +201,8 @@
     display: block; }
 
   .container {
-    padding-left: 20px; }
+    padding-left: 20px;
+    padding-right: 0px; }
 
   .speakers {
     margin-top: 12px;
@@ -228,3 +230,6 @@
 
   #information {
     display: none; } }
+@media only screen and (min-device-width: 280px) and (max-device-width: 824px) and (orientation: landscape) {
+  .submit {
+    display: block; } }

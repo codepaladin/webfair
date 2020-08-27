@@ -126,6 +126,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/icons/001-save.png": {
+		"ft": 32768,
+		"iS": 2023,
+		"oA": 0,
+		"oAP": "/images/icons/001-save.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/002-heart.png": {
+		"ft": 32768,
+		"iS": 4318,
+		"oA": 0,
+		"oAP": "/images/icons/002-heart.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/003-share.png": {
+		"ft": 32768,
+		"iS": 4437,
+		"oA": 0,
+		"oAP": "/images/icons/003-share.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/icons/backup.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/icons/backup.txt",
+		"oF": 0
+		},
+	"/images/icons/license/license.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/icons/license/license.pdf",
+		"oF": 0
+		},
 	"/images/icons8-facebook-50.png": {
 		"ft": 32768,
 		"iS": 4740,
@@ -627,6 +676,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/speech/body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/speech/body.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/speech/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/speech/main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/sponsors.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -678,6 +753,14 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/speech.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/speech.html",
+		"oF": 0
 		},
 	"/stylesheets/conference/body-min.css": {
 		"aP": 1,
@@ -886,6 +969,36 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/screen-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/speech/body.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/speech/body-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/speech/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/speech/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/speech/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/speech/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},

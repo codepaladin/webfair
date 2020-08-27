@@ -51,6 +51,9 @@ h3 {
 	font-weight:500;
 }
 
+h3::first-letter { 
+  font-family:$titleFontDecorative;
+}
 
 
 /* mouse over link */
@@ -82,10 +85,13 @@ main{
 	(min-device-width:768px) and (orientation:landscape)   and (-webkit-max-device-pixel-ratio: 2)/*allow ipads but not landscape iphones*/
 
 {
-	h3 {
-		font-size:40px;
-		font-weight:700;
-	}
+
+	h3{
+	color:$lightGrey;
+	font-family:$titleFont;
+	font-size:40px;
+	
+}
 
 	.eventDate{
 		font-size:24px;
