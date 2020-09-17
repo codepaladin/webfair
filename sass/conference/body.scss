@@ -36,10 +36,14 @@
   padding-top:20px;
 }
 
+.agendaContainer {
+  display:flex;
+}
+
 
 .speakingContainer {
-  padding-top:5px;
-  padding-bottom:2px;
+  padding-top:10px;
+  padding-bottom:7px;
   margin-top:25px;
   display:flex;
   font-size:14px;
@@ -85,12 +89,32 @@
 }
 
 #sponsors {
-  padding-top:10px;
+
+  text-align:center;
+  grid-area:sponsors;
+  padding-top:20px;
+  padding-right:10px;
+  /*padding-top:10px;
   display:grid;
    grid-area: sponsors;
   justify-content: center;
   text-align:center;
-  padding-bottom:50px;
+  padding-bottom:50px;*/
+}
+
+.sponsorAds {
+  display:flex;
+  flex-direction:row;
+}
+
+.sponsorAd {
+  padding-bottom:25px;
+  width:100%;
+}
+
+.sponsorAd img{
+  border-radius:5%;
+  width:45vw;
 }
 
 .sponsorImages {
@@ -111,7 +135,7 @@
 }
 
 #sponsors img{
-  width:25vw;
+ /* width:25vw;*/
 }
 
 .small {
@@ -145,12 +169,6 @@
     height: 100%;
 }
 
-
-.agendaContainer {
-  margin-top:25px;
-  display:flex;
-}
-
 .agendaTitle {
   font-weight:700;
   text-align:center;
@@ -161,6 +179,16 @@
   border:1px solid $bodyLight;
   width:150px;
   justify-self:left;
+}
+
+.sponsorTitle {
+  font-weight:700;
+  text-align:center;
+  color:$lightGrey;
+  height:40px;
+  line-height:40px;
+ 
+  
 }
 
 .agendaDates{
@@ -299,9 +327,24 @@
       grid-template-columns: repeat(1,1fr); 
     }
 
-    #sponsors  img {
-      width:150px;
+    #sponsors {
+          padding-right:10px;
     }
+
+  .sponsorAds {
+    display:flex;
+    flex-direction:column;
+
+  }
+
+  .sponsorAd {
+    width:100%;
+  }
+
+  .sponsorAd img{
+     border-radius:5%;
+    width:90%;
+  }
 
     #sponsors {
       padding-top:10px;

@@ -84,6 +84,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/astra.png": {
+		"ft": 32768,
+		"iS": 34809,
+		"oA": 0,
+		"oAP": "/images/astra.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/codepen.png": {
 		"ft": 32768,
 		"iS": 2339,
@@ -491,6 +502,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/wufoo-large.jpg": {
+		"ft": 16384,
+		"iS": 36253,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wufoo-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/wufoo.jpg": {
 		"ft": 16384,
 		"iS": 36253,
@@ -539,6 +561,19 @@
 		"oA": 0,
 		"oAP": "/participate.html",
 		"oF": 0
+		},
+	"/sass/agenda.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/agenda.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/sass/conference/body.scss": {
 		"aP": 0,
