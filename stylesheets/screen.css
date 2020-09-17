@@ -712,6 +712,15 @@ h2::first-letter {
   align-items: center;
   border: 1px solid #2C2F39; }
 
+.stats {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  background-color: #131417;
+  align-items: center;
+  border-bottom: 1px solid #2C2F39; }
+
 .space {
   margin-top: 0px; }
 

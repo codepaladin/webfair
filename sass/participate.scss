@@ -26,9 +26,17 @@
 }
 
 
-.stat {
-	
+.stats {
+	width:100vw;
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	text-align:center;
+	background-color:$bodyDark;
+	align-items:center;
+	border-bottom:1px solid $bodyLight;
 }
+
+
 
 .space {
 	margin-top:0px;
