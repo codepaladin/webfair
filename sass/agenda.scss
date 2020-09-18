@@ -3,10 +3,10 @@
 #agenda {
   grid-area: agenda;
   background:$bodyDark;
-  padding:10px;
+
   display:grid;
   	padding-top:50px;
-	padding-left:20px;
+	
 }
 
 .agendaTitle {
@@ -14,7 +14,6 @@
   font-size:1.1em;
   font-weight:700;
   border-radius:5px;
-  width:150px;
   line-height:40px;
   height:40px;
   color:$white;
@@ -47,8 +46,6 @@
   align-items: center;
   justify-content: center;
 	flex-direction:column;
-	padding-left:5px;
-	padding-right:5px;
 	margin-top:10px;
 	background:$bodyMed;
 	height:150px;

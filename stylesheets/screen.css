@@ -657,17 +657,14 @@ h2::first-letter {
 #agenda {
   grid-area: agenda;
   background: #131417;
-  padding: 10px;
   display: grid;
-  padding-top: 50px;
-  padding-left: 20px; }
+  padding-top: 50px; }
 
 .agendaTitle {
   font-family: "Cinzel", serif;
   font-size: 1.1em;
   font-weight: 700;
   border-radius: 5px;
-  width: 150px;
   line-height: 40px;
   height: 40px;
   color: #FFFFFF; }
@@ -695,8 +692,6 @@ h2::first-letter {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-left: 5px;
-  padding-right: 5px;
   margin-top: 10px;
   background: #1E1F26;
   height: 150px;
