@@ -658,7 +658,9 @@ h2::first-letter {
   grid-area: agenda;
   background: #131417;
   display: grid;
-  padding-top: 50px; }
+  padding-top: 50px;
+  margin-right: 10px;
+  margin-left: 10px; }
 
 .agendaTitle {
   font-family: "Cinzel", serif;
@@ -667,7 +669,8 @@ h2::first-letter {
   border-radius: 5px;
   line-height: 40px;
   height: 40px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-left: 20px; }
 
 .agendaTitle::first-letter {
   font-family: "Cinzel Decorative", cursive;
