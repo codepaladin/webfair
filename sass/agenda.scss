@@ -11,6 +11,10 @@
 	
 }
 
+.a_date{
+	padding-top:5px;
+}
+
 .agendaTitle {
   font-family:$titleFont;
   font-size:1.1em;
@@ -60,6 +64,8 @@
 .speechTitle_a {
 	color:$lightGrey;
 	font-family:$titleFont;
+	  padding-right:10px;
+  padding-left:10px;
 }
 
 .agendaTime {

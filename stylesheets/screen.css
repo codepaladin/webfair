@@ -662,6 +662,9 @@ h2::first-letter {
   margin-right: 10px;
   margin-left: 10px; }
 
+.a_date {
+  padding-top: 5px; }
+
 .agendaTitle {
   font-family: "Cinzel", serif;
   font-size: 1.1em;
@@ -702,7 +705,9 @@ h2::first-letter {
 
 .speechTitle_a {
   color: #C7C9D3;
-  font-family: "Cinzel", serif; }
+  font-family: "Cinzel", serif;
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .agendaTime {
   padding-top: 10px;
