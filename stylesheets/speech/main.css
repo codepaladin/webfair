@@ -473,6 +473,16 @@ a {
 h3 {
   color: #FFFFFF; }
 
+.tags {
+  font-size: 12px;
+  display: flex; }
+
+.tag {
+  margin: 15px 5px 15px 0px;
+  padding: 5px 15px 5px 15px;
+  background: #2C2F39;
+  border-radius: 25px; }
+
 .sponsors {
   display: none;
   margin-bottom: 20px;

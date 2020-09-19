@@ -66,6 +66,21 @@ h3 {
   color:$white;
 }
 
+.tags {
+  font-size:12px;
+  display:flex;
+}
+
+.tag {
+  margin:15px 5px 15px 0px;
+  padding:5px 15px 5px 15px;
+  background:$bodyLight;
+  border-radius:25px;
+}
+
+.tagText{
+
+}
 
 .sponsors {
   display:none;

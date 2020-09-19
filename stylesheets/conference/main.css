@@ -183,6 +183,248 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-size: 14px; }
 
+/* Basic styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+/* mouse over link */
+nav a:hover {
+  color: #0FBEFF; }
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  top: 0;
+  left: 0;
+  height: 60px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #131417;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #0FBEFF; }
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+.navAction {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+  bottom: 10px; }
+
+.signup {
+  background: #47CF73;
+  color: #131417;
+  height: 34px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  line-height: 34px;
+  /* question: best way to do this*/ }
+
+#menuToggle {
+  /*overflow: hidden;*/
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none; }
+
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease; }
+
+#menuToggle a:hover {
+  color: tomato; }
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none; }
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: -2px 1px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%; }
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%; }
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #FFFFFF; }
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2); }
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px); }
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  text-align: center;
+  filter: drop-shadow(-10px 1px 4px #131417);
+  position: absolute;
+  display: block;
+  width: 100vw;
+  margin: -100px 0 0 100px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #2C2F39;
+  /*start location of menu*/
+  right: -20px;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  /*move down*/
+  transform: translate(0, -100%);
+  /*easing*/
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+
+#menu li {
+  padding: 20px 0;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif; }
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none; }
+
+#codepen {
+  font-family: "Yellowtail";
+  font-size: 26px;
+  position: absolute;
+  background: #FFDD40;
+  width: 300px;
+  height: 60px;
+  z-index: 2;
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top: 20px;
+  left: -40px;
+  border: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+
+#responsiveMenu {
+  display: none; }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 812px) and (orientation: landscape) {
+  #codepen {
+    /*
+        font-size:40px;
+        width:350;
+        height:90px;
+        top:20px;
+        left:-220px;
+        background-color: $blue;*/ }
+
+  #menuToggle {
+    top: 20px;
+    right: 20px; } }
+@media screen and (min-width: 1024px) {
+  #menuToggle {
+    display: block;
+    top: 0px;
+    right: 0px; } }
+/*not on iphones*/
+@media screen and (min-device-width: 768px) {
+  #codepen {
+    font-size: 40px;
+    width: 500px;
+    height: 80px;
+    top: 40px;
+    left: -100px; }
+
+  #menuToggle {
+    display: none;
+    top: 25px; }
+
+  #responsiveMenu {
+    padding: 25px;
+    display: block;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+  #responsiveMenu a {
+    padding-left: 20px;
+    color: #FFFFFF; }
+
+  #responsiveMenu a:hover {
+    color: #0FBEFF; } }
+@media screen and (min-device-width: 768px) and (max-width: 768px) {
+  #menuToggle {
+    display: block; }
+
+  #responsiveMenu {
+    display: none; } }
+@media screen and (min-device-width: 768px) {
+  /* mouse over link */ }
 .container {
   max-width: 1200px;
   display: grid;
@@ -499,7 +741,6 @@ nav {
   height: 60px;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: #2C2F39;
   display: grid;
   justify-items: center; }
 
@@ -521,9 +762,9 @@ a {
   color: #0FBEFF; }
 
 h3 {
-  font-size: 26px;
+  font-size: 16px;
   font-family: "Cinzel", serif;
-  font-weight: 500; }
+  font-weight: 700; }
 
 /* mouse over link */
 a:hover {
