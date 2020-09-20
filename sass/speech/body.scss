@@ -42,29 +42,19 @@
 }
 
 #comments {
-   align-self: start;
+  border-top:1px solid $midGrey;
+  align-self: start;
   grid-area: comments;
-  background:$green;
 }
 
-#a {
-  grid-area: a;
-  background:$blue; 
+.commentCount {
+  margin-top:20px;
 }
 
-#b {
-  grid-area: b;
-  background:$green;
-}
-
-#c {
-   align-self: start;
-  grid-area: c;
-  background:$yellow;
-}
 
 h3 {
   color:$white;
+
 }
 
 .tags {
@@ -90,9 +80,34 @@ h3 {
 }
 
 .sponsorSmall {
-  height:100px;
+  height:70px;
   background:$bodyMed;
   display:block;
+  border-top:1px solid $midGrey;
+  border-bottom:1px solid $midGrey;
+  display:flex;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.smallSponsorImg img {
+  width:45px;
+  margin-left:10px;
+  margin-right:20px;
+  margin-top:5px;
+}
+
+.smallSponsorText {
+  margin-right:10px;
+}
+
+.sponsorAction {
+
+   margin-left: auto;
+   background-color:$green;
+   padding:5px 15px 5px 15px;
+   border-radius:10px;
+   margin-right:10px;
 }
 
 
@@ -114,8 +129,7 @@ h3 {
 }
 
 .titleContainer {
-   margin-left:10px;
-  display:flex;
+
   padding-bottom:10px;
 }
 
@@ -126,8 +140,6 @@ h3 {
 }
 
 .action {
-  height:40px;
-  width:40px;
   text-align:center;
   margin-left:5px;
 }
@@ -141,9 +153,8 @@ h3 {
 }
 
 .actions img {
-
-  width:20px;
-  padding-top:10px;
+  width:15px;
+  margin-left:10px;
 }
 
 
@@ -178,12 +189,24 @@ h3 {
 }
 
 .title {
-  color:$blue;
   font-weight:500;
   font-size:12px;
   font-family:$titleFont;
+}
+
+.titleInfo{
+    display:flex;
+  flex-direction:row;
 
 }
+
+.social{
+
+    display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
 
 .speakingImage img {
   margin-left:10px;
@@ -222,6 +245,7 @@ h3 {
   border-radius:5px;
   border:1px solid $bodyLight;
   align-items:center;
+  border-radius:20px;
 }
 
 
@@ -289,6 +313,11 @@ h3 {
     .sponsors {
        display:block;
     }
+
+     .actions img {
+      width:20px;
+      margin-left:10px;
+    }
 }
 
 
@@ -303,6 +332,12 @@ h3 {
     .sponsors {
       display:none;
     }
+
+    .actions img {
+      width:20px;
+      margin-left:10px;
+    }
+
 }
 
 

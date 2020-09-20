@@ -454,22 +454,12 @@ a {
   grid-area: related; }
 
 #comments {
+  border-top: 1px solid #454857;
   align-self: start;
-  grid-area: comments;
-  background: #47CF73; }
+  grid-area: comments; }
 
-#a {
-  grid-area: a;
-  background: #0FBEFF; }
-
-#b {
-  grid-area: b;
-  background: #47CF73; }
-
-#c {
-  align-self: start;
-  grid-area: c;
-  background: #FFDD40; }
+.commentCount {
+  margin-top: 20px; }
 
 h3 {
   color: #FFFFFF; }
@@ -490,9 +480,30 @@ h3 {
   margin-top: 23px; }
 
 .sponsorSmall {
-  height: 100px;
+  height: 70px;
   background: #1E1F26;
-  display: block; }
+  display: block;
+  border-top: 1px solid #454857;
+  border-bottom: 1px solid #454857;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; }
+
+.smallSponsorImg img {
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 5px; }
+
+.smallSponsorText {
+  margin-right: 10px; }
+
+.sponsorAction {
+  margin-left: auto;
+  background-color: #47CF73;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  margin-right: 10px; }
 
 .wrapper {
   max-width: 1200px;
@@ -511,8 +522,6 @@ h3 {
   height: 100%; }
 
 .titleContainer {
-  margin-left: 10px;
-  display: flex;
   padding-bottom: 10px; }
 
 .actions {
@@ -521,8 +530,6 @@ h3 {
   display: flex; }
 
 .action {
-  height: 40px;
-  width: 40px;
   text-align: center;
   margin-left: 5px; }
 
@@ -533,8 +540,8 @@ h3 {
   color: #C7C9D3; }
 
 .actions img {
-  width: 20px;
-  padding-top: 10px; }
+  width: 15px;
+  margin-left: 10px; }
 
 .sponsorLarge {
   margin-top: 5px; }
@@ -556,10 +563,18 @@ h3 {
   width: 160px; }
 
 .title {
-  color: #0FBEFF;
   font-weight: 500;
   font-size: 12px;
   font-family: "Cinzel", serif; }
+
+.titleInfo {
+  display: flex;
+  flex-direction: row; }
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
 
 .speakingImage img {
   margin-left: 10px;
@@ -593,7 +608,8 @@ h3 {
   border-background-size: cover;
   border-radius: 5px;
   border: 1px solid #2C2F39;
-  align-items: center; }
+  align-items: center;
+  border-radius: 20px; }
 
 /*tablets & desktop*/
 @media only screen and (min-width: 768px) {
@@ -614,14 +630,22 @@ h3 {
     display: none; }
 
   .sponsors {
-    display: block; } }
+    display: block; }
+
+  .actions img {
+    width: 20px;
+    margin-left: 10px; } }
 @media only screen and (min-width: 768px) and (max-width: 999px) {
   .recommended {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px; }
 
   .sponsors {
-    display: none; } }
+    display: none; }
+
+  .actions img {
+    width: 20px;
+    margin-left: 10px; } }
 /*need to avoid iphone x*/
 body {
   width: 100vw;
