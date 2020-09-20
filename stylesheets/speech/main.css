@@ -499,6 +499,7 @@ h3 {
   margin-right: 10px; }
 
 .sponsorAction {
+  text-align: center;
   margin-left: auto;
   background-color: #47CF73;
   padding: 5px 15px 5px 15px;
@@ -563,8 +564,9 @@ h3 {
   width: 160px; }
 
 .title {
+  color: #0FBEFF;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Cinzel", serif; }
 
 .titleInfo {

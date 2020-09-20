@@ -102,7 +102,7 @@ h3 {
 }
 
 .sponsorAction {
-
+   text-align:center;
    margin-left: auto;
    background-color:$green;
    padding:5px 15px 5px 15px;
@@ -189,8 +189,9 @@ h3 {
 }
 
 .title {
+  color:$blue;
   font-weight:500;
-  font-size:12px;
+  font-size:13px;
   font-family:$titleFont;
 }
 
