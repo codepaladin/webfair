@@ -744,9 +744,9 @@
 		"ec": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/sass/prespeech/body.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 0
 		},
@@ -759,7 +759,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/sass/prespeech/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 0
 		},
@@ -1065,6 +1065,46 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/stylesheets/particpate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/prespeech/body-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/prespeech/body-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/prespeech/body.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/prespeech/body-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/prespeech/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/prespeech/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/stylesheets/prespeech/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/prespeech/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
