@@ -80,7 +80,7 @@ h3 {
 }
 
 .sponsorSmall {
-  height:70px;
+ 
   background:$bodyMed;
   display:block;
   border-top:1px solid $midGrey;
@@ -88,10 +88,13 @@ h3 {
   display:flex;
   align-items:center;
   margin-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
 }
 
 .smallSponsorImg img {
-  width:45px;
+  width:100px;
   margin-left:10px;
   margin-right:20px;
   margin-top:5px;
@@ -99,11 +102,12 @@ h3 {
 
 .smallSponsorText {
   margin-right:10px;
+  margin-left: auto;
+  padding-bottom:10px;
 }
 
 .sponsorAction {
    text-align:center;
-   margin-left: auto;
    background-color:$green;
    padding:5px 15px 5px 15px;
    border-radius:10px;
@@ -217,16 +221,20 @@ h3 {
 }
 
 .speakingName {
-  padding-left:15px;
+  
 
+}
+
+.speakerInfo {
+  display:block;
+  padding-left:15px;
+  text-align:center;
 }
 
 .speakingSocial {
-  width:120px;
-  padding-left:20px;
-  margin-left:auto;
-  padding-right:10px;
+  padding-top:5px;
 }
+
 .speakingSocial img {
   padding-left:10px;
   width:30px;
@@ -235,6 +243,7 @@ h3 {
 
 .speakingContainer {
   padding-top:10px;
+  padding-right:10px;
   padding-bottom:7px;
   margin-top:25px;
   display:flex;
@@ -247,6 +256,10 @@ h3 {
   border:1px solid $bodyLight;
   align-items:center;
   border-radius:20px;
+}
+
+.showDash {
+  display:none;
 }
 
 
@@ -319,6 +332,34 @@ h3 {
       width:20px;
       margin-left:10px;
     }
+
+    .speakingImage img {
+       width:75px;
+    }
+
+    .speakerInfo {
+      display:flex;
+    }
+
+    .showDash {
+      display:block;
+    }
+
+    .company {display:flex;}
+
+    .speakingSocial {
+      margin-left:auto;
+      padding-right:10px;
+    }
+
+    .speakerInfo{
+      width:100%;
+      align-items:center;
+    }
+
+    .speakingSocial img{
+      width:30px;
+    }
 }
 
 
@@ -337,6 +378,34 @@ h3 {
     .actions img {
       width:20px;
       margin-left:10px;
+    }
+
+        .speakingImage img {
+       width:75px;
+    }
+
+    .speakerInfo {
+      display:flex;
+    }
+
+    .showDash {
+      display:block;
+    }
+
+    .company {display:flex;}
+
+    .speakingSocial {
+      margin-left:auto;
+      padding-right:10px;
+    }
+
+    .speakerInfo{
+      width:100%;
+      align-items:center;
+    }
+
+    .speakingSocial img{
+      width:30px;
     }
 
 }
