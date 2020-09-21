@@ -493,6 +493,9 @@ h2::first-letter {
   grid-template-rows: auto;
   justify-items: center; }
 
+.companyName {
+  color: #C7C9D3; }
+
 .speechContainer {
   display: flex;
   padding-bottom: 1em;
