@@ -1,9 +1,9 @@
 @import "variables";
 
 .container {
-  padding-right:30px;
-  padding-left:30px;
-  max-width:1300px;
+  padding-right:20px;
+  padding-left:20px;
+  max-width:1200px;
   display:grid;
    grid-template-columns: repeat(3,1fr);
    width:100%;
@@ -38,7 +38,6 @@
 
 #related {
   grid-area: related;
-
 }
 
 #comments {
@@ -168,7 +167,7 @@ h3 {
 }
 
 .sponsorLarge img {
-  width:90%;
+  width:100%;
   border-radius:20px;
 }
 
@@ -313,6 +312,7 @@ h3 {
 
     #related {
         margin-left:30px;
+   
     }
 
     #about {

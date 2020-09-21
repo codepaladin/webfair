@@ -7,7 +7,7 @@
 body{
   width: 100vw;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 20px 0px 20px;
   overflow-x: hidden; 
   background:$bodyDark;
   display:grid;
@@ -39,7 +39,7 @@ nav {
 .logoContainer {
   position:absolute;
   top:5px;
-  padding-left:15px;
+
 }
 
 a {
@@ -54,7 +54,9 @@ h3 {
   
 }
 
-
+.logo a {
+  color:$yellow;
+}
 
 /* mouse over link */
 a:hover {

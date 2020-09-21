@@ -16,11 +16,11 @@
   font-family:$textFont;
   font-size:14px;
   color:$white;
+
 }
 
 #liveStream {
   grid-area: liveStream;
-  background:$yellow;
 }
 
 #comments {
@@ -31,7 +31,7 @@
 
 #about {
   grid-area:about;
-  padding-left:10px;
+ 
   padding-right:20px;
   padding-top:20px;
 }
@@ -84,7 +84,7 @@
 #agenda {
   grid-area: agenda;
   background:$bodyDark;
-  padding:10px;
+
   display:grid;
 }
 
@@ -150,6 +150,7 @@
     max-width: 1200px; 
     height: 100%; 
     margin: 0 auto;
+    padding-right:15px;
 }
 .h_iframe {
    position: relative;
@@ -296,7 +297,7 @@
 }
 
 .speakerInfo{
-  padding-left:10px;
+ 
 }
 
 .time {

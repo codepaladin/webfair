@@ -584,7 +584,7 @@ a {
     display: block;
     grid-column: span 3;
     font-family: "Open Sans", sans-serif;
-    padding-right: 30px; }
+    margin-right: 30px; }
 
   .participate {
     background: #2C2F39;
@@ -621,6 +621,7 @@ a {
   .participate p {
     color: #FFFFFF;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 20px; }
 
@@ -687,6 +688,9 @@ nav {
   position: absolute;
   top: 5px;
   padding-left: 15px; }
+
+.logo a {
+  color: #FFDD40; }
 
 a {
   text-decoration: none;
