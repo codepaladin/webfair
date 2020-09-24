@@ -57,6 +57,14 @@
 		"oAP": "/.sass-cache/fd695067bac5db7663da579b46f9274f6119707c/screen.scssc",
 		"oF": 0
 		},
+	"/archives.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/archives.html",
+		"oF": 0
+		},
 	"/conference.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -66,9 +74,7 @@
 		"oF": 0
 		},
 	"/config.rb": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "/config.rb",
 		"oF": 0
@@ -594,6 +600,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/sass/archives/body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/archives/body.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/sass/archives/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/archives/main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/sass/conference/body.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -887,6 +919,16 @@
 		"oA": 0,
 		"oAP": "/speech.html",
 		"oF": 0
+		},
+	"/stylesheets/archives/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/stylesheets/archives/main-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/stylesheets/conference/body-min.css": {
 		"aP": 1,

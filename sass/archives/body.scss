@@ -1,0 +1,62 @@
+@import "variables";
+
+.container {
+  max-width:1200px;
+  display:grid;
+   grid-template-columns: repeat(12, 1fr);
+  color:$blue;
+  width:100%;
+  background:$blue;
+/*
+    grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+
+
+    .item-a {
+  grid-area: header;
+}*/
+}
+
+#voting {
+	grid-column:span 12;
+	background:$yellow;
+}
+
+#information {
+	display:none;
+}
+
+
+/*tablets & desktop*/
+@media only screen 
+	and (min-width:768px){
+
+	#voting {
+		grid-column:span 8;
+		background:$yellow;
+	}
+
+	#information {
+		display:block;
+		grid-column:span 4;
+		background:$white;
+	}
+}
+
+/*need to avoid iphone x*/
+@media only screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 824px) 
+  and (orientation: landscape) { 
+  	#voting {
+		grid-column:span 12;
+		background:$yellow;
+	}
+
+	#information {
+		display:none;
+  }
+ }
