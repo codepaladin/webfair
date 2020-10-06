@@ -15,6 +15,11 @@ main {
 .videos {
 	padding:20px;
 	padding-top:0px;
+	display:grid;
+	grid-template-columns:repeat(1, 1fr);
+	grid-template-rows:auto;
+	justify-items:center;
+
 }
 
 .video {
@@ -25,6 +30,7 @@ main {
 .video img {
 	width:100%;
 }
+
 
 .videoTitle {
 	padding-top:5px;
@@ -47,7 +53,7 @@ main {
 
 .popular {
 	border:1px solid $bodyLight;
-	height:30px;
+	height:40px;
 	padding:15px 15px 15px 15px;
 	border-radius:5px;
 	display:flex;
@@ -80,43 +86,95 @@ main {
 	display:flex;
 	padding:10px 20px 10px 20px;
 	 overflow-x: auto; 
-                overflow-y: hidden; 
+          overflow-y: hidden; 
                 white-space: nowrap;
 }
 
+.tags {
+	display:none;
+	padding:0px 20px 10px 20px;
+}
+
 .tag {
-	background:$bodyLight;
-	padding:5px 10px 5px 10px;
+	height:40px;
+	line-height:30px;
+	
+	padding:6px 10px 6px 10px;
 	border-radius:5px;
 	margin-right:5px;
 }
-/*
- <div class="video">
-  <img src="images/presentation.png">
- </div>
- <div class="videoTitle">How To Not Choose A Cofounder<div>
-  <div class="speaker">Alex Vazquez</div>
-  <div class="videoInfo">
-     <div class="date">January 3, 2021</div>
-    <div class="views"> | 3000 views</div>
-  </div>
-</div>
-*/
+
+.selected {
+	background:$bodyLight;
+}
+
 
 /*tablets & desktop*/
-@media only screen 
-	and (min-width:768px){
+@media screen and 
+	(min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+	(orientation:landscape)
+{
 
-	#voting {
-		grid-column:span 8;
-		background:$yellow;
+	@media only screen 
+	and (min-width:768px)
+	and (max-width:1000px)
+	{
+		.videos {
+			grid-template-columns:repeat(3, 1fr);
+			grid-gap:20px;
+		}
 	}
 
-	#information {
-		display:block;
-		grid-column:span 4;
-		background:$white;
+		@media only screen 
+	and (min-width:1001px)
+	{
+		.videos {
+			grid-template-columns:repeat(4, 1fr);
+			grid-gap:20px;
+		}
 	}
+
+	@media only screen 
+	and (min-width:450px)
+	and (max-width:767px){
+		.videos {
+			grid-template-columns:repeat(2, 1fr);
+			grid-gap:20px;
+		}
+	}
+
+	.video {
+
+	}
+
+	.topSearch {
+		border-bottom:none;
+	}
+
+	.bottomSearch {
+		display:none;
+	}
+
+	.search {
+		margin-top:20px;
+	}
+
+	.videoTitle {
+		font-size:14px;
+	}
+
+	.hide {
+		display:none;
+	}
+
+	.videoInfo {
+		flex-direction:column;
+	}
+
+	.tags {
+		display:flex;
+	}
+
 }
 
 /*need to avoid iphone x*/
