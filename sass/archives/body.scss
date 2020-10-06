@@ -2,33 +2,106 @@
 
 .container {
   max-width:1200px;
-  display:grid;
-   grid-template-columns: repeat(12, 1fr);
-  color:$blue;
   width:100%;
-  background:$blue;
+  font-family:$textFont;
+  font-size:13px;
+}
+
+main {
+	width:100%;
+	background:$bodyLight;
+}
+
+.videos {
+	padding:20px;
+	padding-top:0px;
+}
+
+.video {
+	width:100%;
+	padding-top:20px;
+}
+
+.video img {
+	width:100%;
+}
+
+.videoTitle {
+	padding-top:5px;
+	font-family:$titleFont;
+	color:$blue;
+	font-size:16px;
+	font-weight:700;
+}
+
+.speaker {
+	color:$white;
+}
+
+.videoInfo {
+	display:flex;
+	color:$lightGrey;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.popular {
+	border:1px solid $bodyLight;
+	height:30px;
+	padding:15px 15px 15px 15px;
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.lineBreak {
+	padding-right:5px;
+	padding-left:5px;
+}
+
+.search {
+	color:$white;
+	background:$bodyDark;
+}
+
+
+.topSearch {
+	padding:10px 20px 10px 20px;
+	border-bottom:2px solid $bodyLight;
+	display:flex;
+}
+
+.filters {
+	margin-left:auto;
+}
+
+.bottomSearch {
+	display:flex;
+	padding:10px 20px 10px 20px;
+	 overflow-x: auto; 
+                overflow-y: hidden; 
+                white-space: nowrap;
+}
+
+.tag {
+	background:$bodyLight;
+	padding:5px 10px 5px 10px;
+	border-radius:5px;
+	margin-right:5px;
+}
 /*
-    grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
-
-
-    .item-a {
-  grid-area: header;
-}*/
-}
-
-#voting {
-	grid-column:span 12;
-	background:$yellow;
-}
-
-#information {
-	display:none;
-}
-
+ <div class="video">
+  <img src="images/presentation.png">
+ </div>
+ <div class="videoTitle">How To Not Choose A Cofounder<div>
+  <div class="speaker">Alex Vazquez</div>
+  <div class="videoInfo">
+     <div class="date">January 3, 2021</div>
+    <div class="views"> | 3000 views</div>
+  </div>
+</div>
+*/
 
 /*tablets & desktop*/
 @media only screen 

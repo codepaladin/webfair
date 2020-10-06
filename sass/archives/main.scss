@@ -4,6 +4,10 @@
 @import "nav";
 @import "body";
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body{
   width: 100vw;
   margin: 0px;
@@ -15,32 +19,28 @@ body{
 }
 
 nav {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  overflow-x: hidden; 
-  overflow-y: hidden; 
-  background-color: $bodyLight;
-  display:grid;
+
   justify-items:center;
 }
 
 .navContainer{
-	display:grid;
+  display:grid;
 
-	width:100%;
-	max-width:1200px;
+  width:100%;
+  max-width:1200px;
 }
 
 #responsiveMenu {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .logoContainer {
-	position:absolute;
-	top:5px;
-	padding-left:15px;
+  position:absolute;
+  top:5px;
+  padding-left:15px;
+}
+.logo a {
+  color:$yellow;
 }
 
 a {
@@ -49,13 +49,13 @@ a {
 }
 
 h3 {
-	font-size:26px;
-	font-family:$titleFont;
-	font-weight:500;
+  font-size:24px;
+  font-family:$titleFont;
+  font-weight:500;
 }
 
-.logo a {
-  color:$yellow;
+h3::first-letter { 
+  font-family:$titleFontDecorative;
 }
 
 
@@ -66,34 +66,39 @@ a:hover {
 
 
 main{
-	padding-top:50px;
-	padding-bottom:50px;
-	padding-left:10px;
-	padding-right:10px;
-	text-align:center;
-	color:$white;
+  padding-top:50px;
+  padding-bottom:40px;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:center;
+  color:$white;
 }
 
 .eventDate{
-	font-family:$titleFont;
-	color:$yellow;
-	font-size:18px;
-	margin-top:30px;
+  font-family:$titleFont;
+  color:$yellow;
+  font-size:18px;
+  margin-top:30px;
+  display:none;
 }
 
 /*tablets, desktops*/
 @media only screen 
-	and (min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
-	(min-device-width:768px) and (orientation:landscape)   and (-webkit-max-device-pixel-ratio: 2)/*allow ipads but not landscape iphones*/
+  and (min-device-width:451px) and (orientation:portrait),/*phones -- not a portrait device greater than 400px*/
+  (min-device-width:768px) and (orientation:landscape)   and (-webkit-max-device-pixel-ratio: 2)/*allow ipads but not landscape iphones*/
 
 {
-	h3 {
-		font-size:40px;
-		font-weight:700;
-	}
 
-	.eventDate{
-		font-size:24px;
-	}
+  h3{
+  color:$lightGrey;
+  font-family:$titleFont;
+  font-size:40px;
+  
+}
+
+  .eventDate{
+    font-size:24px;
+    display:block;
+  }
 
 }
